@@ -1,0 +1,5 @@
+C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/RestaurantManagement.dir
+C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen_timestamp_deps.dir
+C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir

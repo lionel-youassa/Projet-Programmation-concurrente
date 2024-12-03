@@ -1,0 +1,10 @@
+# ninja log v6
+72	216	7549491616410982	RestaurantManagement_autogen/timestamp	6269851227707604
+72	216	7549491616410982	RestaurantManagement_autogen/mocs_compilation.cpp	6269851227707604
+72	216	7549491616410982	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantManagement_autogen/timestamp	6269851227707604
+137	726	7549487038047766	CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj	2a2af866fa05a700
+217	2758	7549491617857894	CMakeFiles/RestaurantManagement.dir/main.cpp.obj	ac9a4963e07a0997
+72	216	7549491616410982	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantManagement_autogen/mocs_compilation.cpp	6269851227707604
+2759	3193	7549491643277592	RestaurantManagement.exe	51628c19a9a749f9
+284	378	7549482016083795	CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.obj	c16995a9aa0e6172
+21	744	7549494186130552	build.ninja	826f68afc2efb2f

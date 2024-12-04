@@ -37,8 +37,12 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
 	C:/Users/lione/CLionProjects/RestaurantManagement/CMakeLists.txt \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Controller/ControleurService.cpp \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Controller/ControleurService.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Model/PostgreSQLConnection.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Model/PostgreSQLConnection.h \
+	C:/Users/lione/CLionProjects/RestaurantManagement/View/InterfaceAcceuil.cpp \
+	C:/Users/lione/CLionProjects/RestaurantManagement/View/InterfaceAcceuil.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake \
 	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
 	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake \

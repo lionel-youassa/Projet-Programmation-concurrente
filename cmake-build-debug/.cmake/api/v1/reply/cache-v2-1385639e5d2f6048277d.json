@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug"
+			"value" : "c:/Users/siefo/Desktop/X2/Projet-Programmation-concurrente/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -538,22 +538,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable/Disable output of compile commands during generation."
-				}
-			],
-			"type" : "BOOL",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
 			"properties" : 
 			[
@@ -575,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/siefo/Desktop/X2/Projet-Programmation-concurrente/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -587,7 +571,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Ninja"
+			"value" : "MinGW Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -659,7 +643,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/lione/CLionProjects/RestaurantManagement"
+			"value" : "C:/Users/siefo/Desktop/X2/Projet-Programmation-concurrente"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -950,12 +934,16 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "make program"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe"
+			"value" : "C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1119,7 +1107,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "F:\\Qt\\6.8.0\\mingw_64"
+			"value" : "C:\\Qt\\6.8.0\\mingw_64"
 		},
 		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
@@ -6143,7 +6131,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6CoreTools"
+			"value" : "C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6CoreTools"
 		},
 		{
 			"name" : "Qt6Core_DIR",
@@ -6155,7 +6143,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core"
+			"value" : "C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core"
 		},
 		{
 			"name" : "Qt6EntryPointPrivate_DIR",
@@ -6167,7 +6155,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6EntryPointPrivate"
+			"value" : "C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6EntryPointPrivate"
 		},
 		{
 			"name" : "Qt6GuiTools_DIR",
@@ -6179,7 +6167,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6GuiTools"
+			"value" : "C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6GuiTools"
 		},
 		{
 			"name" : "Qt6Gui_DIR",
@@ -6191,7 +6179,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui"
+			"value" : "C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui"
 		},
 		{
 			"name" : "Qt6WidgetsTools_DIR",
@@ -6203,7 +6191,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WidgetsTools"
+			"value" : "C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WidgetsTools"
 		},
 		{
 			"name" : "Qt6Widgets_DIR",
@@ -6215,7 +6203,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets"
+			"value" : "C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets"
 		},
 		{
 			"name" : "Qt6ZlibPrivate_DIR",
@@ -6227,7 +6215,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6ZlibPrivate"
+			"value" : "C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6ZlibPrivate"
 		},
 		{
 			"name" : "Qt6_DIR",
@@ -6239,7 +6227,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6"
+			"value" : "C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6"
 		},
 		{
 			"name" : "RestaurantManagement_BINARY_DIR",
@@ -6251,7 +6239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug"
+			"value" : "C:/Users/siefo/Desktop/X2/Projet-Programmation-concurrente/cmake-build-debug"
 		},
 		{
 			"name" : "RestaurantManagement_IS_TOP_LEVEL",
@@ -6275,7 +6263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/lione/CLionProjects/RestaurantManagement"
+			"value" : "C:/Users/siefo/Desktop/X2/Projet-Programmation-concurrente"
 		},
 		{
 			"name" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",
@@ -6351,7 +6339,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "F:/Qt/6.8.0/mingw_64/bin/windeployqt.exe"
+			"value" : "C:/Qt/6.8.0/mingw_64/bin/windeployqt.exe"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

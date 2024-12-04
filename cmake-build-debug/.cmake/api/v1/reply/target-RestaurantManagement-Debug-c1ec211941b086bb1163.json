@@ -24,11 +24,11 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
-			"F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
-			"F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -184,32 +184,32 @@
 				{
 					"backtrace" : 0,
 					"isSystem" : true,
-					"path" : "C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantManagement_autogen/include"
+					"path" : "C:/Users/siefo/Desktop/X2/Projet-Programmation-concurrente/cmake-build-debug/RestaurantManagement_autogen/include"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "F:/Qt/6.8.0/mingw_64/include/QtCore"
+					"path" : "C:/Qt/6.8.0/mingw_64/include/QtCore"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "F:/Qt/6.8.0/mingw_64/include"
+					"path" : "C:/Qt/6.8.0/mingw_64/include"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "F:/Qt/6.8.0/mingw_64/mkspecs/win32-g++"
+					"path" : "C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "F:/Qt/6.8.0/mingw_64/include/QtGui"
+					"path" : "C:/Qt/6.8.0/mingw_64/include/QtGui"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "F:/Qt/6.8.0/mingw_64/include/QtWidgets"
+					"path" : "C:/Qt/6.8.0/mingw_64/include/QtWidgets"
 				}
 			],
 			"language" : "CXX",
@@ -257,12 +257,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\PROGRA~1\\POSTGR~1\\16\\lib",
+				"fragment" : "-L\"C:\\Program Files\\PostgreSQL\\16\\lib\"",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "F:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Widgets.a",
+				"fragment" : "C:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Widgets.a",
 				"role" : "libraries"
 			},
 			{
@@ -272,12 +272,12 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "F:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Gui.a",
+				"fragment" : "C:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Gui.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "F:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Core.a",
+				"fragment" : "C:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Core.a",
 				"role" : "libraries"
 			},
 			{

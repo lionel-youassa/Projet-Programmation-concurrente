@@ -43,7 +43,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "RestaurantManagement::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-RestaurantManagement-Debug-434fad40e9dec2df4c8b.json",
+					"jsonFile" : "target-RestaurantManagement-Debug-c1ec211941b086bb1163.json",
 					"name" : "RestaurantManagement",
 					"projectIndex" : 0
 				},
@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug",
-		"source" : "C:/Users/lione/CLionProjects/RestaurantManagement"
+		"build" : "C:/Users/siefo/Desktop/X2/Projet-Programmation-concurrente/cmake-build-debug",
+		"source" : "C:/Users/siefo/Desktop/X2/Projet-Programmation-concurrente"
 	},
 	"version" : 
 	{

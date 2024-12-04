@@ -18,6 +18,7 @@
 
 
 
+
 class MainWindow : public QWidget {
 public:
     MainWindow(QWidget *parent = nullptr) : QWidget(parent) {
@@ -76,9 +77,36 @@ public:
 
         auto *diningLayout = new QGridLayout(diningFrame);
         diningLayout->setContentsMargins(20, 20, 20, 20);
-        diningLayout->setHorizontalSpacing(80);
-        diningLayout->setVerticalSpacing(60);
+        diningLayout->setHorizontalSpacing(40);  // Réduction de l'espacement horizontal
+        diningLayout->setVerticalSpacing(40); // Espacement vertical pour le couloir
 
+        // --- Rectangle "Accueil" et "Zone d'attente" ---
+        // Ajout du rectangle "Accueil"
+        auto *receptionArea = new QLabel("Accueil");
+        receptionArea->setFixedSize(150, 80);
+        receptionArea->setStyleSheet("background-color: #FFD700; border: 2px solid #8B4513; font-size: 16px; font-weight: bold;");
+        receptionArea->setAlignment(Qt::AlignCenter);
+
+        // Ajout du rectangle "Zone d'attente"
+        auto *waitingArea = new QLabel("Zone d'attente");
+        waitingArea->setFixedSize(200, 80);
+        waitingArea->setStyleSheet("background-color: #FFA07A; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
+        waitingArea->setAlignment(Qt::AlignCenter);
+
+        // Créer un layout horizontal pour coller "Accueil" et "Zone d'attente" ensemble
+        auto *receptionLayout = new QHBoxLayout();
+        receptionLayout->addWidget(receptionArea);
+        receptionLayout->addSpacing(20); // Espacement entre les rectangles
+        receptionLayout->addWidget(waitingArea);
+
+        // Widget qui contient le layout de l'accueil et de la zone d'attente
+        auto *receptionWidget = new QWidget();
+        receptionWidget->setLayout(receptionLayout);
+
+        // Placer les zones en haut à droite de la salle de restaurant, collées au mur
+        diningLayout->addWidget(receptionWidget, 9, 3, 1, 2, Qt::AlignBottom | Qt::AlignRight);
+
+        // --- Ajout des tables rondes ---
         for (int row = 0; row < 2; ++row) {
             for (int col = 0; col < 2; ++col) {
                 auto *tableGroup = new QWidget();
@@ -106,12 +134,6 @@ public:
             }
         }
 
-        auto *receptionArea = new QLabel("Accueil");
-        receptionArea->setFixedSize(150, 80);
-        receptionArea->setStyleSheet("background-color: #FFD700; border: 2px solid #8B4513; font-size: 16px; font-weight: bold;");
-        receptionArea->setAlignment(Qt::AlignCenter);
-        diningLayout->addWidget(receptionArea, 2, 0, Qt::AlignLeft | Qt::AlignBottom);
-
         mainWidgetLayout->addWidget(diningFrame);
 
         // --- Ajout dans un QScrollArea ---
@@ -127,7 +149,6 @@ public:
         resize(1000, 700); // Taille ajustée pour activer le défilement
     }
 };
-
 
 
 

@@ -5,12 +5,14 @@
 #include <libpq-fe.h>
 
 #include <QApplication>
-#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QFormLayout>
+#include <QPushButton>
+#include <QLineEdit>
+#include <QComboBox>
+#include <QSpinBox>
 #include <QScrollArea>
-#include <QWidget>
 #include <QLabel>
-#include <QFrame>
-#include <QGridLayout>
 
 
 
@@ -306,6 +308,83 @@ public:
 
 
 
+// Formulaire principal
+class Formulaire : public QWidget {
+public:
+    Formulaire(QWidget *parent = nullptr) : QWidget(parent) {
+        auto *mainLayout = new QVBoxLayout(this);
+
+        // Formulaire
+        auto *formLayout = new QFormLayout();
+
+        // Style global pour les champs et labels
+        QString inputStyle = "padding: 8px; border: 1px solid #8B4513; border-radius: 5px; background-color: #FFF8DC; font-size: 14px;";
+        QString labelStyle = "font-size: 16px; font-weight: bold; color: #8B4513;";
+
+        // Champ : Nombre de places
+        auto *placeInput = new QSpinBox();
+        placeInput->setMinimum(1);
+        placeInput->setMaximum(50);
+        placeInput->setValue(4);
+        placeInput->setStyleSheet(inputStyle);
+        auto *placeLabel = new QLabel("Nombre de places :");
+        placeLabel->setStyleSheet(labelStyle);
+        formLayout->addRow(placeLabel, placeInput);
+
+        // Champ : Numéro de table
+        auto *tableInput = new QSpinBox();
+        tableInput->setMinimum(1);
+        tableInput->setMaximum(100);
+        tableInput->setValue(1);
+        tableInput->setStyleSheet(inputStyle);
+        auto *tableLabel = new QLabel("Numéro de table :");
+        tableLabel->setStyleSheet(labelStyle);
+        formLayout->addRow(tableLabel, tableInput);
+
+        // Champ : Liste des plats
+        auto *dishInput = new QComboBox();
+        dishInput->addItems({"Pizza", "Burger", "Salade", "Pâtes", "Sushi"});
+        dishInput->setStyleSheet(inputStyle);
+        auto *dishLabel = new QLabel("Plat :");
+        dishLabel->setStyleSheet(labelStyle);
+        formLayout->addRow(dishLabel, dishInput);
+
+        // Champ : Temps de simulation
+        auto *timeInput = new QSpinBox();
+        timeInput->setMinimum(1);
+        timeInput->setMaximum(120);
+        timeInput->setValue(10);
+        timeInput->setStyleSheet(inputStyle);
+        auto *timeLabel = new QLabel("Temps de simulation (min) :");
+        timeLabel->setStyleSheet(labelStyle);
+        formLayout->addRow(timeLabel, timeInput);
+
+        // Ajouter le formulaire au layout principal
+        mainLayout->addLayout(formLayout);
+
+        // Bouton pour démarrer la simulation
+        auto *startButton = new QPushButton("Démarrer la simulation");
+        startButton->setStyleSheet(
+            "background-color: #8B4513; color: white; font-size: 16px; font-weight: bold; padding: 10px; border-radius: 5px; "
+            "border: 1px solid #5A3220; cursor: pointer;"
+        );
+        startButton->setCursor(Qt::PointingHandCursor);
+        startButton->setFixedHeight(50);
+        mainLayout->addWidget(startButton, 0, Qt::AlignCenter);
+
+        // Connecter le bouton pour afficher MainWindow
+        connect(startButton, &QPushButton::clicked, this, [=]() {
+            auto *simulationWindow = new MainWindow();
+            simulationWindow->show();
+        });
+
+        // Style général de la fenêtre
+        setStyleSheet("background-color: #FDF5E6;");
+        setLayout(mainLayout);
+        setWindowTitle("Formulaire de simulation");
+        resize(400, 300);
+    }
+};
 
 
 
@@ -354,6 +433,10 @@ void insertIntoCarre(const std::string& nom_carre) {
 
 
 
+
+
+
+
 int main(int argc, char *argv[]) {
 
     // try {
@@ -366,9 +449,10 @@ int main(int argc, char *argv[]) {
     //
     // return EXIT_SUCCESS;
 
-    QApplication a(argc, argv);
-        MainWindow window;
-        window.show();
+    QApplication app(argc, argv);
 
-     return QApplication::exec();
+    Formulaire formulaire;
+    formulaire.show();
+
+    return app.exec();
 }

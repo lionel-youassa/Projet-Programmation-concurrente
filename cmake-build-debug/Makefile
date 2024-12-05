@@ -154,6 +154,78 @@ untitled7_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7_autogen.dir\build.make CMakeFiles/untitled7_autogen.dir/build
 .PHONY : untitled7_autogen/fast
 
+ModelClass/ClassDefinition/Chef_de_rang.obj: ModelClass/ClassDefinition/Chef_de_rang.cpp.obj
+.PHONY : ModelClass/ClassDefinition/Chef_de_rang.obj
+
+# target to build an object file
+ModelClass/ClassDefinition/Chef_de_rang.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_rang.cpp.obj
+.PHONY : ModelClass/ClassDefinition/Chef_de_rang.cpp.obj
+
+ModelClass/ClassDefinition/Chef_de_rang.i: ModelClass/ClassDefinition/Chef_de_rang.cpp.i
+.PHONY : ModelClass/ClassDefinition/Chef_de_rang.i
+
+# target to preprocess a source file
+ModelClass/ClassDefinition/Chef_de_rang.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_rang.cpp.i
+.PHONY : ModelClass/ClassDefinition/Chef_de_rang.cpp.i
+
+ModelClass/ClassDefinition/Chef_de_rang.s: ModelClass/ClassDefinition/Chef_de_rang.cpp.s
+.PHONY : ModelClass/ClassDefinition/Chef_de_rang.s
+
+# target to generate assembly for a file
+ModelClass/ClassDefinition/Chef_de_rang.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_rang.cpp.s
+.PHONY : ModelClass/ClassDefinition/Chef_de_rang.cpp.s
+
+ModelClass/ClassDefinition/Client.obj: ModelClass/ClassDefinition/Client.cpp.obj
+.PHONY : ModelClass/ClassDefinition/Client.obj
+
+# target to build an object file
+ModelClass/ClassDefinition/Client.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj
+.PHONY : ModelClass/ClassDefinition/Client.cpp.obj
+
+ModelClass/ClassDefinition/Client.i: ModelClass/ClassDefinition/Client.cpp.i
+.PHONY : ModelClass/ClassDefinition/Client.i
+
+# target to preprocess a source file
+ModelClass/ClassDefinition/Client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.i
+.PHONY : ModelClass/ClassDefinition/Client.cpp.i
+
+ModelClass/ClassDefinition/Client.s: ModelClass/ClassDefinition/Client.cpp.s
+.PHONY : ModelClass/ClassDefinition/Client.s
+
+# target to generate assembly for a file
+ModelClass/ClassDefinition/Client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.s
+.PHONY : ModelClass/ClassDefinition/Client.cpp.s
+
+ModelClass/ClassDefinition/Commis_de_salle.obj: ModelClass/ClassDefinition/Commis_de_salle.cpp.obj
+.PHONY : ModelClass/ClassDefinition/Commis_de_salle.obj
+
+# target to build an object file
+ModelClass/ClassDefinition/Commis_de_salle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.obj
+.PHONY : ModelClass/ClassDefinition/Commis_de_salle.cpp.obj
+
+ModelClass/ClassDefinition/Commis_de_salle.i: ModelClass/ClassDefinition/Commis_de_salle.cpp.i
+.PHONY : ModelClass/ClassDefinition/Commis_de_salle.i
+
+# target to preprocess a source file
+ModelClass/ClassDefinition/Commis_de_salle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.i
+.PHONY : ModelClass/ClassDefinition/Commis_de_salle.cpp.i
+
+ModelClass/ClassDefinition/Commis_de_salle.s: ModelClass/ClassDefinition/Commis_de_salle.cpp.s
+.PHONY : ModelClass/ClassDefinition/Commis_de_salle.s
+
+# target to generate assembly for a file
+ModelClass/ClassDefinition/Commis_de_salle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.s
+.PHONY : ModelClass/ClassDefinition/Commis_de_salle.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -237,6 +309,15 @@ help:
 	@echo ... untitled7_autogen
 	@echo ... untitled7_autogen_timestamp_deps
 	@echo ... untitled7
+	@echo ... ModelClass/ClassDefinition/Chef_de_rang.obj
+	@echo ... ModelClass/ClassDefinition/Chef_de_rang.i
+	@echo ... ModelClass/ClassDefinition/Chef_de_rang.s
+	@echo ... ModelClass/ClassDefinition/Client.obj
+	@echo ... ModelClass/ClassDefinition/Client.i
+	@echo ... ModelClass/ClassDefinition/Client.s
+	@echo ... ModelClass/ClassDefinition/Commis_de_salle.obj
+	@echo ... ModelClass/ClassDefinition/Commis_de_salle.i
+	@echo ... ModelClass/ClassDefinition/Commis_de_salle.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

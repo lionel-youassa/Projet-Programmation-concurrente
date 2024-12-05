@@ -23,7 +23,42 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="" />
+    <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="Tef">
+      <change afterPath="$PROJECT_DIR$/BD/baseDeDonnees.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Chef_de_rang.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Chef_de_rang.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commande.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commande.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Table.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Table.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Chef_de_rang.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Chef_de_rang.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Client.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Commande.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Commande.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Table.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Table.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0eb962be7ec1c62eb972.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-72c82003fcc4753b64f7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-12-03T21-48-03-0480.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-untitled7-Debug-cde94d403d0be2abc659.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/ParseCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled7.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/deps" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +107,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master__Test",
-    "last_opened_file_path": "C:/Users/siefo/Desktop/X2/Projet_Programmation_Concurente",
+    "last_opened_file_path": "C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/BD",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,14 +115,24 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "CMakeSettings",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\BD" />
       <recent name="C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente" />
+      <recent name="C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\build" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.untitled7">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -98,6 +143,20 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="baseDeDonnees.sql" type="DatabaseScript" editBeforeRun="true" singleton="false" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/BD/baseDeDonnees.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.untitled7" />
+      <item itemvalue="Database Script.baseDeDonnees.sql" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.baseDeDonnees.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,8 +166,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733261682432</updated>
-      <workItem from="1733261684020" duration="5636000" />
+      <workItem from="1733261684020" duration="19242000" />
     </task>
+    <task id="LOCAL-00001" summary="Tef">
+      <option name="closed" value="true" />
+      <created>1733309605678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733309605678</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Tef">
+      <option name="closed" value="true" />
+      <created>1733309827193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733309827193</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,5 +217,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tef" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tef" />
   </component>
 </project>

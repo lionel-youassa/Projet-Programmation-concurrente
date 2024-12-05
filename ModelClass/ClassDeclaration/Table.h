@@ -1,7 +1,10 @@
 #ifndef TABLE_H
 #define TABLE_H
-
 #include <string>
+#include <vector>
+#include "Commande.h"
+#include "Client.h"
+using namespace std;
 
 class Table {
 public:
@@ -11,9 +14,14 @@ public:
 
     Table(int numero, int nbPlaces, const std::string& statut = "libre");
 
-    void AjouterClient();
+    void AjouterClient(const Client& client);
     void LibererTable();
     void ChangerStatut(const std::string& nouveauStatut);
+    void AssocierCommande(const Commande& commande);
+
+private:
+    std::vector<Client> clients;
+    std::vector<Commande> commandes;
 };
 
 #endif // TABLE_H

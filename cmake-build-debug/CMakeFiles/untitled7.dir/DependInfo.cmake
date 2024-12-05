@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Chef_de_rang.cpp" "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_rang.cpp.obj" "gcc" "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_rang.cpp.obj.d"
+  "C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Client.cpp" "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj" "gcc" "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj.d"
+  "C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Commis_de_salle.cpp" "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.obj" "gcc" "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.obj.d"
   "C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/main.cpp" "CMakeFiles/untitled7.dir/main.cpp.obj" "gcc" "CMakeFiles/untitled7.dir/main.cpp.obj.d"
   "C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/mainwindow.cpp" "CMakeFiles/untitled7.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/untitled7.dir/mainwindow.cpp.obj.d"
   "C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/cmake-build-debug/untitled7_autogen/mocs_compilation.cpp" "CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj.d"

@@ -1,12 +1,11 @@
 #include "../classDeclaration/Commande.h"
 
-Commande::Commande(int id, const std::string& statut)
-    : id(id), statut(statut) {}
+Commande::Commande(int id, Table* table) : id(id), table(table), statut("En attente") {}
 
 void Commande::AjouterPlat(const Plat& plat) {
-    // Implémentation à venir
+    plats.push_back(plat); // Ajouter un plat à la commande
 }
 
 void Commande::ChangerStatut(const std::string& nouveauStatut) {
-    // Implémentation à venir
+    statut = nouveauStatut; // Changer le statut de la commande
 }

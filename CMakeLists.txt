@@ -15,7 +15,16 @@ find_package(Qt6 COMPONENTS
 
 add_executable(untitled7 main.cpp
         mainwindow.cpp
-        mainwindow.cpp)
+        mainwindow.cpp
+        ModelClass/ClassDeclaration/Personne.h
+        ModelClass/ClassDeclaration/Plat.h
+        ModelClass/ClassDeclaration/Maitre_d_hotel.h
+        ModelClass/ClassDeclaration/Commande.h
+        ModelClass/ClassDeclaration/Client.h
+        ModelClass/ClassDeclaration/Serveur.h
+        ModelClass/ClassDefinition/Chef_de_rang.cpp
+        ModelClass/ClassDefinition/Commis_de_salle.cpp
+        ModelClass/ClassDefinition/Client.cpp)
 target_link_libraries(untitled7
         Qt::Core
         Qt::Gui

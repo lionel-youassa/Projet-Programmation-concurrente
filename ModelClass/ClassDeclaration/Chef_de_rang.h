@@ -6,6 +6,7 @@
 
 class ChefDeRang {
 public:
+
     void DistribuerCarte(Table& table);
     void Coordonner(CommisDeSalle& commis);
     void DresserTable(Table& table, const std::string& nappe);

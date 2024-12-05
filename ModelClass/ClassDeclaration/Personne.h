@@ -7,7 +7,7 @@
 class Personne {
 public:
     int id;
-    std::string nom;²²²²²²²²²²
+    std::string nom;
     bool PosteFixe;
 
     Personne(int id, const std::string& nom, bool estOccupe = false);

@@ -13,11 +13,26 @@
 #include <QSpinBox>
 #include <QScrollArea>
 #include <QLabel>
+#include <QPixmap>
+#include <QString>
 
 
 
 
+QWidget* createImageWidget(const QString &imagePath, int width, int height) {
+    QLabel *imageLabel = new QLabel();
+    imageLabel->setAlignment(Qt::AlignCenter);
+    imageLabel->setStyleSheet("border: none;");
 
+    QPixmap pixmap(imagePath);
+    if (!pixmap.isNull()) {
+        imageLabel->setPixmap(pixmap.scaled(width, height, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+    } else {
+        imageLabel->setText("Image introuvable");
+    }
+
+    return imageLabel;
+}
 
 
 
@@ -288,7 +303,17 @@ public:
             }
         }
 
+        // Ajout d'une image dans la salle
+        auto *maitreHotelImage = createImageWidget(
+            "C:\\Users\\lione\\CLionProjects\\RestaurantManagement\\images\\maitrehoteldown.png",
+            60, // Largeur souhaitée
+            70  // Hauteur souhaitée
+        );
+
+        diningLayout->addWidget(maitreHotelImage, 7, 3, Qt::AlignCenter);
         mainWidgetLayout->addWidget(diningFrame);
+
+
 
         // --- Ajout dans un QScrollArea ---
         auto *scrollArea = new QScrollArea(this);
@@ -385,7 +410,6 @@ public:
         resize(400, 300);
     }
 };
-
 
 
 

@@ -158,6 +158,66 @@ CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Client.cpp -o CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Client.cpp.s
 
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj: CMakeFiles/untitled7.dir/includes_CXX.rsp
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj: C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Chef_de_cuisine.cpp
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj: CMakeFiles/untitled7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj -MF CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Chef_de_cuisine.cpp.obj.d -o CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Chef_de_cuisine.cpp.obj -c C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Chef_de_cuisine.cpp
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Chef_de_cuisine.cpp > CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Chef_de_cuisine.cpp.i
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Chef_de_cuisine.cpp -o CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Chef_de_cuisine.cpp.s
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj: CMakeFiles/untitled7.dir/includes_CXX.rsp
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj: C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Ingredients.cpp
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj: CMakeFiles/untitled7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj -MF CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Ingredients.cpp.obj.d -o CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Ingredients.cpp.obj -c C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Ingredients.cpp
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Ingredients.cpp > CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Ingredients.cpp.i
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Ingredients.cpp -o CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Ingredients.cpp.s
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj: CMakeFiles/untitled7.dir/includes_CXX.rsp
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj: C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Menu.cpp
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj: CMakeFiles/untitled7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj -MF CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Menu.cpp.obj.d -o CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Menu.cpp.obj -c C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Menu.cpp
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Menu.cpp > CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Menu.cpp.i
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Menu.cpp -o CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Menu.cpp.s
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj: CMakeFiles/untitled7.dir/flags.make
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj: CMakeFiles/untitled7.dir/includes_CXX.rsp
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj: C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Rang.cpp
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj: CMakeFiles/untitled7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj -MF CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Rang.cpp.obj.d -o CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Rang.cpp.obj -c C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Rang.cpp
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Rang.cpp > CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Rang.cpp.i
+
+CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\ModelClass\ClassDefinition\Rang.cpp -o CMakeFiles\untitled7.dir\ModelClass\ClassDefinition\Rang.cpp.s
+
 # Object files for target untitled7
 untitled7_OBJECTS = \
 "CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj" \
@@ -165,7 +225,11 @@ untitled7_OBJECTS = \
 "CMakeFiles/untitled7.dir/mainwindow.cpp.obj" \
 "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_rang.cpp.obj" \
 "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.obj" \
-"CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj"
+"CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj" \
+"CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj" \
+"CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj" \
+"CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj" \
+"CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj"
 
 # External object files for target untitled7
 untitled7_EXTERNAL_OBJECTS =
@@ -176,6 +240,10 @@ untitled7.exe: CMakeFiles/untitled7.dir/mainwindow.cpp.obj
 untitled7.exe: CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_rang.cpp.obj
 untitled7.exe: CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.obj
 untitled7.exe: CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj
+untitled7.exe: CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj
+untitled7.exe: CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj
+untitled7.exe: CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj
+untitled7.exe: CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj
 untitled7.exe: CMakeFiles/untitled7.dir/build.make
 untitled7.exe: C:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a
 untitled7.exe: C:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a
@@ -183,7 +251,7 @@ untitled7.exe: C:/Qt/6.8.0/mingw_64/lib/libQt6Core.a
 untitled7.exe: CMakeFiles/untitled7.dir/linkLibs.rsp
 untitled7.exe: CMakeFiles/untitled7.dir/objects1.rsp
 untitled7.exe: CMakeFiles/untitled7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled7.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable untitled7.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled7.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E make_directory C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/cmake-build-debug/plugins/platforms/
 	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:\Qt\6.8.0\mingw_64/plugins/platforms/qwindows.dll C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/cmake-build-debug/plugins/platforms/

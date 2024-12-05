@@ -5,10 +5,13 @@
 #include "Table.h"
 #include "Chef_de_rang.h"
 
-class Maitre_dHotel {
+class Maitre_dHotel : public Personne {
 public:
-    void AttribuerTable(const std::vector<int>& clients, Table& table);
+    MaitreDHotel(int id, const std::string& nom, bool poste);
+
+    // Méthodes
+    void AttribuerTable(std::vector<Client>& clients);
     void AppelerChef(ChefDeRang& chef, Table& table);
 };
 
-#endif // MAITRE_DHOTEL_H
+#endif // MAITRE_D_HOTEL_H

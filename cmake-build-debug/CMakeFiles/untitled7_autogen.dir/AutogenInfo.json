@@ -229,6 +229,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Chef_de_cuisine.h",
+			"MU",
+			"TNAXWYT2HN/moc_Chef_de_cuisine.cpp",
+			null
+		],
+		[
 			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Client.h",
 			"MU",
 			"TNAXWYT2HN/moc_Client.cpp",
@@ -241,9 +247,21 @@
 			null
 		],
 		[
+			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Ingredients.h",
+			"MU",
+			"TNAXWYT2HN/moc_Ingredients.cpp",
+			null
+		],
+		[
 			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Maitre_d_hotel.h",
 			"MU",
 			"TNAXWYT2HN/moc_Maitre_d_hotel.cpp",
+			null
+		],
+		[
+			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Menu.h",
+			"MU",
+			"TNAXWYT2HN/moc_Menu.cpp",
 			null
 		],
 		[
@@ -256,6 +274,12 @@
 			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Plat.h",
 			"MU",
 			"TNAXWYT2HN/moc_Plat.cpp",
+			null
+		],
+		[
+			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Rang.h",
+			"MU",
+			"TNAXWYT2HN/moc_Rang.cpp",
 			null
 		],
 		[
@@ -344,6 +368,11 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Chef_de_cuisine.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Chef_de_rang.cpp",
 			"MU",
 			null
@@ -355,6 +384,21 @@
 		],
 		[
 			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Commis_de_salle.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Ingredients.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Menu.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Rang.cpp",
 			"MU",
 			null
 		],

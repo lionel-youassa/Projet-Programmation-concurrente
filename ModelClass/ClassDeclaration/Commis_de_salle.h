@@ -1,10 +1,14 @@
 #ifndef COMMIS_DE_SALLE_H
 #define COMMIS_DE_SALLE_H
 
+#include "Personne.h"
 #include "Table.h"
 
-class CommisDeSalle {
+class CommisDeSalle : public Personne {
 public:
+    CommisDeSalle(int id, const std::string& nom, bool poste);
+
+    // Méthodes
     void ServirPlat(Table& table);
     void VerifierBesoinClient();
 };

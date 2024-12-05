@@ -1,8 +1,13 @@
-#include "../classDeclaration/Maitre_d_hotel.h"
+#include "../classDeclaration/Maitre_d_Hotel.h"
+#include <iostream>
 
-void Maitre_dHotel::AttribuerTable(const std::vector<int>& clients, Table& table) {
+Maitre_dHotel::Maitre_dHotel(int id, const std::string& nom, bool poste)
+    : Personne(id, nom, poste) {}
 
+void Maitre_dHotel::AttribuerTable(std::vector<Client>& clients) {
+    std::cout << "Maître d'hôtel attribue une table aux clients.\n";
 }
+
 void Maitre_dHotel::AppelerChef(ChefDeRang& chef, Table& table) {
-    // Implémentation à venir
+    std::cout << "Maître d'hôtel appelle le Chef de Rang pour la table " << table.numero << ".\n";
 }

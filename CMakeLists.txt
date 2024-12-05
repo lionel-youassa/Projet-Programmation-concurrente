@@ -24,7 +24,15 @@ add_executable(untitled7 main.cpp
         ModelClass/ClassDeclaration/Serveur.h
         ModelClass/ClassDefinition/Chef_de_rang.cpp
         ModelClass/ClassDefinition/Commis_de_salle.cpp
-        ModelClass/ClassDefinition/Client.cpp)
+        ModelClass/ClassDefinition/Client.cpp
+        ModelClass/ClassDeclaration/Chef_de_cuisine.h
+        ModelClass/ClassDefinition/Chef_de_cuisine.cpp
+        ModelClass/ClassDeclaration/Ingredients.h
+        ModelClass/ClassDefinition/Ingredients.cpp
+        ModelClass/ClassDeclaration/Menu.h
+        ModelClass/ClassDefinition/Menu.cpp
+        ModelClass/ClassDeclaration/Rang.h
+        ModelClass/ClassDefinition/Rang.cpp)
 target_link_libraries(untitled7
         Qt::Core
         Qt::Gui

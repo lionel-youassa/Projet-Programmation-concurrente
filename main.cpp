@@ -35,7 +35,7 @@ public:
         auto *kitchenFrame = new QFrame();
         kitchenFrame->setFrameShape(QFrame::Box);
         kitchenFrame->setStyleSheet("border: 2px solid #4682B4; background-color: #ADD8E6;"); // Bleu clair
-        kitchenFrame->setFixedSize(900, 300);
+        kitchenFrame->setFixedSize(1500, 300);
 
         auto *kitchenLayout = new QGridLayout(kitchenFrame);
         kitchenLayout->setContentsMargins(10, 10, 10, 10);
@@ -73,12 +73,11 @@ public:
         auto *diningFrame = new QFrame();
         diningFrame->setFrameShape(QFrame::Box);
         diningFrame->setStyleSheet("border: 5px solid #8B4513; background-color: #FFE4B5;");
-        diningFrame->setFixedSize(900, 600);
 
         auto *diningLayout = new QGridLayout(diningFrame);
         diningLayout->setContentsMargins(20, 20, 20, 20);
-        diningLayout->setHorizontalSpacing(40);  // Réduction de l'espacement horizontal
-        diningLayout->setVerticalSpacing(40); // Espacement vertical pour le couloir
+        diningLayout->setHorizontalSpacing(60);  // Réduction de l'espacement horizontal
+        diningLayout->setVerticalSpacing(60); // Espacement vertical pour le couloir
 
         // --- Rectangle "Accueil" et "Zone d'attente" ---
         // Ajout du rectangle "Accueil"
@@ -99,6 +98,7 @@ public:
         receptionLayout->addSpacing(20); // Espacement entre les rectangles
         receptionLayout->addWidget(waitingArea);
 
+
         // Widget qui contient le layout de l'accueil et de la zone d'attente
         auto *receptionWidget = new QWidget();
         receptionWidget->setLayout(receptionLayout);
@@ -106,23 +106,47 @@ public:
         // Placer les zones en haut à droite de la salle de restaurant, collées au mur
         diningLayout->addWidget(receptionWidget, 9, 3, 1, 2, Qt::AlignBottom | Qt::AlignRight);
 
+
+
+
+
+
+
+        // Widget qui contient le layout du Carrer 1
+        auto *carrer1Widget = new QWidget();
+        carrer1Widget->setFixedSize(1000, 300);
+        // Widget qui contient le layout du Carrer 1
+        auto *carrer2Widget = new QWidget();
+        carrer2Widget->setFixedSize(1000, 300);
+
+
+        // Créer un layout pour le Carre 1
+        auto *carrerLayout1 = new QGridLayout();
+        carrerLayout1->setSpacing(0);
+
+        // Créer un layout pour le Carre 2
+        auto *carrerLayout2 = new QGridLayout();
+        carrerLayout1->setSpacing(0);
+
+
+
         // --- Ajout des tables rondes ---
         for (int row = 0; row < 2; ++row) {
-            for (int col = 0; col < 2; ++col) {
+            for (int col = 0; col < 8; ++col) {
                 auto *tableGroup = new QWidget();
-                tableGroup->setFixedSize(200, 200);
+                tableGroup->setFixedSize(80, 80);
                 auto *groupLayout = new QGridLayout(tableGroup);
                 groupLayout->setContentsMargins(0, 0, 0, 0);
                 groupLayout->setSpacing(0);
 
                 auto *table = new QLabel();
-                table->setFixedSize(80, 80);
+                table->setFixedSize(30, 30);
                 table->setStyleSheet("background-color: #D2B48C; border-radius: 40px; border: 2px solid #8B4513;");
                 groupLayout->addWidget(table, 1, 1, Qt::AlignCenter);
 
                 for (int i = 0; i < 4; ++i) {
                     auto *chair = new QLabel();
-                    chair->setFixedSize(30, 30);
+                    chair->setFixedSize(10, 10);
                     chair->setStyleSheet("background-color: #8B4513; border-radius: 5px;");
                     if (i == 0) groupLayout->addWidget(chair, 0, 1, Qt::AlignCenter);
                     else if (i == 1) groupLayout->addWidget(chair, 1, 2, Qt::AlignCenter);
@@ -130,7 +154,41 @@ public:
                     else groupLayout->addWidget(chair, 1, 0, Qt::AlignCenter);
                 }
 
-                diningLayout->addWidget(tableGroup, row, col, Qt::AlignCenter);
+                carrerLayout1->addWidget(tableGroup,row+1,col+1, Qt::AlignCenter);
+                carrer1Widget->setLayout(carrerLayout1);
+
+                diningLayout->addWidget(carrer1Widget, row, col, Qt::AlignCenter);
+            }
+        }
+
+
+        // --- Ajout des tables rondes ---
+        for (int row = 5; row < 7; ++row) {
+            for (int col = 0; col < 8; ++col) {
+                auto *tableGroup2 = new QWidget();
+                tableGroup2->setFixedSize(80, 80);
+                auto *groupLayout2 = new QGridLayout(tableGroup2);
+                groupLayout2->setContentsMargins(0, 0, 0, 0);
+                groupLayout2->setSpacing(0);
+
+                auto *table = new QLabel();
+                table->setFixedSize(30, 30);
+                table->setStyleSheet("background-color: #D2B48C; border-radius: 40px; border: 2px solid #8B4513;");
+                groupLayout2->addWidget(table, 1, 1, Qt::AlignCenter);
+
+                for (int i = 0; i < 4; ++i) {
+                    auto *chair = new QLabel();
+                    chair->setFixedSize(10, 10);
+                    chair->setStyleSheet("background-color: #8B4513; border-radius: 5px;");
+                    if (i == 0) groupLayout2->addWidget(chair, 0, 1, Qt::AlignCenter);
+                    else if (i == 1) groupLayout2->addWidget(chair, 1, 2, Qt::AlignCenter);
+                    else if (i == 2) groupLayout2->addWidget(chair, 2, 1, Qt::AlignCenter);
+                    else groupLayout2->addWidget(chair, 1, 0, Qt::AlignCenter);
+                }
+                carrerLayout2->addWidget(tableGroup2,row,col, Qt::AlignCenter);
+
+                carrer2Widget->setLayout(carrerLayout2);
+                diningLayout->addWidget(carrer2Widget, row, col, Qt::AlignCenter);
             }
         }
 

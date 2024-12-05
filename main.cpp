@@ -35,7 +35,7 @@ public:
         auto *kitchenFrame = new QFrame();
         kitchenFrame->setFrameShape(QFrame::Box);
         kitchenFrame->setStyleSheet("border: 2px solid #4682B4; background-color: #ADD8E6;"); // Bleu clair
-        kitchenFrame->setFixedSize(1500, 300);
+        kitchenFrame->setFixedSize(1520, 400);
 
         auto *kitchenLayout = new QGridLayout(kitchenFrame);
         kitchenLayout->setContentsMargins(10, 10, 10, 10);
@@ -45,27 +45,79 @@ public:
         washingMachine->setFixedSize(100, 60);
         washingMachine->setStyleSheet("background-color: #B0C4DE; border: 1px solid black; font-size: 10px;");
         washingMachine->setAlignment(Qt::AlignCenter);
-        kitchenLayout->addWidget(washingMachine, 0, 0);
+        kitchenLayout->addWidget(washingMachine, 0, 4);
 
         auto *dishwasher = new QLabel("Lave-vaisselle");
         dishwasher->setFixedSize(100, 60);
         dishwasher->setStyleSheet("background-color: #B0C4DE; border: 1px solid black; font-size: 10px;");
         dishwasher->setAlignment(Qt::AlignCenter);
-        kitchenLayout->addWidget(dishwasher, 0, 1);
+        kitchenLayout->addWidget(dishwasher, 0, 5);
 
-        for (int i = 0; i < 2; ++i) {
+        auto  *kitchenTableWidget= new  QWidget();
+        kitchenTableWidget->setStyleSheet("border: none;");
+        kitchenTableWidget->setFixedSize(800, 120);
+        auto  *kitchenTableLayout = new QHBoxLayout();;
+
+        for(int i=0 ; i<2 ; i++) {
             auto *kitchenTable = new QLabel("Table de cuisine");
-            kitchenTable->setFixedSize(300, 50);
+            kitchenTable->setFixedSize(200, 60);
             kitchenTable->setStyleSheet("background-color: #D3D3D3; border: 1px solid black; font-size: 10px;");
             kitchenTable->setAlignment(Qt::AlignCenter);
-            kitchenLayout->addWidget(kitchenTable, 1, i, 1, 2, Qt::AlignCenter);
+            kitchenTableLayout->addWidget(kitchenTable);
+            kitchenTableLayout->setSpacing(10);
         }
+            kitchenTableWidget->setLayout(kitchenTableLayout);
+
+            kitchenLayout->addWidget(kitchenTableWidget, 3, 3, 1, 2, Qt::AlignCenter);
+
 
         auto *freezer = new QLabel("Stock");
         freezer->setFixedSize(100, 100);
         freezer->setStyleSheet("background-color: #ADD8E6; border: 1px solid black; font-size: 12px;");
         freezer->setAlignment(Qt::AlignCenter);
-        kitchenLayout->addWidget(freezer, 2, 3, Qt::AlignRight);
+        kitchenLayout->addWidget(freezer, 4, 5, Qt::AlignRight);
+
+
+
+
+
+
+            // --- Rectangle "Commande" , "plat pret" et "Plat sale" ---
+        // Ajout du rectangle "Commande"
+        auto *comptoirCuisineCommande = new QLabel("Commandes");
+        comptoirCuisineCommande->setFixedSize(100, 60);
+        comptoirCuisineCommande->setStyleSheet("background-color: #FFD700; border: 2px solid #8B4513; font-size: 16px; font-weight: bold;");
+        comptoirCuisineCommande->setAlignment(Qt::AlignCenter);
+
+        // Ajout du rectangle "Plat pret"
+        auto *comptoirPlatPretCuisine = new QLabel("Plat pret");
+        comptoirPlatPretCuisine->setFixedSize( 100, 60);
+        comptoirPlatPretCuisine->setStyleSheet("background-color: #FFA07A; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
+        comptoirPlatPretCuisine->setAlignment(Qt::AlignCenter);
+
+
+        // Ajout du rectangle "Plat salle"
+        auto *comptoirPlatSaleCuisine = new QLabel("Plat sale");
+        comptoirPlatSaleCuisine->setFixedSize(100, 60);
+        comptoirPlatSaleCuisine->setStyleSheet("background-color: #FFA07A; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
+        comptoirPlatSaleCuisine->setAlignment(Qt::AlignCenter);
+
+        // Créer un layout horizontal pour coller "Accueil" et "Zone d'attente" ensemble
+        auto *comptoirLayoutCuisine = new QHBoxLayout();
+        comptoirLayoutCuisine->addWidget(comptoirCuisineCommande);
+        comptoirLayoutCuisine->addSpacing(20); // Espacement entre les rectangles
+        comptoirLayoutCuisine->addWidget(comptoirPlatPretCuisine);
+        comptoirLayoutCuisine->addSpacing(20); // Espacement entre les rectangles
+        comptoirLayoutCuisine->addWidget(comptoirPlatSaleCuisine);
+
+
+        // Widget qui contient le layout de l'accueil et de la zone d'attente
+        auto *comptoirCuisineWidget = new QWidget();
+        comptoirCuisineWidget->setLayout(comptoirLayoutCuisine);
+        comptoirCuisineWidget->setStyleSheet("border: none;");
+        kitchenLayout->addWidget(comptoirCuisineWidget, 5, 0, Qt::AlignCenter); // Ligne 3, avec des colonnes successives
+
+
 
         mainWidgetLayout->addWidget(kitchenFrame);
 

@@ -102,13 +102,52 @@ public:
         // Widget qui contient le layout de l'accueil et de la zone d'attente
         auto *receptionWidget = new QWidget();
         receptionWidget->setLayout(receptionLayout);
+        receptionLayout->setContentsMargins(20, 20, 20, 20);
+        receptionWidget->setStyleSheet("border: none;");
 
         // Placer les zones en haut à droite de la salle de restaurant, collées au mur
         diningLayout->addWidget(receptionWidget, 9, 3, 1, 2, Qt::AlignBottom | Qt::AlignRight);
 
 
 
+        // --- Rectangle "Commande" , "plat pret" et "Plat sale" ---
+        // Ajout du rectangle "Commande"
+        auto *comptoirCommande = new QLabel("Commandes");
+        comptoirCommande->setFixedSize(100, 60);
+        comptoirCommande->setStyleSheet("background-color: #FFD700; border: 2px solid #8B4513; font-size: 16px; font-weight: bold;");
+        comptoirCommande->setAlignment(Qt::AlignCenter);
 
+        // Ajout du rectangle "Plat pret"
+        auto *comptoirPlatPret = new QLabel("Plat pret");
+        comptoirPlatPret->setFixedSize( 100, 60);
+        comptoirPlatPret->setStyleSheet("background-color: #FFA07A; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
+        comptoirPlatPret->setAlignment(Qt::AlignCenter);
+
+
+        // Ajout du rectangle "Plat salle"
+        auto *comptoirPlatSale = new QLabel("Plat sale");
+        comptoirPlatSale->setFixedSize(100, 60);
+        comptoirPlatSale->setStyleSheet("background-color: #FFA07A; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
+        comptoirPlatSale->setAlignment(Qt::AlignCenter);
+
+        // Créer un layout horizontal pour coller "Accueil" et "Zone d'attente" ensemble
+        auto *comptoirLayout = new QHBoxLayout();
+        comptoirLayout->addWidget(comptoirCommande);
+        comptoirLayout->addSpacing(20); // Espacement entre les rectangles
+        comptoirLayout->addWidget(comptoirPlatPret);
+        comptoirLayout->addSpacing(20); // Espacement entre les rectangles
+        comptoirLayout->addWidget(comptoirPlatSale);
+
+
+        // Widget qui contient le layout de l'accueil et de la zone d'attente
+        auto *comptoirWidget = new QWidget();
+        comptoirWidget->setLayout(comptoirLayout);
+        comptoirWidget->setStyleSheet("border: none;");
+
+
+
+        // Placer les zones en haut à droite de la salle de restaurant, collées au mur
+        diningLayout->addWidget(comptoirWidget, 0, 3, 1, 2, Qt::AlignTop | Qt::AlignRight);
 
 
 

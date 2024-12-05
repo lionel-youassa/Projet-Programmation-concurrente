@@ -86,20 +86,20 @@ public:
         // Ajout du rectangle "Commande"
         auto *comptoirCuisineCommande = new QLabel("Commandes");
         comptoirCuisineCommande->setFixedSize(100, 60);
-        comptoirCuisineCommande->setStyleSheet("background-color: #FFD700; border: 2px solid #8B4513; font-size: 16px; font-weight: bold;");
+        comptoirCuisineCommande->setStyleSheet("background-color: #C3E4CD; border: 2px solid #8B4513; font-size: 16px; font-weight: bold;");
         comptoirCuisineCommande->setAlignment(Qt::AlignCenter);
 
         // Ajout du rectangle "Plat pret"
         auto *comptoirPlatPretCuisine = new QLabel("Plat pret");
         comptoirPlatPretCuisine->setFixedSize( 100, 60);
-        comptoirPlatPretCuisine->setStyleSheet("background-color: #FFA07A; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
+        comptoirPlatPretCuisine->setStyleSheet("background-color: #AFCBE3; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
         comptoirPlatPretCuisine->setAlignment(Qt::AlignCenter);
 
 
         // Ajout du rectangle "Plat salle"
         auto *comptoirPlatSaleCuisine = new QLabel("Plat sale");
         comptoirPlatSaleCuisine->setFixedSize(100, 60);
-        comptoirPlatSaleCuisine->setStyleSheet("background-color: #FFA07A; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
+        comptoirPlatSaleCuisine->setStyleSheet("background-color: #D9D9D9; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
         comptoirPlatSaleCuisine->setAlignment(Qt::AlignCenter);
 
         // Créer un layout horizontal pour coller "Accueil" et "Zone d'attente" ensemble
@@ -115,7 +115,10 @@ public:
         auto *comptoirCuisineWidget = new QWidget();
         comptoirCuisineWidget->setLayout(comptoirLayoutCuisine);
         comptoirCuisineWidget->setStyleSheet("border: none;");
-        kitchenLayout->addWidget(comptoirCuisineWidget, 5, 0, Qt::AlignCenter); // Ligne 3, avec des colonnes successives
+
+        // Placer les zones en bas à gauche de la cuisine, collées au mur
+
+        kitchenLayout->addWidget(comptoirCuisineWidget, 5, 0, Qt::AlignCenter);
 
 
 
@@ -166,20 +169,20 @@ public:
         // Ajout du rectangle "Commande"
         auto *comptoirCommande = new QLabel("Commandes");
         comptoirCommande->setFixedSize(100, 60);
-        comptoirCommande->setStyleSheet("background-color: #FFD700; border: 2px solid #8B4513; font-size: 16px; font-weight: bold;");
+        comptoirCommande->setStyleSheet("background-color: #C3E4CD; border: 2px solid #8B4513; font-size: 16px; font-weight: bold;");
         comptoirCommande->setAlignment(Qt::AlignCenter);
 
         // Ajout du rectangle "Plat pret"
         auto *comptoirPlatPret = new QLabel("Plat pret");
         comptoirPlatPret->setFixedSize( 100, 60);
-        comptoirPlatPret->setStyleSheet("background-color: #FFA07A; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
+        comptoirPlatPret->setStyleSheet("background-color: #AFCBE3; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
         comptoirPlatPret->setAlignment(Qt::AlignCenter);
 
 
         // Ajout du rectangle "Plat salle"
         auto *comptoirPlatSale = new QLabel("Plat sale");
         comptoirPlatSale->setFixedSize(100, 60);
-        comptoirPlatSale->setStyleSheet("background-color: #FFA07A; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
+        comptoirPlatSale->setStyleSheet("background-color: #D9D9D9; border: 2px solid #8B4513; font-size: 14px; font-weight: bold;");
         comptoirPlatSale->setAlignment(Qt::AlignCenter);
 
         // Créer un layout horizontal pour coller "Accueil" et "Zone d'attente" ensemble

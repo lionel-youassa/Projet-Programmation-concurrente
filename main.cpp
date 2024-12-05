@@ -52,7 +52,7 @@ public:
         auto *kitchenFrame = new QFrame();
         kitchenFrame->setFrameShape(QFrame::Box);
         kitchenFrame->setStyleSheet("border: 2px solid #4682B4; background-color: #ADD8E6;"); // Bleu clair
-        kitchenFrame->setFixedSize(1520, 400);
+        kitchenFrame->setFixedSize(1700, 400);
 
         auto *kitchenLayout = new QGridLayout(kitchenFrame);
         kitchenLayout->setContentsMargins(10, 10, 10, 10);
@@ -145,11 +145,12 @@ public:
         auto *diningFrame = new QFrame();
         diningFrame->setFrameShape(QFrame::Box);
         diningFrame->setStyleSheet("border: 5px solid #8B4513; background-color: #FFE4B5;");
+        diningFrame->setFixedSize(1700, 1000);
 
         auto *diningLayout = new QGridLayout(diningFrame);
         diningLayout->setContentsMargins(20, 20, 20, 20);
-        diningLayout->setHorizontalSpacing(60);  // Réduction de l'espacement horizontal
-        diningLayout->setVerticalSpacing(60); // Espacement vertical pour le couloir
+        diningLayout->setHorizontalSpacing(10);  // Réduction de l'espacement horizontal
+        diningLayout->setVerticalSpacing(10); // Espacement vertical pour le couloir
 
         // --- Rectangle "Accueil" et "Zone d'attente" ---
         // Ajout du rectangle "Accueil"
@@ -303,14 +304,44 @@ public:
             }
         }
 
+
         // Ajout d'une image dans la salle
         auto *maitreHotelImage = createImageWidget(
             "C:\\Users\\lione\\CLionProjects\\RestaurantManagement\\images\\maitrehoteldown.png",
             60, // Largeur souhaitée
             70  // Hauteur souhaitée
         );
-
         diningLayout->addWidget(maitreHotelImage, 7, 3, Qt::AlignCenter);
+
+        // Ajout d'une image dans la salle
+        auto *chefDeRang = createImageWidget(
+            "C:\\Users\\lione\\CLionProjects\\RestaurantManagement\\images\\RangeChief.png",
+            60, // Largeur souhaitée
+            70  // Hauteur souhaitée
+        );
+        diningLayout->addWidget(chefDeRang, 6, 4, Qt::AlignCenter);
+
+
+        // Ajout d'une image dans la salle
+        auto *serveur = createImageWidget(
+            "C:\\Users\\lione\\CLionProjects\\RestaurantManagement\\images\\serveurmovingright.png",
+            60, // Largeur souhaitée
+            70  // Hauteur souhaitée
+        );
+
+        diningLayout->addWidget(serveur, 5, 6, Qt::AlignCenter);
+
+        // Ajout d'une image dans la salle
+        auto *serveur2 = createImageWidget(
+            "C:\\Users\\lione\\CLionProjects\\RestaurantManagement\\images\\serveurmovingup.png",
+            60, // Largeur souhaitée
+            70  // Hauteur souhaitée
+        );
+
+        diningLayout->addWidget(serveur2, 1, 3, Qt::AlignCenter);
+
+
+
         mainWidgetLayout->addWidget(diningFrame);
 
 

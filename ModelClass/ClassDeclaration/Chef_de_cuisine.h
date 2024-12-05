@@ -18,4 +18,3 @@ public:
 };
 
 #endif // CHEF_DE_CUISINE_H
-#endif //CHEF_DE_CUISINE_H

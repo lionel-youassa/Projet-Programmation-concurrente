@@ -112,4 +112,7 @@ CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
- C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Plat.h
+ C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Plat.h \
+ C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Ingredients.h \
+ C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Table.h \
+ C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Client.h

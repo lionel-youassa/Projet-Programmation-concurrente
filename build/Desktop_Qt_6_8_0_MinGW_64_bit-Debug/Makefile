@@ -13,7 +13,7 @@ EQ            = =
 first: debug
 install: debug-install
 uninstall: debug-uninstall
-QMAKE         = C:\Qt\6.8.0\mingw_64\bin\qmake.exe
+QMAKE         = C:\Qt\6.7.3\mingw_64\bin\qmake.exe
 DEL_FILE      = del
 CHK_DIR_EXISTS= if not exist
 MKDIR         = mkdir

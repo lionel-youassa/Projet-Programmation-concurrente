@@ -10,9 +10,10 @@ public:
     std::string date; // Date du menu
 
     Menu(int id, const std::string& date);
-
+    // Méthode pour obtenir un plat disponible
+    Plat GetPlatDisponible();
+};
     // Méthodes définies sur le diagramme
     // (aucune méthode supplémentaire indiquée)
-};
 
 #endif // MENU_H

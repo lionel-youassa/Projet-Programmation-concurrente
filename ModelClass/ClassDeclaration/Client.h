@@ -4,8 +4,6 @@
 #include <string>
 #include "Menu.h"
 
-class Plat;
-
 class Client {
 public:
     int id;                // Identifiant unique du client

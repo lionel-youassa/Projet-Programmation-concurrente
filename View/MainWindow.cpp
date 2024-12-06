@@ -46,13 +46,20 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
             );
 
             // Compteur de temps
-            countdownLabel = new QLabel(QString("Temps restant: %1").arg(countdown), this);
+            countdownLabel = new QLabel(QString("Temps restant: %1 (min) ").arg(countdown), this);
             navbar->addWidget(countdownLabel);
+            startCountdown(countdown);
+            updateCountdown();
 
             // Bouton "Supervision"
             QPushButton *superviserButton = new QPushButton("Superviser", this);
            // connect(superviserButton, &QPushButton::clicked, this, &MainWindow::close);
             navbar->addWidget(superviserButton);
+
+            // Bouton "Pause"
+            QPushButton *pauseButton = new QPushButton("Pause", this);
+           // connect(pauseButton, &QPushButton::clicked, this, &MainWindow::close);
+            navbar->addWidget(pauseButton);
 
             // Bouton "Stop"
             QPushButton *stopButton = new QPushButton("Stop", this);
@@ -402,12 +409,33 @@ void MainWindow::insertPng(const std::string &pngPath, QWidget *parent, int ax, 
 void MainWindow::updateCountdown() {
     if (countdown > 0) {
         countdown--;
-        countdownLabel->setText(QString("Temps restant: %1").arg(countdown));
+
+        // Calcul des minutes et secondes
+        int minutes = countdown / 60;
+        int seconds = countdown % 60;
+
+        // Mettre à jour le texte avec le format mm:ss
+        countdownLabel->setText(QString("Temps restant: %1:%2")
+                                .arg(minutes, 2, 10, QChar('0')) // 2 chiffres pour les minutes
+                                .arg(seconds, 2, 10, QChar('0'))); // 2 chiffres pour les secondes
     } else {
-        timer->stop();
+        timer->stop(); // Arrêter le timer
         countdownLabel->setText("Temps écoulé !");
     }
 }
+
+void MainWindow::startCountdown(int duration) {
+    countdown = duration;
+
+    // Configurer le timer
+    timer = new QTimer(this);
+    connect(timer, &QTimer::timeout, this, &MainWindow::updateCountdown);
+
+    // Démarrer le timer avec un intervalle de 1 seconde
+    timer->start(1000);
+}
+
+
 
 
 

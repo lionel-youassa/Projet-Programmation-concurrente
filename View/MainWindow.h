@@ -21,6 +21,7 @@ private:
     QWidget* createRangeTable(int numChairs, int numTables); // Existant
     QWidget* createImageWidget(const QString &imagePath, int width, int height); // Existant
     void insertPng(const std::string &pngPath, QWidget *parent, int ax, int ay, int aw, int ah); // Existant
+    void startCountdown(int duration);
 
     private slots:
         void updateCountdown(); // Met à jour le compteur de temps

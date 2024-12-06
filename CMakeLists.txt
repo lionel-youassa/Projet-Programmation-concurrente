@@ -26,6 +26,10 @@ add_executable(RestaurantManagement main.cpp
         Controller/ControleurService.h
         View/InterfaceAcceuil.cpp
         View/InterfaceAcceuil.h
+        View/MainWindow.cpp
+        View/MainWindow.h
+        View/formulaire.cpp
+        View/formulaire.h
 )
 target_link_libraries(RestaurantManagement
         Qt::Core

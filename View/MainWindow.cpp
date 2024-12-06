@@ -10,6 +10,60 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
         auto *mainWidgetLayout = new QVBoxLayout(mainWidget);
         mainWidgetLayout->setContentsMargins(0, 0, 0, 0);
 
+        //navBar
+    // Barre de navigation insérée dans le layout principal
+    {
+            // Créer une barre de navigation
+            QToolBar *navbar = new QToolBar(this);
+            navbar->setMovable(false);
+            navbar->setFloatable(false);
+            navbar->setFixedHeight(60);
+            navbar->setStyleSheet(
+                "QToolBar {"
+                "   background-color: #8B4513;"  // Marron
+                "   border-bottom: 2px solid #5A3220;"
+                "   padding: 5px;"
+                "}"
+                "QLabel {"
+                "   color: #FFF8DC;"  // Blanc cassé
+                "   font-size: 18px;"
+                "   font-weight: bold;"
+                "}"
+                "QPushButton {"
+                "   background-color: #D2B48C;"  // Beige clair
+                "   color: #5A3220;"            // Marron foncé
+                "   font-size: 14px;"
+                "   font-weight: bold;"
+                "   border-radius: 5px;"
+                "   padding: 8px 12px;"
+                "   margin-left: 15px;"
+                "   border: 1px solid #8B4513;"
+                "}"
+                "QPushButton:hover {"
+                "   background-color: #8B4513;"
+                "   color: #FFF;"
+                "}"
+            );
+
+            // Compteur de temps
+            countdownLabel = new QLabel(QString("Temps restant: %1").arg(countdown), this);
+            navbar->addWidget(countdownLabel);
+
+            // Bouton "Supervision"
+            QPushButton *superviserButton = new QPushButton("Superviser", this);
+           // connect(superviserButton, &QPushButton::clicked, this, &MainWindow::close);
+            navbar->addWidget(superviserButton);
+
+            // Bouton "Stop"
+            QPushButton *stopButton = new QPushButton("Stop", this);
+            connect(stopButton, &QPushButton::clicked, this, &MainWindow::close);
+            navbar->addWidget(stopButton);
+
+            // Ajouter la barre de navigation au layout principal
+            mainLayout->addWidget(navbar);
+    }
+
+
         // --- Cuisine ---
         auto *kitchenFrame = new QFrame();
         kitchenFrame->setFrameShape(QFrame::Box);
@@ -191,35 +245,29 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
         // Ajout de la rangée de tables à la row 1
         auto *rangeTable = createRangeTable(4,8);
-        rangeTable->setParent(diningFrame);
         diningLayout->addWidget(rangeTable, 1, 3, 1, 8, Qt::AlignTop | Qt::AlignCenter);
 
         // Ajout de la rangée de tables (4 chaises) à la row 2
         auto *rangeTable2 = createRangeTable(4,2);
-        rangeTable->setParent(diningFrame);
         diningLayout->addWidget(rangeTable2, 2, 3, 1, 3, Qt::AlignTop | Qt::AlignCenter);
 
 
         // // Ajout de la rangée de tables (6 chaises) à la row 2
          auto *rangeTable3 = createRangeTable(6,5);
-        rangeTable->setParent(diningFrame);
         diningLayout->addWidget(rangeTable3 , 2, 5, 1,5, Qt::AlignTop | Qt::AlignCenter);
 
 
         // // Ajout de la rangée de tables à la row 3
         auto *rangeTable4 = createRangeTable(2,8);
-        rangeTable->setParent(diningFrame);
         diningLayout->addWidget(rangeTable4 , 4, 3, 1,8, Qt::AlignTop | Qt::AlignCenter);
 
         // Ajout de la rangée de tables (2 chaises) à la row 2
         auto *rangeTable5 = createRangeTable(2,2);
-        rangeTable5->setParent(diningFrame);
         diningLayout->addWidget(rangeTable5, 5, 3, 1, 3, Qt::AlignTop | Qt::AlignCenter);
 
 
         // // Ajout de la rangée de tables à la row 3
         auto *rangeTable6 = createRangeTable(8,5);
-        rangeTable6->setParent(diningFrame);
         diningLayout->addWidget(rangeTable6 , 5, 5, 1,5, Qt::AlignTop | Qt::AlignCenter);
 
 
@@ -349,3 +397,17 @@ void MainWindow::insertPng(const std::string &pngPath, QWidget *parent, int ax, 
     imageWidget->setParent(parent);
     imageWidget->setGeometry(ax, ay, aw, ah);
 }
+
+
+void MainWindow::updateCountdown() {
+    if (countdown > 0) {
+        countdown--;
+        countdownLabel->setText(QString("Temps restant: %1").arg(countdown));
+    } else {
+        timer->stop();
+        countdownLabel->setText("Temps écoulé !");
+    }
+}
+
+
+

@@ -79,8 +79,8 @@ int main(int argc, char *argv[]) {
 
     QApplication app(argc, argv);
 
-    Formulaire formulaire;
-    formulaire.show();
+   MainWindow main;
+    main.show();
 
     return app.exec();
 }

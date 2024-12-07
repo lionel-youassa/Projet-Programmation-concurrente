@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+533913e14dcf275f72c5aad5939721b9 CMakeFiles/RestaurantManagement_autogen
+47768d05e8d7b0e96feefe6a4de84ad9 RestaurantManagement_autogen/timestamp

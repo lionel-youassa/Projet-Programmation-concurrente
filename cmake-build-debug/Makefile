@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\siefo\Desktop\X2\Projet-Programmation-concurrente
+CMAKE_SOURCE_DIR = D:\Projet-Programmation-concurrente
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\siefo\Desktop\X2\Projet-Programmation-concurrente\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projet-Programmation-concurrente\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\siefo\Desktop\X2\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles C:\Users\siefo\Desktop\X2\Projet-Programmation-concurrente\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles D:\Projet-Programmation-concurrente\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\siefo\Desktop\X2\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -178,6 +178,54 @@ Controller/ControleurService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.s
 .PHONY : Controller/ControleurService.cpp.s
 
+Model/ClassDefinition/Personne.obj: Model/ClassDefinition/Personne.cpp.obj
+.PHONY : Model/ClassDefinition/Personne.obj
+
+# target to build an object file
+Model/ClassDefinition/Personne.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj
+.PHONY : Model/ClassDefinition/Personne.cpp.obj
+
+Model/ClassDefinition/Personne.i: Model/ClassDefinition/Personne.cpp.i
+.PHONY : Model/ClassDefinition/Personne.i
+
+# target to preprocess a source file
+Model/ClassDefinition/Personne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.i
+.PHONY : Model/ClassDefinition/Personne.cpp.i
+
+Model/ClassDefinition/Personne.s: Model/ClassDefinition/Personne.cpp.s
+.PHONY : Model/ClassDefinition/Personne.s
+
+# target to generate assembly for a file
+Model/ClassDefinition/Personne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.s
+.PHONY : Model/ClassDefinition/Personne.cpp.s
+
+Model/ClassDefinition/Position.obj: Model/ClassDefinition/Position.cpp.obj
+.PHONY : Model/ClassDefinition/Position.obj
+
+# target to build an object file
+Model/ClassDefinition/Position.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj
+.PHONY : Model/ClassDefinition/Position.cpp.obj
+
+Model/ClassDefinition/Position.i: Model/ClassDefinition/Position.cpp.i
+.PHONY : Model/ClassDefinition/Position.i
+
+# target to preprocess a source file
+Model/ClassDefinition/Position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.i
+.PHONY : Model/ClassDefinition/Position.cpp.i
+
+Model/ClassDefinition/Position.s: Model/ClassDefinition/Position.cpp.s
+.PHONY : Model/ClassDefinition/Position.s
+
+# target to generate assembly for a file
+Model/ClassDefinition/Position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.s
+.PHONY : Model/ClassDefinition/Position.cpp.s
+
 Model/PostgreSQLConnection.obj: Model/PostgreSQLConnection.cpp.obj
 .PHONY : Model/PostgreSQLConnection.obj
 
@@ -250,6 +298,54 @@ View/InterfaceAcceuil.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.s
 .PHONY : View/InterfaceAcceuil.cpp.s
 
+View/MainWindow.obj: View/MainWindow.cpp.obj
+.PHONY : View/MainWindow.obj
+
+# target to build an object file
+View/MainWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj
+.PHONY : View/MainWindow.cpp.obj
+
+View/MainWindow.i: View/MainWindow.cpp.i
+.PHONY : View/MainWindow.i
+
+# target to preprocess a source file
+View/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.i
+.PHONY : View/MainWindow.cpp.i
+
+View/MainWindow.s: View/MainWindow.cpp.s
+.PHONY : View/MainWindow.s
+
+# target to generate assembly for a file
+View/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.s
+.PHONY : View/MainWindow.cpp.s
+
+View/formulaire.obj: View/formulaire.cpp.obj
+.PHONY : View/formulaire.obj
+
+# target to build an object file
+View/formulaire.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj
+.PHONY : View/formulaire.cpp.obj
+
+View/formulaire.i: View/formulaire.cpp.i
+.PHONY : View/formulaire.i
+
+# target to preprocess a source file
+View/formulaire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.i
+.PHONY : View/formulaire.cpp.i
+
+View/formulaire.s: View/formulaire.cpp.s
+.PHONY : View/formulaire.s
+
+# target to generate assembly for a file
+View/formulaire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.s
+.PHONY : View/formulaire.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -288,6 +384,12 @@ help:
 	@echo ... Controller/ControleurService.obj
 	@echo ... Controller/ControleurService.i
 	@echo ... Controller/ControleurService.s
+	@echo ... Model/ClassDefinition/Personne.obj
+	@echo ... Model/ClassDefinition/Personne.i
+	@echo ... Model/ClassDefinition/Personne.s
+	@echo ... Model/ClassDefinition/Position.obj
+	@echo ... Model/ClassDefinition/Position.i
+	@echo ... Model/ClassDefinition/Position.s
 	@echo ... Model/PostgreSQLConnection.obj
 	@echo ... Model/PostgreSQLConnection.i
 	@echo ... Model/PostgreSQLConnection.s
@@ -297,6 +399,12 @@ help:
 	@echo ... View/InterfaceAcceuil.obj
 	@echo ... View/InterfaceAcceuil.i
 	@echo ... View/InterfaceAcceuil.s
+	@echo ... View/MainWindow.obj
+	@echo ... View/MainWindow.i
+	@echo ... View/MainWindow.s
+	@echo ... View/formulaire.obj
+	@echo ... View/formulaire.i
+	@echo ... View/formulaire.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

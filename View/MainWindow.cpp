@@ -1,4 +1,8 @@
 #include "MainWindow.h"
+#include <QTimer>
+#include <QPropertyAnimation>
+#include <QGraphicsOpacityEffect>
+#include "../Model/ClassDefinition/Personne.cpp"
 
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
    // Layout principal pour la fenêtre
@@ -68,6 +72,8 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
             // Ajouter la barre de navigation au layout principal
             mainLayout->addWidget(navbar);
+
+            this->testDeplacement();
     }
 
 
@@ -290,9 +296,9 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
 
         // Positionnement manuel pour les images
-        //Maitre hotel
-        insertPng("../images/maitrehoteldown.png",mainWidget,100, 1500, 60, 70);
 
+    Personne p(1, "Emma", true, true,{0, 0}, "../images/maitrehoteldown.png");
+    p.afficher(mainWidget, 100, 1500, 60, 70);
 
 
         //Chef de rang 1 attente
@@ -404,6 +410,7 @@ void MainWindow::insertPng(const std::string &pngPath, QWidget *parent, int ax, 
     imageWidget->setParent(parent);
     imageWidget->setGeometry(ax, ay, aw, ah);
 }
+
 
 
 void MainWindow::updateCountdown() {

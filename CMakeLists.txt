@@ -30,6 +30,29 @@ add_executable(RestaurantManagement main.cpp
         View/MainWindow.h
         View/formulaire.cpp
         View/formulaire.h
+        Model/ClassDefinition/Personne.cpp
+        Model/classDeclaration/Chef_de_rang.h
+        #        Model/classDeclaration/Client.h
+        #        Model/classDeclaration/Commande.h
+        #        Model/classDeclaration/Commis_de_salle.h
+        #        Model/classDeclaration/Maitre_d_hotel.h
+        Model/classDeclaration/Personne.h
+        #        Model/classDeclaration/Plat.h
+        Model/classDeclaration/Position.h
+        #        Model/classDeclaration/Serveur.h
+        #        Model/classDeclaration/Table.h
+        #        Model/PostgreSQLConnection.h
+        #        Model/ClassDeclaration/Chef_de_rang.h
+        #        Model/ClassDeclaration/Client.h
+        #        Model/ClassDeclaration/Commande.h
+        #        Model/ClassDeclaration/Commis_de_salle.h
+        #        Model/ClassDeclaration/Maitre_d_hotel.h
+        Model/ClassDefinition/Personne.cpp
+        #        Model/ClassDeclaration/Plat.h
+        Model/ClassDefinition/Position.cpp
+        #        Model/ClassDeclaration/Serveur.h
+        #        Model/ClassDeclaration/Table.h
+        #        View/InterfaceAcceuil.h
 )
 target_link_libraries(RestaurantManagement
         Qt::Core

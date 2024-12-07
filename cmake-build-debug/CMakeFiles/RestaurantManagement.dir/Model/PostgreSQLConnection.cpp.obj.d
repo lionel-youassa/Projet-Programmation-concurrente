@@ -115,7 +115,8 @@ CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
  D:\Projet-Programmation-concurrente\Model\ClassDeclaration/Personne.h \
- C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
+ C:/Qt/6.8.0/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.8.0/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qtguiglobal.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qglobal.h \
@@ -220,7 +221,7 @@ CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj: \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qtguiexports.h \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.8.0/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qobjectdefs.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qnamespace.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qcompare.h \
@@ -280,6 +281,8 @@ CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qchar.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qstringview.h \
@@ -367,19 +370,21 @@ CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/format \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/charconv \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/span \
- C:/Qt/6.8.0/mingw_64/include/QtCore/qpoint.h \
- C:/Qt/6.8.0/mingw_64/include/QtCore/q23utility.h \
- C:/Qt/6.8.0/mingw_64/include/QtCore/qrect.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qmargins.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/q23utility.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qaction.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qkeysequence.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qicon.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qsize.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qbrush.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qpixmap.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qrect.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qpoint.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qcolor.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qrgb.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qrgba64.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qshareddata.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qimage.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qpixelformat.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qtransform.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qpolygon.h \
@@ -388,11 +393,27 @@ CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
  C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qline.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qpixmap.h \
- C:/Qt/6.8.0/mingw_64/include/QtCore/qshareddata.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qvariant.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qtextstream.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qcontiguouscache.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qsharedpointer.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qmap.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qshareddata_impl.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qset.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qhash.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qpalette.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qbrush.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qfont.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qendian.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qfontmetrics.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qfontinfo.h \
+ C:/Qt/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qcursor.h \
+ C:/Qt/6.8.0/mingw_64/include/QtGui/qbitmap.h \
  D:\Projet-Programmation-concurrente\Model\ClassDeclaration/Position.h \
  D:\Projet-Programmation-concurrente\Model\ClassDeclaration/Position.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream

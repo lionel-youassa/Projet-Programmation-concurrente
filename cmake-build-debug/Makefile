@@ -178,30 +178,6 @@ Controller/ControleurService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.s
 .PHONY : Controller/ControleurService.cpp.s
 
-Model/ClassDefinition/Personne.obj: Model/ClassDefinition/Personne.cpp.obj
-.PHONY : Model/ClassDefinition/Personne.obj
-
-# target to build an object file
-Model/ClassDefinition/Personne.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj
-.PHONY : Model/ClassDefinition/Personne.cpp.obj
-
-Model/ClassDefinition/Personne.i: Model/ClassDefinition/Personne.cpp.i
-.PHONY : Model/ClassDefinition/Personne.i
-
-# target to preprocess a source file
-Model/ClassDefinition/Personne.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.i
-.PHONY : Model/ClassDefinition/Personne.cpp.i
-
-Model/ClassDefinition/Personne.s: Model/ClassDefinition/Personne.cpp.s
-.PHONY : Model/ClassDefinition/Personne.s
-
-# target to generate assembly for a file
-Model/ClassDefinition/Personne.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.s
-.PHONY : Model/ClassDefinition/Personne.cpp.s
-
 Model/ClassDefinition/Position.obj: Model/ClassDefinition/Position.cpp.obj
 .PHONY : Model/ClassDefinition/Position.obj
 
@@ -384,9 +360,6 @@ help:
 	@echo ... Controller/ControleurService.obj
 	@echo ... Controller/ControleurService.i
 	@echo ... Controller/ControleurService.s
-	@echo ... Model/ClassDefinition/Personne.obj
-	@echo ... Model/ClassDefinition/Personne.i
-	@echo ... Model/ClassDefinition/Personne.s
 	@echo ... Model/ClassDefinition/Position.obj
 	@echo ... Model/ClassDefinition/Position.i
 	@echo ... Model/ClassDefinition/Position.s

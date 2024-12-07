@@ -173,26 +173,11 @@ CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projet-Programmation-concurrente\View\formulaire.cpp -o CMakeFiles\RestaurantManagement.dir\View\formulaire.cpp.s
 
-CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj: CMakeFiles/RestaurantManagement.dir/flags.make
-CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj: CMakeFiles/RestaurantManagement.dir/includes_CXX.rsp
-CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj: D:/Projet-Programmation-concurrente/Model/ClassDefinition/Personne.cpp
-CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj: CMakeFiles/RestaurantManagement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj -MF CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Personne.cpp.obj.d -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Personne.cpp.obj -c D:\Projet-Programmation-concurrente\Model\ClassDefinition\Personne.cpp
-
-CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projet-Programmation-concurrente\Model\ClassDefinition\Personne.cpp > CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Personne.cpp.i
-
-CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projet-Programmation-concurrente\Model\ClassDefinition\Personne.cpp -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Personne.cpp.s
-
 CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj: CMakeFiles/RestaurantManagement.dir/flags.make
 CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj: CMakeFiles/RestaurantManagement.dir/includes_CXX.rsp
 CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj: D:/Projet-Programmation-concurrente/Model/ClassDefinition/Position.cpp
 CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj: CMakeFiles/RestaurantManagement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj -MF CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Position.cpp.obj.d -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Position.cpp.obj -c D:\Projet-Programmation-concurrente\Model\ClassDefinition\Position.cpp
 
 CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.i: cmake_force
@@ -212,7 +197,6 @@ RestaurantManagement_OBJECTS = \
 "CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.obj" \
 "CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj" \
 "CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj" \
-"CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj" \
 "CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj"
 
 # External object files for target RestaurantManagement
@@ -225,7 +209,6 @@ RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Controller/Control
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.obj
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj
-RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/build.make
 RestaurantManagement.exe: C:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a
@@ -234,7 +217,7 @@ RestaurantManagement.exe: C:/Qt/6.8.0/mingw_64/lib/libQt6Core.a
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/linkLibs.rsp
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/objects1.rsp
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable RestaurantManagement.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable RestaurantManagement.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RestaurantManagement.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E make_directory D:/Projet-Programmation-concurrente/cmake-build-debug/plugins/platforms/
 	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:\Qt\6.8.0\mingw_64/plugins/platforms/qwindows.dll D:/Projet-Programmation-concurrente/cmake-build-debug/plugins/platforms/

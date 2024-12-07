@@ -73,7 +73,7 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
             // Ajouter la barre de navigation au layout principal
             mainLayout->addWidget(navbar);
 
-            this->testDeplacement();
+
     }
 
 
@@ -296,34 +296,9 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
 
         // Positionnement manuel pour les images
-
-    Personne p(1, "Emma", true, true,{0, 0}, "../images/maitrehoteldown.png");
-    p.afficher(mainWidget, 100, 1500, 60, 70);
-
-
-        //Chef de rang 1 attente
-        insertPng("../images/RangeChief.png",mainWidget,300, 1500, 60, 70);
-
-
-
-        //Serveur rang 2
-        insertPng("../images/serveurmovingright.png",mainWidget,500, 1040, 60, 70 );
-
-
-        // Chef de rang 2
-        insertPng("../images/RangechiefLeft.png",mainWidget,800, 1000, 60, 70 );
-
-        //Serveur Rang 2
-        insertPng("../images/serveurmovingright.png",mainWidget,500, 1040, 60, 70 );
-
-        //Serveur Rang 1
-        insertPng("../images/serveurmovingleft.png",mainWidget,1000, 600, 60, 70 );
-
-
-
-
-        //Serveur Chef cuisine
-        insertPng("../images/MasterChefDown.png",mainWidget,100, 200, 60, 70 );
+        const Position pos = Position(1200,300);
+        Personne p(1, "Emma", true, true,pos, "../images/maitrehoteldown.png");
+        p.afficher(mainWidget, 60, 70);
 
 
 
@@ -389,27 +364,7 @@ QWidget* MainWindow::createRangeTable(int numChairs, int numTables) {
     return lineTableWidget;
 }
 
-QWidget* MainWindow::createImageWidget(const QString &imagePath, int width, int height) {
-    QLabel *imageLabel = new QLabel();
-    imageLabel->setAlignment(Qt::AlignCenter);
-    imageLabel->setStyleSheet("border: none;");
 
-    QPixmap pixmap(imagePath);
-    if (!pixmap.isNull()) {
-        imageLabel->setPixmap(pixmap.scaled(width, height, Qt::KeepAspectRatio, Qt::SmoothTransformation));
-    } else {
-        imageLabel->setText("Image introuvable");
-    }
-
-    imageLabel->setFixedSize(width, height);
-    return imageLabel;
-}
-
-void MainWindow::insertPng(const std::string &pngPath, QWidget *parent, int ax, int ay, int aw, int ah) {
-    auto *imageWidget = createImageWidget(QString::fromStdString(pngPath), aw, ah);
-    imageWidget->setParent(parent);
-    imageWidget->setGeometry(ax, ay, aw, ah);
-}
 
 
 

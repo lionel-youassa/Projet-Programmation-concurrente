@@ -1,44 +1,33 @@
 #include "../classDeclaration/Personne.h"
-#include<QGraphicsScene>
-#include <QGraphicsPixmapItem>
-#include <QPixmap>
-#include <QGraphicsScene>
-#include <QGraphicsView>
 #include <QLabel>
+#include <QPixmap>
 #include <QString>
-#include <string>
 
-
-Personne::Personne(int id, const std::string &nom, bool poste,bool disponibilite, Position position, string imagePath)
-    : id(id), nom(nom), poste(poste), disponibilite(disponibilite), positionActuelle(position), imagePath(imagePath) {
-}
+// Constructeur avec paramètres
+Personne::Personne(int id, const std::string &nom, bool poste, bool disponibilite, Position position, std::string imagePath)
+    : id(id), nom(nom), poste(poste), disponibilite(disponibilite), positionActuelle(position), imagePath(imagePath) {}
 
 // Constructeur par défaut
-// Personne::Personne(): id(0), poste(false), disponibilite(false) {
-//     positionActuelle.x = 0;
-//     positionActuelle.y = 0;
-// }
+Personne::Personne() : id(0), poste(false), disponibilite(false) {
+    positionActuelle.x = 0;
+    positionActuelle.y = 0;
+}
 
-
+// Méthode de déplacement
 void Personne::Deplacer(const Position &arrivee) {
-    // Déplacement sur l'axe X
     if (positionActuelle.x != arrivee.x) {
-        // Calcul de la direction (gauche ou droite)
-        float directionX = (arrivee.x - positionActuelle.x> 0) ? 1.0 : -1.0;
+        float directionX = (arrivee.x - positionActuelle.x > 0) ? 1.0 : -1.0;
         positionActuelle.x += directionX;
     }
 
-    // Déplacement sur l'axe Y
     if (positionActuelle.y != arrivee.y) {
-        // Calcul de la direction (haut ou bas)
         float directionY = (arrivee.y - positionActuelle.y > 0) ? 1.0 : -1.0;
         positionActuelle.y += directionY;
     }
 }
 
-
-
-void Personne::afficher(QWidget *parent, int ax, int ay, int aw, int ah) {
+// Méthode d'affichage
+void Personne::afficher(QWidget *parent,int aw, int ah) {
     QLabel *imageLabel = new QLabel();
     imageLabel->setAlignment(Qt::AlignCenter);
     imageLabel->setStyleSheet("border: none;");
@@ -52,6 +41,5 @@ void Personne::afficher(QWidget *parent, int ax, int ay, int aw, int ah) {
 
     imageLabel->setFixedSize(aw, ah);
     imageLabel->setParent(parent);
-    imageLabel->setGeometry(ax, ay, aw, ah);
+    imageLabel->setGeometry(positionActuelle.x, positionActuelle.y, aw, ah);
 }
-

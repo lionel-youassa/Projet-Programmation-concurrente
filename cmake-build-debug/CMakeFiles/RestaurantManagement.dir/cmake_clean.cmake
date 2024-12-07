@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.obj"
   "CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.obj.d"
-  "CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj"
-  "CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj.d"
   "CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj"
   "CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj.d"
   "CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj"

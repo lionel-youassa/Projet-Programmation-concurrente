@@ -608,9 +608,7 @@ RestaurantManagement_autogen/timestamp: \
 	D:/Projet-Programmation-concurrente/Controller/ControleurService.cpp \
 	D:/Projet-Programmation-concurrente/Controller/ControleurService.h \
 	D:/Projet-Programmation-concurrente/Model/ClassDeclaration/Chef_de_rang.h \
-	D:/Projet-Programmation-concurrente/Model/ClassDeclaration/Personne.h \
 	D:/Projet-Programmation-concurrente/Model/ClassDeclaration/Position.h \
-	D:/Projet-Programmation-concurrente/Model/ClassDefinition/Personne.cpp \
 	D:/Projet-Programmation-concurrente/Model/ClassDefinition/Position.cpp \
 	D:/Projet-Programmation-concurrente/Model/PostgreSQLConnection.cpp \
 	D:/Projet-Programmation-concurrente/Model/PostgreSQLConnection.h \

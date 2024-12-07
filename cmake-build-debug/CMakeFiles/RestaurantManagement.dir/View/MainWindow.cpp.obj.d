@@ -445,21 +445,8 @@ CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj: \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicseffect.h \
  D:/Projet-Programmation-concurrente/Model/ClassDefinition/Personne.cpp \
  D:/Projet-Programmation-concurrente/Model/ClassDeclaration/Personne.h \
- C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qpen.h \
  D:/Projet-Programmation-concurrente/Model/ClassDeclaration/Position.h \
- C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGraphicsScene \
- C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
- C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
- C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qpainterpath.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/QPixmap \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qpixmap.h \
- C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGraphicsView \
- C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicsview.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qpainter.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qtextoption.h \
- C:/Qt/6.8.0/mingw_64/include/QtWidgets/qscrollarea.h \
- C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qstring.h

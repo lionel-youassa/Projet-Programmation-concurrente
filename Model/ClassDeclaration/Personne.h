@@ -1,26 +1,27 @@
 #ifndef PERSONNE_H
 #define PERSONNE_H
 
-#include <qgraphicsscene.h>
 #include <string>
+#include <QWidget>
 #include "Position.h"
-using namespace std;
 
 class Personne {
 public:
+    // Attributs
     int id;
-    string nom;
+    std::string nom;
     bool poste;
     bool disponibilite;
     Position positionActuelle;
-    string imagePath;
+    std::string imagePath;
 
+    // Constructeurs
     Personne();
-    Personne(int id, const std::string &nom, bool poste,bool disponibilite, Position position, string imagePath);
+    Personne(int id, const std::string &nom, bool poste, bool disponibilite, Position position, std::string imagePath);
 
+    // Méthodes
     void Deplacer(const Position &arrivee);
-
-    void afficher(QWidget *parent, int ax, int ay, int aw, int ah);
+    void afficher(QWidget *parent, int aw, int ah);
 };
 
 #endif // PERSONNE_H

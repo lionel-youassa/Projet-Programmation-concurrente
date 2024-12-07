@@ -5,22 +5,27 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
+set(SFML_STATIC_LIBRARIES TRUE)
+set(SFML_DIR C:/SFML-2.5.1/lib/cmake/SFML)
 
-
+# PostgreSQL
 include_directories("C:/Program Files/PostgreSQL/16/include")
 link_directories("C:/Program Files/PostgreSQL/16/lib")
 
+# SFML
+include_directories("C:/SFML-2.5.1/include")
+link_directories("C:/SFML-2.5.1/lib")
 
-
-
+# Find Qt
 find_package(Qt6 COMPONENTS
         Core
         Gui
         Widgets
-        REQUIRED)
+        REQUIRED
+)
 
 
-
+# Add executable
 add_executable(RestaurantManagement main.cpp
         Model/PostgreSQLConnection.cpp
         Model/PostgreSQLConnection.h
@@ -32,38 +37,22 @@ add_executable(RestaurantManagement main.cpp
         View/MainWindow.h
         View/formulaire.cpp
         View/formulaire.h
-#        Model/ClassDefinition/Personne.cpp
         Model/classDeclaration/Chef_de_rang.h
-        #        Model/classDeclaration/Client.h
-        #        Model/classDeclaration/Commande.h
-        #        Model/classDeclaration/Commis_de_salle.h
-        #        Model/classDeclaration/Maitre_d_hotel.h
-#       Model/classDeclaration/Personne.h
-        #        Model/classDeclaration/Plat.h
-        Model/classDeclaration/Position.h
-        #        Model/classDeclaration/Serveur.h
-        #        Model/classDeclaration/Table.h
-        #        Model/PostgreSQLConnection.h
-        #        Model/ClassDeclaration/Chef_de_rang.h
-        #        Model/ClassDeclaration/Client.h
-        #        Model/ClassDeclaration/Commande.h
-        #        Model/ClassDeclaration/Commis_de_salle.h
-        #        Model/ClassDeclaration/Maitre_d_hotel.h
-#        Model/ClassDefinition/Personne.cpp
-        #        Model/ClassDeclaration/Plat.h
         Model/ClassDefinition/Position.cpp
-        #        Model/ClassDeclaration/Serveur.h
-        #        Model/ClassDeclaration/Table.h
-        #        View/InterfaceAcceuil.h
 )
 
+# Link libraries
 target_link_libraries(RestaurantManagement
         Qt::Core
         Qt::Gui
         Qt::Widgets
         pq
+        sfml-graphics
+        sfml-window
+        sfml-system
 )
 
+# Windows-specific post-build actions
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
     set(DEBUG_SUFFIX)
     if (MSVC AND CMAKE_BUILD_TYPE MATCHES "Debug")

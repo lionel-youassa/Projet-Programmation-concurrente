@@ -241,12 +241,6 @@
 			null
 		],
 		[
-			"D:/Projet-Programmation-concurrente/Model/ClassDeclaration/Position.h",
-			"MU",
-			"OUOE4ZGIQE/moc_Position.cpp",
-			null
-		],
-		[
 			"D:/Projet-Programmation-concurrente/Model/PostgreSQLConnection.h",
 			"MU",
 			"EXHL2H62WB/moc_PostgreSQLConnection.cpp",
@@ -297,6 +291,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"C:/Program Files/PostgreSQL/16/include",
+		"C:/SFML-2.5.1/include",
 		"C:/Qt/6.8.0/mingw_64/include/QtCore",
 		"C:/Qt/6.8.0/mingw_64/include",
 		"C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++",

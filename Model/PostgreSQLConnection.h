@@ -3,6 +3,9 @@
 
 #include <libpq-fe.h>
 #include <string>
+#include <vector>
+
+#include "ClassDeclaration/Personne.h"
 
 class PostgreSQLConnection {
 private:
@@ -21,6 +24,7 @@ public:
     static PostgreSQLConnection* getInstance(); // Obtenir l'instance unique
     PGconn* getConnection(); // Récupérer l'objet de connexion
     void closeConnection(); // Fermer la connexion
+    std::vector<Personne> RecupPersonne() const;//Recuperation de personne
     ~PostgreSQLConnection(); // Destructeur
 };
 

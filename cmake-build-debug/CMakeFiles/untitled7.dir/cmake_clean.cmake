@@ -42,6 +42,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Table.cpp.obj.d"
   "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/UstensileDeCuisine.cpp.obj"
   "CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/UstensileDeCuisine.cpp.obj.d"
+  "CMakeFiles/untitled7.dir/View/MainWindow.cpp.obj"
+  "CMakeFiles/untitled7.dir/View/MainWindow.cpp.obj.d"
   "CMakeFiles/untitled7.dir/main.cpp.obj"
   "CMakeFiles/untitled7.dir/main.cpp.obj.d"
   "CMakeFiles/untitled7.dir/mainwindow.cpp.obj"

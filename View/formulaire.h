@@ -7,7 +7,7 @@
 #include <QLabel>
 #include <QSpinBox>
 #include <QPushButton>
-#include "../mainwindow.h"
+#include "mainwindow.h"
 
 class Formulaire : public QWidget {
     Q_OBJECT

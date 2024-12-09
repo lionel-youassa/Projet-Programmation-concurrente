@@ -634,6 +634,30 @@ ModelClass/ClassDefinition/UstensileDeCuisine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/UstensileDeCuisine.cpp.s
 .PHONY : ModelClass/ClassDefinition/UstensileDeCuisine.cpp.s
 
+View/MainWindow.obj: View/MainWindow.cpp.obj
+.PHONY : View/MainWindow.obj
+
+# target to build an object file
+View/MainWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/View/MainWindow.cpp.obj
+.PHONY : View/MainWindow.cpp.obj
+
+View/MainWindow.i: View/MainWindow.cpp.i
+.PHONY : View/MainWindow.i
+
+# target to preprocess a source file
+View/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/View/MainWindow.cpp.i
+.PHONY : View/MainWindow.cpp.i
+
+View/MainWindow.s: View/MainWindow.cpp.s
+.PHONY : View/MainWindow.s
+
+# target to generate assembly for a file
+View/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/View/MainWindow.cpp.s
+.PHONY : View/MainWindow.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -777,6 +801,9 @@ help:
 	@echo ... ModelClass/ClassDefinition/UstensileDeCuisine.obj
 	@echo ... ModelClass/ClassDefinition/UstensileDeCuisine.i
 	@echo ... ModelClass/ClassDefinition/UstensileDeCuisine.s
+	@echo ... View/MainWindow.obj
+	@echo ... View/MainWindow.i
+	@echo ... View/MainWindow.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

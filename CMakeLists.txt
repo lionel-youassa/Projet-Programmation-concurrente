@@ -35,7 +35,8 @@ add_executable(untitled7 main.cpp
         ModelClass/ClassDefinition/Position.cpp
         ModelClass/ClassDefinition/Personne.cpp
         ModelClass/ClassDefinition/Maitre_d_hotel.cpp
-        ModelClass/ClassDefinition/Commande.cpp)
+        ModelClass/ClassDefinition/Commande.cpp
+        View/MainWindow.cpp)
 target_link_libraries(untitled7
         Qt::Core
         Qt::Gui

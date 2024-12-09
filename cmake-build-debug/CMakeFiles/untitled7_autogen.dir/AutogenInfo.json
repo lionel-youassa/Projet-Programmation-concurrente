@@ -229,9 +229,9 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/formulaire.h",
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/MainWindow.h",
 			"MU",
-			"WB4RFHLAU6/moc_formulaire.cpp",
+			"WB4RFHLAU6/moc_MainWindow.cpp",
 			null
 		],
 		[
@@ -414,7 +414,7 @@
 			null
 		],
 		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/formulaire.cpp",
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/MainWindow.cpp",
 			"MU",
 			null
 		],

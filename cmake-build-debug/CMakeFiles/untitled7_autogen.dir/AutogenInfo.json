@@ -229,6 +229,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/formulaire.h",
+			"MU",
+			"WB4RFHLAU6/moc_formulaire.cpp",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -404,6 +410,11 @@
 		],
 		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/UstensileDeCuisine.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/formulaire.cpp",
 			"MU",
 			null
 		],

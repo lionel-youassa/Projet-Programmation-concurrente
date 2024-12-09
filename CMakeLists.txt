@@ -13,8 +13,8 @@ include_directories("C:/Program Files/PostgreSQL/16/include")
 link_directories("C:/Program Files/PostgreSQL/16/lib")
 
 # SFML
-include_directories("C:/SFML-2.5.1/include")
-link_directories("C:/SFML-2.5.1/lib")
+include_directories("C:/SFML-2.6.2/include")
+link_directories("C:/SFML-2.6.2/lib")
 
 # Find Qt
 find_package(Qt6 COMPONENTS
@@ -39,6 +39,8 @@ add_executable(RestaurantManagement main.cpp
         View/formulaire.h
         Model/classDeclaration/Chef_de_rang.h
         Model/ClassDefinition/Position.cpp
+        View/RestaurantDashboard.cpp
+        View/RestaurantDashboard.h
 )
 
 # Link libraries

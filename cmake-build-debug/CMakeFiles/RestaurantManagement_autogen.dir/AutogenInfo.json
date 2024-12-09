@@ -259,6 +259,12 @@
 			null
 		],
 		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/View/RestaurantDashboard.h",
+			"MU",
+			"WB4RFHLAU6/moc_RestaurantDashboard.cpp",
+			null
+		],
+		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/View/formulaire.h",
 			"MU",
 			"WB4RFHLAU6/moc_formulaire.cpp",
@@ -291,7 +297,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"C:/Program Files/PostgreSQL/16/include",
-		"C:/SFML-2.5.1/include",
+		"C:/SFML-2.6.2/include",
 		"F:/Qt/6.8.0/mingw_64/include/QtCore",
 		"F:/Qt/6.8.0/mingw_64/include",
 		"F:/Qt/6.8.0/mingw_64/mkspecs/win32-g++",
@@ -360,6 +366,11 @@
 		],
 		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/View/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/View/RestaurantDashboard.cpp",
 			"MU",
 			null
 		],

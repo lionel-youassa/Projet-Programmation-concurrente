@@ -24,51 +24,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="Mise en place avancée">
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/LaveVaisselle.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/UstensileDeCuisine.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/LaveVaisselle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/QtSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QtSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Carree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Chef_dePartie.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commis_deCuisine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Plongeur.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Carree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Chef_dePartie.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Commis_deCuisine.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Plongeur.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Chef_de_rang.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Chef_de_rang.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Client.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Client.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commande.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commande.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commis_de_salle.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commis_de_salle.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Menu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Personne.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Personne.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Plat.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Plat.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Position.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Position.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Chef_de_rang.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Chef_de_rang.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Personne.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Personne.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Plat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Plat.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Position.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Position.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Table.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Table.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-dcd6eead6a30f04bbc8a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-435e79b088a270a10a24.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-66a9214589bfe2cd06d8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-12-06T14-39-16-0167.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-untitled7-Debug-6ebe358854f8db5e757c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-f397d5dfd6f01732d294.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.qt/QtDeploySupport.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.qt/QtDeploySupport.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.qt/QtDeployTargets.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.qt/QtDeployTargets.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Menu.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj.d" afterDir="false" />
@@ -76,42 +48,21 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/compiler_depend.internal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/linkLibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/linkLibs.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/main.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/main.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/mainwindow.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/mainwindow.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/mainwindow.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/mainwindow.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/AutogenInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/AutogenUsed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/AutogenUsed.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/ParseCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/compiler_depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen_timestamp_deps.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen_timestamp_deps.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/EWIEGA46WW/moc_mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/EWIEGA46WW/moc_mainwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/EWIEGA46WW/moc_mainwindow.cpp.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/EWIEGA46WW/moc_mainwindow.cpp.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/Projet-Programmation-concurrente/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/ui_mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/Projet-Programmation-concurrente/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/ui_mainwindow.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/mocs_compilation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/mocs_compilation.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +137,7 @@
       <recent name="C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\ModelClass\ClassDeclaration" />
       <recent name="C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente" />
       <recent name="C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\build" />
     </key>
@@ -279,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733380066940</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mise en place avancée">
+      <option name="closed" value="true" />
+      <created>1733759002440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733759002441</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,16 +278,5 @@
     <MESSAGE value="Tefasa" />
     <MESSAGE value="Mise en place avancée" />
     <option name="LAST_COMMIT_MESSAGE" value="Mise en place avancée" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ModelClass/ClassDeclaration/Commis_de_salle.h</url>
-          <line>3</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

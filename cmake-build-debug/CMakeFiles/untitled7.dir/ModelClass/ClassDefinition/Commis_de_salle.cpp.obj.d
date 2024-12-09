@@ -115,8 +115,12 @@ CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
  C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Commande.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
  C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Plat.h \
- C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Ingredients.h \
  C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Client.h \
  C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Menu.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \

@@ -36,7 +36,15 @@ add_executable(untitled7 main.cpp
         ModelClass/ClassDeclaration/LaveVaisselle.h
         ModelClass/ClassDefinition/LaveVaisselle.cpp
         ModelClass/ClassDeclaration/UstensileDeCuisine.h
-        ModelClass/ClassDefinition/UstensileDeCuisine.cpp)
+        ModelClass/ClassDefinition/UstensileDeCuisine.cpp
+        ModelClass/ClassDeclaration/Chef_dePartie.h
+        ModelClass/ClassDefinition/Chef_dePartie.cpp
+        ModelClass/ClassDeclaration/Commis_deCuisine.h
+        ModelClass/ClassDefinition/Commis_deCuisine.cpp
+        ModelClass/ClassDeclaration/Plongeur.h
+        ModelClass/ClassDefinition/Plongeur.cpp
+        ModelClass/ClassDeclaration/Carree.h
+        ModelClass/ClassDefinition/Carree.cpp)
 target_link_libraries(untitled7
         Qt::Core
         Qt::Gui

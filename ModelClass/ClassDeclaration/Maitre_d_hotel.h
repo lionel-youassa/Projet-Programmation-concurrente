@@ -3,11 +3,12 @@
 
 #include <vector>
 #include "Table.h"
-#include "Chef_de_rang.h"
+#include "ChefDeRang.h"
+#include "Personne.h"
 
 class Maitre_dHotel : public Personne {
 public:
-    MaitreDHotel(int id, const std::string& nom, bool poste);
+    Maitre_dHotel(int id, const std::string& nom, bool poste);
 
     // Méthodes
     void AttribuerTable(std::vector<Client>& clients);

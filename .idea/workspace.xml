@@ -23,33 +23,28 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="Mise en place avancée">
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Carree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Chef_dePartie.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commis_deCuisine.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Plongeur.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Carree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Chef_dePartie.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Commis_deCuisine.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Plongeur.cpp" afterDir="false" />
+    <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="Mise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Menu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Menu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Chef_de_rang.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/ChefDeRang.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commande.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commande.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Commis_de_salle.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/CommisDeSalle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Maitre_d_hotel.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Maitre_d_hotel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Table.h" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDeclaration/Table.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Carree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Carree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Chef_de_rang.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/ChefDeRang.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Commande.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Commande.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Commis_de_salle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/CommisDeSalle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelClass/ClassDefinition/Table.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ModelClass/ClassDefinition/Table.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_rang.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_rang.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_de_salle.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7.dir/compiler_depend.make" afterDir="false" />
@@ -62,6 +57,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled7_autogen.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled7.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled7_autogen/deps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,35 +98,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;CMake Application.untitled7.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Debug.untitled7.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master__Test&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/BD&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.untitled7.executor": "Run",
+    "CMake Debug.untitled7.executor": "Debug",
+    "Makefile Target.debug-all.executor": "Run",
+    "Makefile Target.debug-uninstall.executor": "Run",
+    "Makefile Target.first.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master__Test",
+    "last_opened_file_path": "C:/Users/siefo/CLionProjects/Projet-Programmation-concurrente/BD",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\siefo\CLionProjects\Projet-Programmation-concurrente\BD" />
@@ -169,13 +168,37 @@
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
+    <configuration name="debug-all" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Makefile" target="debug-all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="debug-uninstall" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Makefile" target="debug-uninstall" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="first" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Makefile" target="first" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="CMake Application.untitled7" />
       <item itemvalue="CMake Debug.untitled7" />
       <item itemvalue="Database Script.baseDeDonnees.sql" />
+      <item itemvalue="Makefile Target.debug-all" />
+      <item itemvalue="Makefile Target.debug-uninstall" />
+      <item itemvalue="Makefile Target.first" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.first" />
+        <item itemvalue="Makefile Target.debug-uninstall" />
+        <item itemvalue="Makefile Target.debug-all" />
         <item itemvalue="CMake Debug.untitled7" />
         <item itemvalue="Database Script.baseDeDonnees.sql" />
       </list>
@@ -239,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733759002441</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Mise">
+      <option name="closed" value="true" />
+      <created>1733759806064</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733759806064</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +308,7 @@
     <MESSAGE value="Tef" />
     <MESSAGE value="Tefasa" />
     <MESSAGE value="Mise en place avancée" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place avancée" />
+    <MESSAGE value="Mise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise" />
   </component>
 </project>

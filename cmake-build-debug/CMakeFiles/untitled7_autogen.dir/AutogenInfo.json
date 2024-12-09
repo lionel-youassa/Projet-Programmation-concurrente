@@ -229,102 +229,6 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Carree.h",
-			"MU",
-			"TNAXWYT2HN/moc_Carree.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Chef_dePartie.h",
-			"MU",
-			"TNAXWYT2HN/moc_Chef_dePartie.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Chef_de_cuisine.h",
-			"MU",
-			"TNAXWYT2HN/moc_Chef_de_cuisine.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Client.h",
-			"MU",
-			"TNAXWYT2HN/moc_Client.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Commande.h",
-			"MU",
-			"TNAXWYT2HN/moc_Commande.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Commis_deCuisine.h",
-			"MU",
-			"TNAXWYT2HN/moc_Commis_deCuisine.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Ingredients.h",
-			"MU",
-			"TNAXWYT2HN/moc_Ingredients.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/LaveVaisselle.h",
-			"MU",
-			"TNAXWYT2HN/moc_LaveVaisselle.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Maitre_d_hotel.h",
-			"MU",
-			"TNAXWYT2HN/moc_Maitre_d_hotel.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Menu.h",
-			"MU",
-			"TNAXWYT2HN/moc_Menu.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Personne.h",
-			"MU",
-			"TNAXWYT2HN/moc_Personne.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Plat.h",
-			"MU",
-			"TNAXWYT2HN/moc_Plat.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Plongeur.h",
-			"MU",
-			"TNAXWYT2HN/moc_Plongeur.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Rang.h",
-			"MU",
-			"TNAXWYT2HN/moc_Rang.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/Serveur.h",
-			"MU",
-			"TNAXWYT2HN/moc_Serveur.cpp",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDeclaration/UstensileDeCuisine.h",
-			"MU",
-			"TNAXWYT2HN/moc_UstensileDeCuisine.cpp",
-			null
-		],
-		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -409,6 +313,11 @@
 			null
 		],
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/ChefDeRang.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Chef_dePartie.cpp",
 			"MU",
 			null
@@ -419,22 +328,22 @@
 			null
 		],
 		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Chef_de_rang.cpp",
-			"MU",
-			null
-		],
-		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Client.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Commis_deCuisine.cpp",
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Commande.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Commis_de_salle.cpp",
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/CommisDeSalle.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Commis_deCuisine.cpp",
 			"MU",
 			null
 		],
@@ -449,7 +358,22 @@
 			null
 		],
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Maitre_d_hotel.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Menu.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Personne.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Plat.cpp",
 			"MU",
 			null
 		],
@@ -459,7 +383,22 @@
 			null
 		],
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Position.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Rang.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Serveur.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/ModelClass/ClassDefinition/Table.cpp",
 			"MU",
 			null
 		],

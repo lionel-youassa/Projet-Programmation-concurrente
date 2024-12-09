@@ -1,4 +1,5 @@
 #include "../classDeclaration/Commande.h"
+#include "../classDeclaration/Table.h"
 #include<iostream>
 
 Commande::Commande(int id, Table* table) : id(id), table(table), statut("En attente") {}

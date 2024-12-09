@@ -11,7 +11,7 @@ void Carree::AjouterTable(Table& table) {
 
 Table Carree::ObtenirTable(int tableId) {
     for (auto& table : tables) {
-        if (table.getId() == tableId) {
+        if (table.getNumero() == tableId) {
             return table;
         }
     }

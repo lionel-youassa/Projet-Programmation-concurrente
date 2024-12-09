@@ -4,8 +4,10 @@
 #include <vector>
 #include "Commande.h"
 #include "Client.h"
+
 using namespace std;
 
+class Commande;
 class Table {
 public:
     int numero;
@@ -18,6 +20,8 @@ public:
     void LibererTable();
     void ChangerStatut(const std::string& nouveauStatut);
     void AssocierCommande(const Commande& commande);
+
+    int getNumero() const; // Ajout de cette méthode
 
 private:
     std::vector<Client> clients;

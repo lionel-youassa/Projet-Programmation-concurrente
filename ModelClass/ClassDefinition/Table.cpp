@@ -1,4 +1,5 @@
 #include "../classDeclaration/Table.h"
+#include "../classDeclaration/Commande.h"
 
 Table::Table(int numero, int nbPlaces, const std::string& statut)
     : numero(numero), nbPlaces(nbPlaces), statut(statut) {}
@@ -21,4 +22,8 @@ void Table::ChangerStatut(const std::string& nouveauStatut) {
 
 void Table::AssocierCommande(const Commande& commande) {
     commandes.push_back(commande);
+}
+
+int Table::getNumero() const {
+    return numero; // Renvoie le numéro de la table
 }

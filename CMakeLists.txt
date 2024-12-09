@@ -16,35 +16,26 @@ find_package(Qt6 COMPONENTS
 add_executable(untitled7 main.cpp
         mainwindow.cpp
         mainwindow.cpp
-        ModelClass/ClassDeclaration/Personne.h
-        ModelClass/ClassDeclaration/Plat.h
-        ModelClass/ClassDeclaration/Maitre_d_hotel.h
-        ModelClass/ClassDeclaration/Commande.h
-        ModelClass/ClassDeclaration/Client.h
-        ModelClass/ClassDeclaration/Serveur.h
-        ModelClass/ClassDefinition/Chef_de_rang.cpp
-        ModelClass/ClassDefinition/Commis_de_salle.cpp
+        ModelClass/ClassDefinition/ChefDeRang.cpp
+        ModelClass/ClassDefinition/CommisDeSalle.cpp
         ModelClass/ClassDefinition/Client.cpp
-        ModelClass/ClassDeclaration/Chef_de_cuisine.h
         ModelClass/ClassDefinition/Chef_de_cuisine.cpp
-        ModelClass/ClassDeclaration/Ingredients.h
         ModelClass/ClassDefinition/Ingredients.cpp
-        ModelClass/ClassDeclaration/Menu.h
         ModelClass/ClassDefinition/Menu.cpp
-        ModelClass/ClassDeclaration/Rang.h
         ModelClass/ClassDefinition/Rang.cpp
-        ModelClass/ClassDeclaration/LaveVaisselle.h
         ModelClass/ClassDefinition/LaveVaisselle.cpp
-        ModelClass/ClassDeclaration/UstensileDeCuisine.h
         ModelClass/ClassDefinition/UstensileDeCuisine.cpp
-        ModelClass/ClassDeclaration/Chef_dePartie.h
         ModelClass/ClassDefinition/Chef_dePartie.cpp
-        ModelClass/ClassDeclaration/Commis_deCuisine.h
         ModelClass/ClassDefinition/Commis_deCuisine.cpp
-        ModelClass/ClassDeclaration/Plongeur.h
         ModelClass/ClassDefinition/Plongeur.cpp
-        ModelClass/ClassDeclaration/Carree.h
-        ModelClass/ClassDefinition/Carree.cpp)
+        ModelClass/ClassDefinition/Carree.cpp
+        ModelClass/ClassDefinition/Table.cpp
+        ModelClass/ClassDefinition/Serveur.cpp
+        ModelClass/ClassDefinition/Plat.cpp
+        ModelClass/ClassDefinition/Position.cpp
+        ModelClass/ClassDefinition/Personne.cpp
+        ModelClass/ClassDefinition/Maitre_d_hotel.cpp
+        ModelClass/ClassDefinition/Commande.cpp)
 target_link_libraries(untitled7
         Qt::Core
         Qt::Gui

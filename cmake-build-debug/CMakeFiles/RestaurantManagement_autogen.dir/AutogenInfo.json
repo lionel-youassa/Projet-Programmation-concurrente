@@ -235,6 +235,12 @@
 			null
 		],
 		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Chef_de_rang.h",
+			"MU",
+			"OUOE4ZGIQE/moc_Chef_de_rang.cpp",
+			null
+		],
+		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/PostgreSQLConnection.h",
 			"MU",
 			"EXHL2H62WB/moc_PostgreSQLConnection.cpp",
@@ -285,6 +291,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"C:/Program Files/PostgreSQL/16/include",
+		"C:/SFML-2.5.1/include",
 		"F:/Qt/6.8.0/mingw_64/include/QtCore",
 		"F:/Qt/6.8.0/mingw_64/include",
 		"F:/Qt/6.8.0/mingw_64/mkspecs/win32-g++",
@@ -333,6 +340,11 @@
 	[
 		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/Controller/ControleurService.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Position.cpp",
 			"MU",
 			null
 		],

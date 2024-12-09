@@ -2,17 +2,18 @@
 #define PERSONNE_H
 
 #include <string>
-#include "Position.h"
+#include "Position.h"  // Pour inclure la classe Position
 
 class Personne {
 public:
+    Personne(int id, const std::string& nom, bool estEnPoste);
+
+    void Deplacer(Position depart, Position arrive);
+
+private:
     int id;
     std::string nom;
-    bool PosteFixe;
-
-    Personne(int id, const std::string& nom, bool estOccupe = false);
-
-    void Deplacer(const Position& depart, const Position& arrivee);
+    bool estEnPoste;
 };
 
 #endif // PERSONNE_H

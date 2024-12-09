@@ -6,14 +6,12 @@
 
 class Client {
 public:
-    int id;                // Identifiant unique du client
-    std::string type;      // Type de client (par exemple : Individu, Groupe)
-
-    // Constructeur
     Client(int id, const std::string& type);
+    void Commander(Menu& menu);
 
-    // Méthode pour commander un plat
-    Plat Commander(Menu& menu);
+private:
+    int id;
+    std::string type;
 };
 
 #endif // CLIENT_H

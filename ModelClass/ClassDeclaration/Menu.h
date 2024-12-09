@@ -2,7 +2,7 @@
 #define MENU_H
 
 #include "Plat.h"
-#include <vector>
+#include <list>
 
 class Menu {
 public:

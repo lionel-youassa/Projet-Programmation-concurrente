@@ -1,4 +1,5 @@
 #include "../classDeclaration/Table.h"
+
 Table::Table(int numero, int nbPlaces, const std::string& statut)
     : numero(numero), nbPlaces(nbPlaces), statut(statut) {}
 

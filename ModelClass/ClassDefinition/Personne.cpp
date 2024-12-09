@@ -1,13 +1,12 @@
 #include "../classDeclaration/Personne.h"
+#include "../classDeclaration/Position.h"
 using namespace std;
 #include<iostream>
 
-Personne::Personne(int id, const std::string &nom, bool PosteFixe)
-    : id(id), nom(nom), PosteFixe(PosteFixe) {}
+Personne::Personne(int id, const std::string& nom, bool estEnPoste)
+    : id(id), nom(nom), estEnPoste(estEnPoste) {}
 
-void Personne::Deplacer(const Position &depart, const Position &arrivee) {
-    std::cout << nom << " se déplace de (" << depart.x << ", " << depart.y
-               << ") à (" << arrivee.x << ", " << arrivee.y << ").\n";
+void Personne::Deplacer(Position depart, Position arrive) {
+    // Logique pour déplacer la personne d'une position à une autre
 }
-
 

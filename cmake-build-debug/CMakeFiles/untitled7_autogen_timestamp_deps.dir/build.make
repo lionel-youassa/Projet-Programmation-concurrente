@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\HP\Desktop\Projet-Programmation-concurrente
+CMAKE_SOURCE_DIR = "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\HP\Desktop\Projet-Programmation-concurrente\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\cmake-build-debug"
 
 # Utility rule file for untitled7_autogen_timestamp_deps.
 
@@ -77,6 +77,6 @@ CMakeFiles/untitled7_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/untitled7_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/untitled7_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\HP\Desktop\Projet-Programmation-concurrente C:\Users\HP\Desktop\Projet-Programmation-concurrente C:\Users\HP\Desktop\Projet-Programmation-concurrente\cmake-build-debug C:\Users\HP\Desktop\Projet-Programmation-concurrente\cmake-build-debug C:\Users\HP\Desktop\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles\untitled7_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente" "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente" "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\cmake-build-debug" "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\cmake-build-debug" "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles\untitled7_autogen_timestamp_deps.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/untitled7_autogen_timestamp_deps.dir/depend
 

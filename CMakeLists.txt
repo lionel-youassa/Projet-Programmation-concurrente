@@ -32,7 +32,11 @@ add_executable(untitled7 main.cpp
         ModelClass/ClassDeclaration/Menu.h
         ModelClass/ClassDefinition/Menu.cpp
         ModelClass/ClassDeclaration/Rang.h
-        ModelClass/ClassDefinition/Rang.cpp)
+        ModelClass/ClassDefinition/Rang.cpp
+        ModelClass/ClassDeclaration/LaveVaisselle.h
+        ModelClass/ClassDefinition/LaveVaisselle.cpp
+        ModelClass/ClassDeclaration/UstensileDeCuisine.h
+        ModelClass/ClassDefinition/UstensileDeCuisine.cpp)
 target_link_libraries(untitled7
         Qt::Core
         Qt::Gui

@@ -3,6 +3,7 @@
 
 #include "Personne.h"
 #include "Table.h"
+#include <list>
 
 class CommisDeSalle : public Personne {
 public:

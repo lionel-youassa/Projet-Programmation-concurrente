@@ -1,14 +1,18 @@
 #include "../ClassDeclaration/Chef_de_rang.h"
 #include <iostream>
+#include<list>
 
-void ChefDeRang::DistribuerCarte(Table& table) {
-     std::cout << "Chef de Rang distribue les cartes à la table " << table.numero << ".\n";// Implémentation à venir
+Chef_de_rang::ChefDeRang(int id, const std::string& nom, bool estEnPoste)
+    : Personne(id, nom, estEnPoste) {}
+
+void Chef_de_rang::DistribuerCarte(Table& table) {
+    // Logique pour distribuer la carte
 }
 
-void ChefDeRang::Coordonner(CommisDeSalle& commis) {
-     std::cout << "Chef de Rang coordonne le commis de salle.\n";// Implémentation à venir
+void Chef_de_rang::CoordonnerCommis(std::list<Commis_de_salle>& commis) {
+    // Logique de coordination des commis
 }
 
-void ChefDeRang::DresserTable(Table& table, const std::string& nappe) {
-        std::cout << "Chef de Rang dresse la table " << table.numero << " avec une nappe.\n"; // Implémentation à venir
+void Chef_de_rang::DresserTable(Table& table, std::string nappe) {
+    // Logique pour dresser la table
 }

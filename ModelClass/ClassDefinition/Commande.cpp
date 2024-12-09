@@ -1,5 +1,6 @@
 #include "../classDeclaration/Commande.h"
 #include<iostream>
+
 Commande::Commande(int id, Table* table) : id(id), table(table), statut("En attente") {}
 
 void Commande::AjouterPlat(const Plat& plat) {

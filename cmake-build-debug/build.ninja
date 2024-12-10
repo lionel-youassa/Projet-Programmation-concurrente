@@ -121,6 +121,22 @@ build CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj: CXX_
   OBJECT_DIR = CMakeFiles\RestaurantManagement.dir
   OBJECT_FILE_DIR = CMakeFiles\RestaurantManagement.dir\View
 
+build CMakeFiles/RestaurantManagement.dir/Controller/Factory.cpp.obj: CXX_COMPILER__RestaurantManagement_unscanned_Debug C$:/Users/lione/CLionProjects/RestaurantManagement/Controller/Factory.cpp || cmake_object_order_depends_target_RestaurantManagement
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\RestaurantManagement.dir\Controller\Factory.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Program Files/PostgreSQL/16/include" -IC:/SFML-2.6.2/include -isystem C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantManagement_autogen/include -isystem F:/Qt/6.8.0/mingw_64/include/QtCore -isystem F:/Qt/6.8.0/mingw_64/include -isystem F:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem F:/Qt/6.8.0/mingw_64/include/QtGui -isystem F:/Qt/6.8.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\RestaurantManagement.dir
+  OBJECT_FILE_DIR = CMakeFiles\RestaurantManagement.dir\Controller
+
+build CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj: CXX_COMPILER__RestaurantManagement_unscanned_Debug C$:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Table.cpp || cmake_object_order_depends_target_RestaurantManagement
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Table.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Program Files/PostgreSQL/16/include" -IC:/SFML-2.6.2/include -isystem C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantManagement_autogen/include -isystem F:/Qt/6.8.0/mingw_64/include/QtCore -isystem F:/Qt/6.8.0/mingw_64/include -isystem F:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem F:/Qt/6.8.0/mingw_64/include/QtGui -isystem F:/Qt/6.8.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\RestaurantManagement.dir
+  OBJECT_FILE_DIR = CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target RestaurantManagement
@@ -129,7 +145,7 @@ build CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj: CXX_
 #############################################
 # Link the executable RestaurantManagement.exe
 
-build RestaurantManagement.exe: CXX_EXECUTABLE_LINKER__RestaurantManagement_Debug CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.obj CMakeFiles/RestaurantManagement.dir/main.cpp.obj CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.obj CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.obj CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj | F$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a F$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a F$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a || RestaurantManagement_autogen RestaurantManagement_autogen_timestamp_deps
+build RestaurantManagement.exe: CXX_EXECUTABLE_LINKER__RestaurantManagement_Debug CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.obj CMakeFiles/RestaurantManagement.dir/main.cpp.obj CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.obj CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.obj CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj CMakeFiles/RestaurantManagement.dir/Controller/Factory.cpp.obj CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj | F$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a F$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a F$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a || RestaurantManagement_autogen RestaurantManagement_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = F:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a  -lpq  -lsfml-graphics  -lsfml-window  -lsfml-system  F:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a  F:/Qt/6.8.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/PROGRA~1/POSTGR~1/16/lib   -LC:/SFML-2.6.2/lib

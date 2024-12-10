@@ -285,8 +285,11 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Users/lione/CLionProjects/RestaurantManagement/CMakeLists.txt \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Controller/ControleurService.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Controller/ControleurService.h \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Controller/Factory.cpp \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Controller/Factory.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Chef_de_rang.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Position.cpp \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Table.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Model/PostgreSQLConnection.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Model/PostgreSQLConnection.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/View/InterfaceAcceuil.cpp \

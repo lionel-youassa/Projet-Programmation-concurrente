@@ -235,6 +235,12 @@
 			null
 		],
 		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Controller/Factory.h",
+			"MU",
+			"TTE4PTQQBL/moc_Factory.cpp",
+			null
+		],
+		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Chef_de_rang.h",
 			"MU",
 			"OUOE4ZGIQE/moc_Chef_de_rang.cpp",
@@ -350,7 +356,17 @@
 			null
 		],
 		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Controller/Factory.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Position.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Table.cpp",
 			"MU",
 			null
 		],

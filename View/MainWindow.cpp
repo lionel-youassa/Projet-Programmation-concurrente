@@ -4,7 +4,6 @@
 #include <QGraphicsOpacityEffect>
 #include "../Model/ClassDefinition/Personne.cpp"
 #include  "RestaurantDashboard.h"
-#include "../Controller/Factory.h"
 
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
    // Layout principal pour la fenêtre
@@ -63,22 +62,10 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
                 auto *simulationDashboard = new RestaurantDashboard();
                 simulationDashboard->show();
                 // Exemple de mise à jour
-                      Factory factory;
-                      factory.creaTable();
-                for(size_t i =0; i<factory.get_table_().size(); i++) {
-                    simulationDashboard->updateTableState(i,factory.get_table_()[i].statut.data());
-                }
-
                       simulationDashboard->updateTableState(0, "Occupee");
                       simulationDashboard->updateStaffState("Serveur 1", true);
                       simulationDashboard->updateMachineState("Lave-vaisselle", true);
                       simulationDashboard->updateStatistics(50, 10, 5);
-                auto *restaurantDashboard= new RestaurantDashboard();
-
-//
- //std::cout<<5 << factory.get_table_()[5].statut.data() << std::endl;
-//}
-
             });
             navbar->addWidget(superviserButton);
 
@@ -322,7 +309,7 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
 
         // Positionnement manuel pour les images
-        const Position pos = Position(643,1155);
+        const Position pos = Position(1200,300);
         Personne p(1, "Emma", true, true,pos, "../images/maitrehoteldown.png");
         p.afficher(mainWidget, 60, 70);
 

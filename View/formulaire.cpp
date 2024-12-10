@@ -69,3 +69,18 @@ void Formulaire::setupStartButton(QVBoxLayout *mainLayout) {
         simulationWindow->show();
     });
 }
+
+int Formulaire::getNombreClient() {
+    return placeInput->value();
+}
+
+int Formulaire::getNombreDeVague() {
+    return tableInput->value();
+}
+
+int Formulaire::getTempsDeSimulation() {
+    return timeInput->value();
+}
+
+
+

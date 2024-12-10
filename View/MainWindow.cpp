@@ -2,9 +2,8 @@
 #include <QTimer>
 #include <QPropertyAnimation>
 #include <QGraphicsOpacityEffect>
-#include "../Model/ClassDeclaration/Position.h"
-#include "../Model/ClassDeclaration/Personne.h"
-
+#include "../Model/ClassDefinition/Personne.cpp"
+#include  "RestaurantDashboard.h"
 
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
    // Layout principal pour la fenêtre
@@ -59,6 +58,15 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
             // Bouton "Supervision"
             QPushButton *superviserButton = new QPushButton("Superviser", this);
+            connect(superviserButton, &QPushButton::clicked, this, [=]() {
+                auto *simulationDashboard = new RestaurantDashboard();
+                simulationDashboard->show();
+                // Exemple de mise à jour
+                      simulationDashboard->updateTableState(0, "Occupee");
+                      simulationDashboard->updateStaffState("Serveur 1", true);
+                      simulationDashboard->updateMachineState("Lave-vaisselle", true);
+                      simulationDashboard->updateStatistics(50, 10, 5);
+            });
             navbar->addWidget(superviserButton);
 
             // Bouton "Pause"
@@ -270,6 +278,10 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
          auto *rangeTable3 = createRangeTable(6,5);
         diningLayout->addWidget(rangeTable3 , 2, 5, 1,5, Qt::AlignTop | Qt::AlignCenter);
 
+        // // Ajout de la rangée de tables (10 chaises) à la row 2
+        //  auto *rangeTable7 = createRangeTable(10,1);
+        //  diningLayout->addWidget(rangeTable7, 2, 10, 1, 1, Qt::AlignTop | Qt::AlignCenter);
+
 
         // // Ajout de la rangée de tables à la row 3
         auto *rangeTable4 = createRangeTable(2,8);
@@ -297,7 +309,7 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
 
         // Positionnement manuel pour les images
-        Position pos = Position(1200,300);
+        const Position pos = Position(1200,300);
         Personne p(1, "Emma", true, true,pos, "../images/maitrehoteldown.png");
         p.afficher(mainWidget, 60, 70);
 

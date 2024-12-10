@@ -1,10 +1,21 @@
+#include <iostream>
+#include <stdexcept>
+#include <string>
+#include <libpq-fe.h>
+
 #include <QApplication>
-#include <QPushButton>
-int main(int argc, char* argv[])
-{
-    QApplication a(argc, argv);
-    QPushButton button("Hello world!", nullptr);
-    button.resize(400, 500);
-    button.show();
-    return QApplication::exec();
+#include "View/formulaire.h"
+#include <SFML/Graphics.hpp>
+#include "View/RestaurantDashboard.h"
+
+int main(int argc, char *argv[]) {
+    // Initialiser l'application Qt
+    QApplication app(argc, argv);
+
+    // Créer la fenêtre Qt
+    Formulaire formulaire;
+    formulaire.show();
+
+    // Exécuter l'application Qt
+    return app.exec();
 }

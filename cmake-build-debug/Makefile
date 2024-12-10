@@ -116,530 +116,194 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled7
+# Target rules for targets named RestaurantManagement
 
 # Build rule for target.
-untitled7: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled7
-.PHONY : untitled7
+RestaurantManagement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RestaurantManagement
+.PHONY : RestaurantManagement
 
 # fast build rule for target.
-untitled7/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/build
-.PHONY : untitled7/fast
+RestaurantManagement/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/build
+.PHONY : RestaurantManagement/fast
 
 #=============================================================================
-# Target rules for targets named untitled7_autogen_timestamp_deps
+# Target rules for targets named RestaurantManagement_autogen_timestamp_deps
 
 # Build rule for target.
-untitled7_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled7_autogen_timestamp_deps
-.PHONY : untitled7_autogen_timestamp_deps
+RestaurantManagement_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RestaurantManagement_autogen_timestamp_deps
+.PHONY : RestaurantManagement_autogen_timestamp_deps
 
 # fast build rule for target.
-untitled7_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7_autogen_timestamp_deps.dir\build.make CMakeFiles/untitled7_autogen_timestamp_deps.dir/build
-.PHONY : untitled7_autogen_timestamp_deps/fast
+RestaurantManagement_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement_autogen_timestamp_deps.dir\build.make CMakeFiles/RestaurantManagement_autogen_timestamp_deps.dir/build
+.PHONY : RestaurantManagement_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named untitled7_autogen
+# Target rules for targets named RestaurantManagement_autogen
 
 # Build rule for target.
-untitled7_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled7_autogen
-.PHONY : untitled7_autogen
+RestaurantManagement_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RestaurantManagement_autogen
+.PHONY : RestaurantManagement_autogen
 
 # fast build rule for target.
-untitled7_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7_autogen.dir\build.make CMakeFiles/untitled7_autogen.dir/build
-.PHONY : untitled7_autogen/fast
+RestaurantManagement_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement_autogen.dir\build.make CMakeFiles/RestaurantManagement_autogen.dir/build
+.PHONY : RestaurantManagement_autogen/fast
 
-ModelClass/ClassDefinition/Carree.obj: ModelClass/ClassDefinition/Carree.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Carree.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Carree.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Carree.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Carree.cpp.obj
-
-ModelClass/ClassDefinition/Carree.i: ModelClass/ClassDefinition/Carree.cpp.i
-.PHONY : ModelClass/ClassDefinition/Carree.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Carree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Carree.cpp.i
-.PHONY : ModelClass/ClassDefinition/Carree.cpp.i
-
-ModelClass/ClassDefinition/Carree.s: ModelClass/ClassDefinition/Carree.cpp.s
-.PHONY : ModelClass/ClassDefinition/Carree.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Carree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Carree.cpp.s
-.PHONY : ModelClass/ClassDefinition/Carree.cpp.s
-
-ModelClass/ClassDefinition/ChefDeRang.obj: ModelClass/ClassDefinition/ChefDeRang.cpp.obj
-.PHONY : ModelClass/ClassDefinition/ChefDeRang.obj
+Controller/ControleurService.obj: Controller/ControleurService.cpp.obj
+.PHONY : Controller/ControleurService.obj
 
 # target to build an object file
-ModelClass/ClassDefinition/ChefDeRang.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/ChefDeRang.cpp.obj
-.PHONY : ModelClass/ClassDefinition/ChefDeRang.cpp.obj
+Controller/ControleurService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.obj
+.PHONY : Controller/ControleurService.cpp.obj
 
-ModelClass/ClassDefinition/ChefDeRang.i: ModelClass/ClassDefinition/ChefDeRang.cpp.i
-.PHONY : ModelClass/ClassDefinition/ChefDeRang.i
+Controller/ControleurService.i: Controller/ControleurService.cpp.i
+.PHONY : Controller/ControleurService.i
 
 # target to preprocess a source file
-ModelClass/ClassDefinition/ChefDeRang.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/ChefDeRang.cpp.i
-.PHONY : ModelClass/ClassDefinition/ChefDeRang.cpp.i
+Controller/ControleurService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.i
+.PHONY : Controller/ControleurService.cpp.i
 
-ModelClass/ClassDefinition/ChefDeRang.s: ModelClass/ClassDefinition/ChefDeRang.cpp.s
-.PHONY : ModelClass/ClassDefinition/ChefDeRang.s
+Controller/ControleurService.s: Controller/ControleurService.cpp.s
+.PHONY : Controller/ControleurService.s
 
 # target to generate assembly for a file
-ModelClass/ClassDefinition/ChefDeRang.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/ChefDeRang.cpp.s
-.PHONY : ModelClass/ClassDefinition/ChefDeRang.cpp.s
+Controller/ControleurService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.s
+.PHONY : Controller/ControleurService.cpp.s
 
-ModelClass/ClassDefinition/Chef_dePartie.obj: ModelClass/ClassDefinition/Chef_dePartie.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Chef_dePartie.obj
+Model/ClassDefinition/Personne.obj: Model/ClassDefinition/Personne.cpp.obj
+.PHONY : Model/ClassDefinition/Personne.obj
 
 # target to build an object file
-ModelClass/ClassDefinition/Chef_dePartie.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_dePartie.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Chef_dePartie.cpp.obj
+Model/ClassDefinition/Personne.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.obj
+.PHONY : Model/ClassDefinition/Personne.cpp.obj
 
-ModelClass/ClassDefinition/Chef_dePartie.i: ModelClass/ClassDefinition/Chef_dePartie.cpp.i
-.PHONY : ModelClass/ClassDefinition/Chef_dePartie.i
+Model/ClassDefinition/Personne.i: Model/ClassDefinition/Personne.cpp.i
+.PHONY : Model/ClassDefinition/Personne.i
 
 # target to preprocess a source file
-ModelClass/ClassDefinition/Chef_dePartie.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_dePartie.cpp.i
-.PHONY : ModelClass/ClassDefinition/Chef_dePartie.cpp.i
+Model/ClassDefinition/Personne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.i
+.PHONY : Model/ClassDefinition/Personne.cpp.i
 
-ModelClass/ClassDefinition/Chef_dePartie.s: ModelClass/ClassDefinition/Chef_dePartie.cpp.s
-.PHONY : ModelClass/ClassDefinition/Chef_dePartie.s
+Model/ClassDefinition/Personne.s: Model/ClassDefinition/Personne.cpp.s
+.PHONY : Model/ClassDefinition/Personne.s
 
 # target to generate assembly for a file
-ModelClass/ClassDefinition/Chef_dePartie.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_dePartie.cpp.s
-.PHONY : ModelClass/ClassDefinition/Chef_dePartie.cpp.s
+Model/ClassDefinition/Personne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Personne.cpp.s
+.PHONY : Model/ClassDefinition/Personne.cpp.s
 
-ModelClass/ClassDefinition/Chef_de_cuisine.obj: ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Chef_de_cuisine.obj
+Model/ClassDefinition/Position.obj: Model/ClassDefinition/Position.cpp.obj
+.PHONY : Model/ClassDefinition/Position.obj
 
 # target to build an object file
-ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Chef_de_cuisine.cpp.obj
+Model/ClassDefinition/Position.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj
+.PHONY : Model/ClassDefinition/Position.cpp.obj
 
-ModelClass/ClassDefinition/Chef_de_cuisine.i: ModelClass/ClassDefinition/Chef_de_cuisine.cpp.i
-.PHONY : ModelClass/ClassDefinition/Chef_de_cuisine.i
+Model/ClassDefinition/Position.i: Model/ClassDefinition/Position.cpp.i
+.PHONY : Model/ClassDefinition/Position.i
 
 # target to preprocess a source file
-ModelClass/ClassDefinition/Chef_de_cuisine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.i
-.PHONY : ModelClass/ClassDefinition/Chef_de_cuisine.cpp.i
+Model/ClassDefinition/Position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.i
+.PHONY : Model/ClassDefinition/Position.cpp.i
 
-ModelClass/ClassDefinition/Chef_de_cuisine.s: ModelClass/ClassDefinition/Chef_de_cuisine.cpp.s
-.PHONY : ModelClass/ClassDefinition/Chef_de_cuisine.s
+Model/ClassDefinition/Position.s: Model/ClassDefinition/Position.cpp.s
+.PHONY : Model/ClassDefinition/Position.s
 
 # target to generate assembly for a file
-ModelClass/ClassDefinition/Chef_de_cuisine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Chef_de_cuisine.cpp.s
-.PHONY : ModelClass/ClassDefinition/Chef_de_cuisine.cpp.s
+Model/ClassDefinition/Position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.s
+.PHONY : Model/ClassDefinition/Position.cpp.s
 
-ModelClass/ClassDefinition/Client.obj: ModelClass/ClassDefinition/Client.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Client.obj
+Model/PostgreSQLConnection.obj: Model/PostgreSQLConnection.cpp.obj
+.PHONY : Model/PostgreSQLConnection.obj
 
 # target to build an object file
-ModelClass/ClassDefinition/Client.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Client.cpp.obj
+Model/PostgreSQLConnection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj
+.PHONY : Model/PostgreSQLConnection.cpp.obj
 
-ModelClass/ClassDefinition/Client.i: ModelClass/ClassDefinition/Client.cpp.i
-.PHONY : ModelClass/ClassDefinition/Client.i
+Model/PostgreSQLConnection.i: Model/PostgreSQLConnection.cpp.i
+.PHONY : Model/PostgreSQLConnection.i
 
 # target to preprocess a source file
-ModelClass/ClassDefinition/Client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.i
-.PHONY : ModelClass/ClassDefinition/Client.cpp.i
+Model/PostgreSQLConnection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.i
+.PHONY : Model/PostgreSQLConnection.cpp.i
 
-ModelClass/ClassDefinition/Client.s: ModelClass/ClassDefinition/Client.cpp.s
-.PHONY : ModelClass/ClassDefinition/Client.s
+Model/PostgreSQLConnection.s: Model/PostgreSQLConnection.cpp.s
+.PHONY : Model/PostgreSQLConnection.s
 
 # target to generate assembly for a file
-ModelClass/ClassDefinition/Client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Client.cpp.s
-.PHONY : ModelClass/ClassDefinition/Client.cpp.s
+Model/PostgreSQLConnection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.s
+.PHONY : Model/PostgreSQLConnection.cpp.s
 
-ModelClass/ClassDefinition/Commande.obj: ModelClass/ClassDefinition/Commande.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Commande.obj
+RestaurantManagement_autogen/mocs_compilation.obj: RestaurantManagement_autogen/mocs_compilation.cpp.obj
+.PHONY : RestaurantManagement_autogen/mocs_compilation.obj
 
 # target to build an object file
-ModelClass/ClassDefinition/Commande.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commande.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Commande.cpp.obj
+RestaurantManagement_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.obj
+.PHONY : RestaurantManagement_autogen/mocs_compilation.cpp.obj
 
-ModelClass/ClassDefinition/Commande.i: ModelClass/ClassDefinition/Commande.cpp.i
-.PHONY : ModelClass/ClassDefinition/Commande.i
+RestaurantManagement_autogen/mocs_compilation.i: RestaurantManagement_autogen/mocs_compilation.cpp.i
+.PHONY : RestaurantManagement_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-ModelClass/ClassDefinition/Commande.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commande.cpp.i
-.PHONY : ModelClass/ClassDefinition/Commande.cpp.i
+RestaurantManagement_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.i
+.PHONY : RestaurantManagement_autogen/mocs_compilation.cpp.i
 
-ModelClass/ClassDefinition/Commande.s: ModelClass/ClassDefinition/Commande.cpp.s
-.PHONY : ModelClass/ClassDefinition/Commande.s
+RestaurantManagement_autogen/mocs_compilation.s: RestaurantManagement_autogen/mocs_compilation.cpp.s
+.PHONY : RestaurantManagement_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-ModelClass/ClassDefinition/Commande.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commande.cpp.s
-.PHONY : ModelClass/ClassDefinition/Commande.cpp.s
+RestaurantManagement_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.s
+.PHONY : RestaurantManagement_autogen/mocs_compilation.cpp.s
 
-ModelClass/ClassDefinition/CommisDeSalle.obj: ModelClass/ClassDefinition/CommisDeSalle.cpp.obj
-.PHONY : ModelClass/ClassDefinition/CommisDeSalle.obj
+View/InterfaceAcceuil.obj: View/InterfaceAcceuil.cpp.obj
+.PHONY : View/InterfaceAcceuil.obj
 
 # target to build an object file
-ModelClass/ClassDefinition/CommisDeSalle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/CommisDeSalle.cpp.obj
-.PHONY : ModelClass/ClassDefinition/CommisDeSalle.cpp.obj
+View/InterfaceAcceuil.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.obj
+.PHONY : View/InterfaceAcceuil.cpp.obj
 
-ModelClass/ClassDefinition/CommisDeSalle.i: ModelClass/ClassDefinition/CommisDeSalle.cpp.i
-.PHONY : ModelClass/ClassDefinition/CommisDeSalle.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/CommisDeSalle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/CommisDeSalle.cpp.i
-.PHONY : ModelClass/ClassDefinition/CommisDeSalle.cpp.i
-
-ModelClass/ClassDefinition/CommisDeSalle.s: ModelClass/ClassDefinition/CommisDeSalle.cpp.s
-.PHONY : ModelClass/ClassDefinition/CommisDeSalle.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/CommisDeSalle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/CommisDeSalle.cpp.s
-.PHONY : ModelClass/ClassDefinition/CommisDeSalle.cpp.s
-
-ModelClass/ClassDefinition/Commis_deCuisine.obj: ModelClass/ClassDefinition/Commis_deCuisine.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Commis_deCuisine.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Commis_deCuisine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_deCuisine.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Commis_deCuisine.cpp.obj
-
-ModelClass/ClassDefinition/Commis_deCuisine.i: ModelClass/ClassDefinition/Commis_deCuisine.cpp.i
-.PHONY : ModelClass/ClassDefinition/Commis_deCuisine.i
+View/InterfaceAcceuil.i: View/InterfaceAcceuil.cpp.i
+.PHONY : View/InterfaceAcceuil.i
 
 # target to preprocess a source file
-ModelClass/ClassDefinition/Commis_deCuisine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_deCuisine.cpp.i
-.PHONY : ModelClass/ClassDefinition/Commis_deCuisine.cpp.i
+View/InterfaceAcceuil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.i
+.PHONY : View/InterfaceAcceuil.cpp.i
 
-ModelClass/ClassDefinition/Commis_deCuisine.s: ModelClass/ClassDefinition/Commis_deCuisine.cpp.s
-.PHONY : ModelClass/ClassDefinition/Commis_deCuisine.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Commis_deCuisine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Commis_deCuisine.cpp.s
-.PHONY : ModelClass/ClassDefinition/Commis_deCuisine.cpp.s
-
-ModelClass/ClassDefinition/Ingredients.obj: ModelClass/ClassDefinition/Ingredients.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Ingredients.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Ingredients.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Ingredients.cpp.obj
-
-ModelClass/ClassDefinition/Ingredients.i: ModelClass/ClassDefinition/Ingredients.cpp.i
-.PHONY : ModelClass/ClassDefinition/Ingredients.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Ingredients.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.i
-.PHONY : ModelClass/ClassDefinition/Ingredients.cpp.i
-
-ModelClass/ClassDefinition/Ingredients.s: ModelClass/ClassDefinition/Ingredients.cpp.s
-.PHONY : ModelClass/ClassDefinition/Ingredients.s
+View/InterfaceAcceuil.s: View/InterfaceAcceuil.cpp.s
+.PHONY : View/InterfaceAcceuil.s
 
 # target to generate assembly for a file
-ModelClass/ClassDefinition/Ingredients.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Ingredients.cpp.s
-.PHONY : ModelClass/ClassDefinition/Ingredients.cpp.s
-
-ModelClass/ClassDefinition/LaveVaisselle.obj: ModelClass/ClassDefinition/LaveVaisselle.cpp.obj
-.PHONY : ModelClass/ClassDefinition/LaveVaisselle.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/LaveVaisselle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/LaveVaisselle.cpp.obj
-.PHONY : ModelClass/ClassDefinition/LaveVaisselle.cpp.obj
-
-ModelClass/ClassDefinition/LaveVaisselle.i: ModelClass/ClassDefinition/LaveVaisselle.cpp.i
-.PHONY : ModelClass/ClassDefinition/LaveVaisselle.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/LaveVaisselle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/LaveVaisselle.cpp.i
-.PHONY : ModelClass/ClassDefinition/LaveVaisselle.cpp.i
-
-ModelClass/ClassDefinition/LaveVaisselle.s: ModelClass/ClassDefinition/LaveVaisselle.cpp.s
-.PHONY : ModelClass/ClassDefinition/LaveVaisselle.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/LaveVaisselle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/LaveVaisselle.cpp.s
-.PHONY : ModelClass/ClassDefinition/LaveVaisselle.cpp.s
-
-ModelClass/ClassDefinition/Maitre_d_hotel.obj: ModelClass/ClassDefinition/Maitre_d_hotel.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Maitre_d_hotel.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Maitre_d_hotel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Maitre_d_hotel.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Maitre_d_hotel.cpp.obj
-
-ModelClass/ClassDefinition/Maitre_d_hotel.i: ModelClass/ClassDefinition/Maitre_d_hotel.cpp.i
-.PHONY : ModelClass/ClassDefinition/Maitre_d_hotel.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Maitre_d_hotel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Maitre_d_hotel.cpp.i
-.PHONY : ModelClass/ClassDefinition/Maitre_d_hotel.cpp.i
-
-ModelClass/ClassDefinition/Maitre_d_hotel.s: ModelClass/ClassDefinition/Maitre_d_hotel.cpp.s
-.PHONY : ModelClass/ClassDefinition/Maitre_d_hotel.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Maitre_d_hotel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Maitre_d_hotel.cpp.s
-.PHONY : ModelClass/ClassDefinition/Maitre_d_hotel.cpp.s
-
-ModelClass/ClassDefinition/Menu.obj: ModelClass/ClassDefinition/Menu.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Menu.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Menu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Menu.cpp.obj
-
-ModelClass/ClassDefinition/Menu.i: ModelClass/ClassDefinition/Menu.cpp.i
-.PHONY : ModelClass/ClassDefinition/Menu.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Menu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.i
-.PHONY : ModelClass/ClassDefinition/Menu.cpp.i
-
-ModelClass/ClassDefinition/Menu.s: ModelClass/ClassDefinition/Menu.cpp.s
-.PHONY : ModelClass/ClassDefinition/Menu.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Menu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Menu.cpp.s
-.PHONY : ModelClass/ClassDefinition/Menu.cpp.s
-
-ModelClass/ClassDefinition/Personne.obj: ModelClass/ClassDefinition/Personne.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Personne.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Personne.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Personne.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Personne.cpp.obj
-
-ModelClass/ClassDefinition/Personne.i: ModelClass/ClassDefinition/Personne.cpp.i
-.PHONY : ModelClass/ClassDefinition/Personne.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Personne.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Personne.cpp.i
-.PHONY : ModelClass/ClassDefinition/Personne.cpp.i
-
-ModelClass/ClassDefinition/Personne.s: ModelClass/ClassDefinition/Personne.cpp.s
-.PHONY : ModelClass/ClassDefinition/Personne.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Personne.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Personne.cpp.s
-.PHONY : ModelClass/ClassDefinition/Personne.cpp.s
-
-ModelClass/ClassDefinition/Plat.obj: ModelClass/ClassDefinition/Plat.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Plat.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Plat.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Plat.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Plat.cpp.obj
-
-ModelClass/ClassDefinition/Plat.i: ModelClass/ClassDefinition/Plat.cpp.i
-.PHONY : ModelClass/ClassDefinition/Plat.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Plat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Plat.cpp.i
-.PHONY : ModelClass/ClassDefinition/Plat.cpp.i
-
-ModelClass/ClassDefinition/Plat.s: ModelClass/ClassDefinition/Plat.cpp.s
-.PHONY : ModelClass/ClassDefinition/Plat.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Plat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Plat.cpp.s
-.PHONY : ModelClass/ClassDefinition/Plat.cpp.s
-
-ModelClass/ClassDefinition/Plongeur.obj: ModelClass/ClassDefinition/Plongeur.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Plongeur.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Plongeur.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Plongeur.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Plongeur.cpp.obj
-
-ModelClass/ClassDefinition/Plongeur.i: ModelClass/ClassDefinition/Plongeur.cpp.i
-.PHONY : ModelClass/ClassDefinition/Plongeur.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Plongeur.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Plongeur.cpp.i
-.PHONY : ModelClass/ClassDefinition/Plongeur.cpp.i
-
-ModelClass/ClassDefinition/Plongeur.s: ModelClass/ClassDefinition/Plongeur.cpp.s
-.PHONY : ModelClass/ClassDefinition/Plongeur.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Plongeur.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Plongeur.cpp.s
-.PHONY : ModelClass/ClassDefinition/Plongeur.cpp.s
-
-ModelClass/ClassDefinition/Position.obj: ModelClass/ClassDefinition/Position.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Position.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Position.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Position.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Position.cpp.obj
-
-ModelClass/ClassDefinition/Position.i: ModelClass/ClassDefinition/Position.cpp.i
-.PHONY : ModelClass/ClassDefinition/Position.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Position.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Position.cpp.i
-.PHONY : ModelClass/ClassDefinition/Position.cpp.i
-
-ModelClass/ClassDefinition/Position.s: ModelClass/ClassDefinition/Position.cpp.s
-.PHONY : ModelClass/ClassDefinition/Position.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Position.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Position.cpp.s
-.PHONY : ModelClass/ClassDefinition/Position.cpp.s
-
-ModelClass/ClassDefinition/Rang.obj: ModelClass/ClassDefinition/Rang.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Rang.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Rang.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Rang.cpp.obj
-
-ModelClass/ClassDefinition/Rang.i: ModelClass/ClassDefinition/Rang.cpp.i
-.PHONY : ModelClass/ClassDefinition/Rang.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Rang.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.i
-.PHONY : ModelClass/ClassDefinition/Rang.cpp.i
-
-ModelClass/ClassDefinition/Rang.s: ModelClass/ClassDefinition/Rang.cpp.s
-.PHONY : ModelClass/ClassDefinition/Rang.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Rang.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Rang.cpp.s
-.PHONY : ModelClass/ClassDefinition/Rang.cpp.s
-
-ModelClass/ClassDefinition/Serveur.obj: ModelClass/ClassDefinition/Serveur.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Serveur.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Serveur.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Serveur.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Serveur.cpp.obj
-
-ModelClass/ClassDefinition/Serveur.i: ModelClass/ClassDefinition/Serveur.cpp.i
-.PHONY : ModelClass/ClassDefinition/Serveur.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Serveur.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Serveur.cpp.i
-.PHONY : ModelClass/ClassDefinition/Serveur.cpp.i
-
-ModelClass/ClassDefinition/Serveur.s: ModelClass/ClassDefinition/Serveur.cpp.s
-.PHONY : ModelClass/ClassDefinition/Serveur.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Serveur.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Serveur.cpp.s
-.PHONY : ModelClass/ClassDefinition/Serveur.cpp.s
-
-ModelClass/ClassDefinition/Table.obj: ModelClass/ClassDefinition/Table.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Table.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/Table.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Table.cpp.obj
-.PHONY : ModelClass/ClassDefinition/Table.cpp.obj
-
-ModelClass/ClassDefinition/Table.i: ModelClass/ClassDefinition/Table.cpp.i
-.PHONY : ModelClass/ClassDefinition/Table.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/Table.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Table.cpp.i
-.PHONY : ModelClass/ClassDefinition/Table.cpp.i
-
-ModelClass/ClassDefinition/Table.s: ModelClass/ClassDefinition/Table.cpp.s
-.PHONY : ModelClass/ClassDefinition/Table.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/Table.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/Table.cpp.s
-.PHONY : ModelClass/ClassDefinition/Table.cpp.s
-
-ModelClass/ClassDefinition/UstensileDeCuisine.obj: ModelClass/ClassDefinition/UstensileDeCuisine.cpp.obj
-.PHONY : ModelClass/ClassDefinition/UstensileDeCuisine.obj
-
-# target to build an object file
-ModelClass/ClassDefinition/UstensileDeCuisine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/UstensileDeCuisine.cpp.obj
-.PHONY : ModelClass/ClassDefinition/UstensileDeCuisine.cpp.obj
-
-ModelClass/ClassDefinition/UstensileDeCuisine.i: ModelClass/ClassDefinition/UstensileDeCuisine.cpp.i
-.PHONY : ModelClass/ClassDefinition/UstensileDeCuisine.i
-
-# target to preprocess a source file
-ModelClass/ClassDefinition/UstensileDeCuisine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/UstensileDeCuisine.cpp.i
-.PHONY : ModelClass/ClassDefinition/UstensileDeCuisine.cpp.i
-
-ModelClass/ClassDefinition/UstensileDeCuisine.s: ModelClass/ClassDefinition/UstensileDeCuisine.cpp.s
-.PHONY : ModelClass/ClassDefinition/UstensileDeCuisine.s
-
-# target to generate assembly for a file
-ModelClass/ClassDefinition/UstensileDeCuisine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/ModelClass/ClassDefinition/UstensileDeCuisine.cpp.s
-.PHONY : ModelClass/ClassDefinition/UstensileDeCuisine.cpp.s
+View/InterfaceAcceuil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.s
+.PHONY : View/InterfaceAcceuil.cpp.s
 
 View/MainWindow.obj: View/MainWindow.cpp.obj
 .PHONY : View/MainWindow.obj
 
 # target to build an object file
 View/MainWindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/View/MainWindow.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj
 .PHONY : View/MainWindow.cpp.obj
 
 View/MainWindow.i: View/MainWindow.cpp.i
@@ -647,7 +311,7 @@ View/MainWindow.i: View/MainWindow.cpp.i
 
 # target to preprocess a source file
 View/MainWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/View/MainWindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.i
 .PHONY : View/MainWindow.cpp.i
 
 View/MainWindow.s: View/MainWindow.cpp.s
@@ -655,15 +319,63 @@ View/MainWindow.s: View/MainWindow.cpp.s
 
 # target to generate assembly for a file
 View/MainWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/View/MainWindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.s
 .PHONY : View/MainWindow.cpp.s
+
+View/RestaurantDashboard.obj: View/RestaurantDashboard.cpp.obj
+.PHONY : View/RestaurantDashboard.obj
+
+# target to build an object file
+View/RestaurantDashboard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj
+.PHONY : View/RestaurantDashboard.cpp.obj
+
+View/RestaurantDashboard.i: View/RestaurantDashboard.cpp.i
+.PHONY : View/RestaurantDashboard.i
+
+# target to preprocess a source file
+View/RestaurantDashboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.i
+.PHONY : View/RestaurantDashboard.cpp.i
+
+View/RestaurantDashboard.s: View/RestaurantDashboard.cpp.s
+.PHONY : View/RestaurantDashboard.s
+
+# target to generate assembly for a file
+View/RestaurantDashboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.s
+.PHONY : View/RestaurantDashboard.cpp.s
+
+View/formulaire.obj: View/formulaire.cpp.obj
+.PHONY : View/formulaire.obj
+
+# target to build an object file
+View/formulaire.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj
+.PHONY : View/formulaire.cpp.obj
+
+View/formulaire.i: View/formulaire.cpp.i
+.PHONY : View/formulaire.i
+
+# target to preprocess a source file
+View/formulaire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.i
+.PHONY : View/formulaire.cpp.i
+
+View/formulaire.s: View/formulaire.cpp.s
+.PHONY : View/formulaire.s
+
+# target to generate assembly for a file
+View/formulaire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.s
+.PHONY : View/formulaire.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -671,7 +383,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -679,32 +391,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-untitled7_autogen/mocs_compilation.obj: untitled7_autogen/mocs_compilation.cpp.obj
-.PHONY : untitled7_autogen/mocs_compilation.obj
-
-# target to build an object file
-untitled7_autogen/mocs_compilation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj
-.PHONY : untitled7_autogen/mocs_compilation.cpp.obj
-
-untitled7_autogen/mocs_compilation.i: untitled7_autogen/mocs_compilation.cpp.i
-.PHONY : untitled7_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-untitled7_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.i
-.PHONY : untitled7_autogen/mocs_compilation.cpp.i
-
-untitled7_autogen/mocs_compilation.s: untitled7_autogen/mocs_compilation.cpp.s
-.PHONY : untitled7_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-untitled7_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled7.dir\build.make CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.s
-.PHONY : untitled7_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -714,78 +402,39 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... untitled7_autogen
-	@echo ... untitled7_autogen_timestamp_deps
-	@echo ... untitled7
-	@echo ... ModelClass/ClassDefinition/Carree.obj
-	@echo ... ModelClass/ClassDefinition/Carree.i
-	@echo ... ModelClass/ClassDefinition/Carree.s
-	@echo ... ModelClass/ClassDefinition/ChefDeRang.obj
-	@echo ... ModelClass/ClassDefinition/ChefDeRang.i
-	@echo ... ModelClass/ClassDefinition/ChefDeRang.s
-	@echo ... ModelClass/ClassDefinition/Chef_dePartie.obj
-	@echo ... ModelClass/ClassDefinition/Chef_dePartie.i
-	@echo ... ModelClass/ClassDefinition/Chef_dePartie.s
-	@echo ... ModelClass/ClassDefinition/Chef_de_cuisine.obj
-	@echo ... ModelClass/ClassDefinition/Chef_de_cuisine.i
-	@echo ... ModelClass/ClassDefinition/Chef_de_cuisine.s
-	@echo ... ModelClass/ClassDefinition/Client.obj
-	@echo ... ModelClass/ClassDefinition/Client.i
-	@echo ... ModelClass/ClassDefinition/Client.s
-	@echo ... ModelClass/ClassDefinition/Commande.obj
-	@echo ... ModelClass/ClassDefinition/Commande.i
-	@echo ... ModelClass/ClassDefinition/Commande.s
-	@echo ... ModelClass/ClassDefinition/CommisDeSalle.obj
-	@echo ... ModelClass/ClassDefinition/CommisDeSalle.i
-	@echo ... ModelClass/ClassDefinition/CommisDeSalle.s
-	@echo ... ModelClass/ClassDefinition/Commis_deCuisine.obj
-	@echo ... ModelClass/ClassDefinition/Commis_deCuisine.i
-	@echo ... ModelClass/ClassDefinition/Commis_deCuisine.s
-	@echo ... ModelClass/ClassDefinition/Ingredients.obj
-	@echo ... ModelClass/ClassDefinition/Ingredients.i
-	@echo ... ModelClass/ClassDefinition/Ingredients.s
-	@echo ... ModelClass/ClassDefinition/LaveVaisselle.obj
-	@echo ... ModelClass/ClassDefinition/LaveVaisselle.i
-	@echo ... ModelClass/ClassDefinition/LaveVaisselle.s
-	@echo ... ModelClass/ClassDefinition/Maitre_d_hotel.obj
-	@echo ... ModelClass/ClassDefinition/Maitre_d_hotel.i
-	@echo ... ModelClass/ClassDefinition/Maitre_d_hotel.s
-	@echo ... ModelClass/ClassDefinition/Menu.obj
-	@echo ... ModelClass/ClassDefinition/Menu.i
-	@echo ... ModelClass/ClassDefinition/Menu.s
-	@echo ... ModelClass/ClassDefinition/Personne.obj
-	@echo ... ModelClass/ClassDefinition/Personne.i
-	@echo ... ModelClass/ClassDefinition/Personne.s
-	@echo ... ModelClass/ClassDefinition/Plat.obj
-	@echo ... ModelClass/ClassDefinition/Plat.i
-	@echo ... ModelClass/ClassDefinition/Plat.s
-	@echo ... ModelClass/ClassDefinition/Plongeur.obj
-	@echo ... ModelClass/ClassDefinition/Plongeur.i
-	@echo ... ModelClass/ClassDefinition/Plongeur.s
-	@echo ... ModelClass/ClassDefinition/Position.obj
-	@echo ... ModelClass/ClassDefinition/Position.i
-	@echo ... ModelClass/ClassDefinition/Position.s
-	@echo ... ModelClass/ClassDefinition/Rang.obj
-	@echo ... ModelClass/ClassDefinition/Rang.i
-	@echo ... ModelClass/ClassDefinition/Rang.s
-	@echo ... ModelClass/ClassDefinition/Serveur.obj
-	@echo ... ModelClass/ClassDefinition/Serveur.i
-	@echo ... ModelClass/ClassDefinition/Serveur.s
-	@echo ... ModelClass/ClassDefinition/Table.obj
-	@echo ... ModelClass/ClassDefinition/Table.i
-	@echo ... ModelClass/ClassDefinition/Table.s
-	@echo ... ModelClass/ClassDefinition/UstensileDeCuisine.obj
-	@echo ... ModelClass/ClassDefinition/UstensileDeCuisine.i
-	@echo ... ModelClass/ClassDefinition/UstensileDeCuisine.s
+	@echo ... RestaurantManagement_autogen
+	@echo ... RestaurantManagement_autogen_timestamp_deps
+	@echo ... RestaurantManagement
+	@echo ... Controller/ControleurService.obj
+	@echo ... Controller/ControleurService.i
+	@echo ... Controller/ControleurService.s
+	@echo ... Model/ClassDefinition/Personne.obj
+	@echo ... Model/ClassDefinition/Personne.i
+	@echo ... Model/ClassDefinition/Personne.s
+	@echo ... Model/ClassDefinition/Position.obj
+	@echo ... Model/ClassDefinition/Position.i
+	@echo ... Model/ClassDefinition/Position.s
+	@echo ... Model/PostgreSQLConnection.obj
+	@echo ... Model/PostgreSQLConnection.i
+	@echo ... Model/PostgreSQLConnection.s
+	@echo ... RestaurantManagement_autogen/mocs_compilation.obj
+	@echo ... RestaurantManagement_autogen/mocs_compilation.i
+	@echo ... RestaurantManagement_autogen/mocs_compilation.s
+	@echo ... View/InterfaceAcceuil.obj
+	@echo ... View/InterfaceAcceuil.i
+	@echo ... View/InterfaceAcceuil.s
 	@echo ... View/MainWindow.obj
 	@echo ... View/MainWindow.i
 	@echo ... View/MainWindow.s
+	@echo ... View/RestaurantDashboard.obj
+	@echo ... View/RestaurantDashboard.i
+	@echo ... View/RestaurantDashboard.s
+	@echo ... View/formulaire.obj
+	@echo ... View/formulaire.i
+	@echo ... View/formulaire.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... untitled7_autogen/mocs_compilation.obj
-	@echo ... untitled7_autogen/mocs_compilation.i
-	@echo ... untitled7_autogen/mocs_compilation.s
 .PHONY : help
 
 

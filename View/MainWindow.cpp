@@ -2,7 +2,9 @@
 #include <QTimer>
 #include <QPropertyAnimation>
 #include <QGraphicsOpacityEffect>
-#include "../ModelClass/ClassDefinition/Personne.cpp"
+#include "../Model/ClassDeclaration/Position.h"
+#include "../Model/ClassDeclaration/Personne.h"
+
 
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
    // Layout principal pour la fenêtre
@@ -57,7 +59,6 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
             // Bouton "Supervision"
             QPushButton *superviserButton = new QPushButton("Superviser", this);
-           // connect(superviserButton, &QPushButton::clicked, this, &MainWindow::close);
             navbar->addWidget(superviserButton);
 
             // Bouton "Pause"
@@ -296,7 +297,7 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
 
         // Positionnement manuel pour les images
-        const Position pos = Position(1200,300);
+        Position pos = Position(1200,300);
         Personne p(1, "Emma", true, true,pos, "../images/maitrehoteldown.png");
         p.afficher(mainWidget, 60, 70);
 

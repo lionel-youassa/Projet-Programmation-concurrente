@@ -146,7 +146,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/untitled7
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/RestaurantManagement
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -205,7 +205,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=untitled7
+CMAKE_PROJECT_NAME:STATIC=RestaurantManagement
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ranlib.exe
@@ -324,6 +324,15 @@ Qt6ZlibPrivate_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6ZlibPrivate
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6
 
+//Value Computed by CMake
+RestaurantManagement_BINARY_DIR:STATIC=C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/cmake-build-debug
+
+//Value Computed by CMake
+RestaurantManagement_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+RestaurantManagement_SOURCE_DIR:STATIC=C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente
+
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND
 
@@ -338,15 +347,6 @@ Vulkan_LIBRARY:FILEPATH=Vulkan_LIBRARY-NOTFOUND
 
 //Path to a program.
 WINDEPLOYQT_EXECUTABLE:FILEPATH=C:/Qt/6.8.0/mingw_64/bin/windeployqt.exe
-
-//Value Computed by CMake
-untitled7_BINARY_DIR:STATIC=C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/cmake-build-debug
-
-//Value Computed by CMake
-untitled7_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-untitled7_SOURCE_DIR:STATIC=C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente
 
 
 ########################
@@ -1312,5 +1312,5 @@ Vulkan_LIBRARY-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/untitled7
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/RestaurantManagement
 

@@ -443,10 +443,6 @@ CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj: \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qeasingcurve.h \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGraphicsOpacityEffect \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicseffect.h \
- C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Personne.cpp \
- C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Personne.h \
  C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Position.h \
- C:/Qt/6.8.0/mingw_64/include/QtGui/QPixmap \
- C:/Qt/6.8.0/mingw_64/include/QtGui/qpixmap.h \
- C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
- C:/Qt/6.8.0/mingw_64/include/QtCore/qstring.h
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Personne.h \
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Position.h

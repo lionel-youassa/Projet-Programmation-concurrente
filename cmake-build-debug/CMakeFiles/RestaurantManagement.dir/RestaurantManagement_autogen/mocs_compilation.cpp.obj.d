@@ -442,6 +442,12 @@ CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilatio
  C:/Qt/6.8.0/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qtmochelpers.h \
+ C:\Users\siefo\Desktop\X3\Module\ sherbrooke(Programmation\ Concurente)\Projet-Programmation-concurrente\cmake-build-debug\RestaurantManagement_autogen\WB4RFHLAU6/moc_RestaurantDashboard.cpp \
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/View/RestaurantDashboard.h \
+ C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
+ C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/QMap \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qmap.h \
  C:\Users\siefo\Desktop\X3\Module\ sherbrooke(Programmation\ Concurente)\Projet-Programmation-concurrente\cmake-build-debug\RestaurantManagement_autogen\WB4RFHLAU6/moc_formulaire.cpp \
  C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/View/formulaire.h \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QFormLayout \

@@ -62,7 +62,7 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
                 auto *simulationDashboard = new RestaurantDashboard();
                 simulationDashboard->show();
                 // Exemple de mise à jour
-                      simulationDashboard->updateTableState(0, "En nettoyage");
+                      simulationDashboard->updateTableState(0, "Occupee");
                       simulationDashboard->updateStaffState("Serveur 1", true);
                       simulationDashboard->updateMachineState("Lave-vaisselle", true);
                       simulationDashboard->updateStatistics(50, 10, 5);

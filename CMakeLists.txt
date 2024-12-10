@@ -14,8 +14,6 @@ find_package(Qt6 COMPONENTS
         REQUIRED)
 
 add_executable(untitled7 main.cpp
-        mainwindow.cpp
-        mainwindow.cpp
         ModelClass/ClassDefinition/ChefDeRang.cpp
         ModelClass/ClassDefinition/CommisDeSalle.cpp
         ModelClass/ClassDefinition/Client.cpp

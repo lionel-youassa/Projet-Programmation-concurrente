@@ -46,8 +46,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled7.dir/View/MainWindow.cpp.obj.d"
   "CMakeFiles/untitled7.dir/main.cpp.obj"
   "CMakeFiles/untitled7.dir/main.cpp.obj.d"
-  "CMakeFiles/untitled7.dir/mainwindow.cpp.obj"
-  "CMakeFiles/untitled7.dir/mainwindow.cpp.obj.d"
   "CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj.d"
   "libuntitled7.dll.a"

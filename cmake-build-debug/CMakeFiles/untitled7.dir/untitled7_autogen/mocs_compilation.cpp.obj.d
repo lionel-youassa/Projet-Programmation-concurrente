@@ -441,6 +441,4 @@ CMakeFiles/untitled7.dir/untitled7_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qtextformat.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qtextoption.h \
- C:/Qt/6.8.0/mingw_64/include/QtCore/qtmochelpers.h \
- C:\Users\siefo\Desktop\X3\Module\ sherbrooke(Programmation\ Concurente)\Projet-Programmation-concurrente\cmake-build-debug\untitled7_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/mainwindow.h
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qtmochelpers.h

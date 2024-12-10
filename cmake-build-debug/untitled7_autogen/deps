@@ -436,7 +436,6 @@ untitled7_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
-	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QMainWindow \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QPushButton \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QScrollArea \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QToolBar \
@@ -450,11 +449,9 @@ untitled7_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayout.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayoutitem.h \
-	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qpushbutton.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qscrollarea.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
-	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtoolbar.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -627,7 +624,4 @@ untitled7_autogen/timestamp: \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/cmake-build-debug/untitled7_autogen/moc_predefs.h \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/main.cpp \
-	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/mainwindow.cpp \
-	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/mainwindow.h \
-	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/mainwindow.ui \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/bin/cmake.exe

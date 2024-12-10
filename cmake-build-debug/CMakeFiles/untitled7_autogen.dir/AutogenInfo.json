@@ -233,12 +233,6 @@
 			"MU",
 			"WB4RFHLAU6/moc_MainWindow.cpp",
 			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/mainwindow.h",
-			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
-			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -420,11 +414,6 @@
 		],
 		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/main.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/mainwindow.cpp",
 			"MU",
 			null
 		]

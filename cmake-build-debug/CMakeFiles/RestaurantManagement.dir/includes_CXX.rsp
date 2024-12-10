@@ -1,0 +1,1 @@
+-IC:/PROGRA~1/POSTGR~1/16/include -I"C:/SFML-2.6.2/include" -isystem "C:/Users/siefo/Desktop/X3/MODULE~2/PROJET~2/CMAKE-~1/RESTAU~1/include" -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem "C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++" -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets

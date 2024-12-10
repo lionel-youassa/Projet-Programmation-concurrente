@@ -610,8 +610,17 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Controller/ControleurService.cpp \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Controller/ControleurService.h \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Chef_de_rang.h \
+	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Personne.h \
+	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Chef_de_rang.cpp \
+	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Client.cpp \
+	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Commande.cpp \
+	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Commis_de_salle.cpp \
+	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Maitre_d_hotel.cpp \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Personne.cpp \
+	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Plat.cpp \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Position.cpp \
+	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Serveur.cpp \
+	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Table.cpp \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/PostgreSQLConnection.cpp \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/PostgreSQLConnection.h \
 	C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/View/InterfaceAcceuil.cpp \

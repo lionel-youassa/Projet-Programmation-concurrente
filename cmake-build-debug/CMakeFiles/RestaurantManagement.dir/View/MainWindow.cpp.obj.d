@@ -443,6 +443,10 @@ CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj: \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qeasingcurve.h \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGraphicsOpacityEffect \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicseffect.h \
- C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Position.h \
  C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Personne.h \
- C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Position.h
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Position.h \
+ C:\Users\siefo\Desktop\X3\Module\ sherbrooke(Programmation\ Concurente)\Projet-Programmation-concurrente\View\RestaurantDashboard.h \
+ C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
+ C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/QMap \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qmap.h

@@ -241,6 +241,12 @@
 			null
 		],
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Personne.h",
+			"MU",
+			"OUOE4ZGIQE/moc_Personne.cpp",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/PostgreSQLConnection.h",
 			"MU",
 			"EXHL2H62WB/moc_PostgreSQLConnection.cpp",
@@ -351,12 +357,52 @@
 			null
 		],
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Chef_de_rang.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Client.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Commande.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Commis_de_salle.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Maitre_d_hotel.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Personne.cpp",
 			"MU",
 			null
 		],
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Plat.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Position.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Serveur.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Table.cpp",
 			"MU",
 			null
 		],

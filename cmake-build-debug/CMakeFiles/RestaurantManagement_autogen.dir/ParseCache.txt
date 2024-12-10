@@ -2,6 +2,7 @@
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Controller/ControleurService.h
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/PostgreSQLConnection.h
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Controller/ControleurService.cpp
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Plat.cpp
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Chef_de_rang.h
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/formulaire.h
  mmc:Q_OBJECT
@@ -438,6 +439,8 @@ C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Pro
  mdp:C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/formulaire.h
  mdp:C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/MainWindow.h
  mdp:C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/cmake-build-debug/RestaurantManagement_autogen/moc_predefs.h
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/InterfaceAcceuil.h
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Serveur.cpp
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/RestaurantDashboard.h
  mmc:Q_OBJECT
  mdp:C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm
@@ -856,7 +859,6 @@ C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Pro
  mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/qwidget.h
  mdp:C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/RestaurantDashboard.h
  mdp:C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/cmake-build-debug/RestaurantManagement_autogen/moc_predefs.h
-C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/InterfaceAcceuil.h
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/MainWindow.h
  mmc:Q_OBJECT
  mdp:C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm
@@ -1282,6 +1284,8 @@ C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Pro
  mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/qwidget.h
  mdp:C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/MainWindow.h
  mdp:C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/cmake-build-debug/RestaurantManagement_autogen/moc_predefs.h
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Maitre_d_hotel.cpp
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Personne.cpp
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/InterfaceAcceuil.cpp
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Position.cpp
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/PostgreSQLConnection.cpp
@@ -1289,4 +1293,9 @@ C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Pro
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/RestaurantDashboard.cpp
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/View/formulaire.cpp
 C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/main.cpp
-C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Personne.cpp
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Commis_de_salle.cpp
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Commande.cpp
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Personne.h
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Chef_de_rang.cpp
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Client.cpp
+C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Table.cpp

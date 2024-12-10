@@ -15,14 +15,21 @@ Personne::Personne() : id(0), poste(false), disponibilite(false) {
 
 // Méthode de déplacement
 void Personne::Deplacer(const Position &arrivee) {
-    if (positionActuelle.x != arrivee.x) {
-        float directionX = (arrivee.x - positionActuelle.x > 0) ? 1.0 : -1.0;
+    positionActuelle = arrivee;
+    float step = 1.0; // Taille du pas
+
+    if (std::abs(positionActuelle.x - arrivee.x) > step) {
+        float directionX = (arrivee.x - positionActuelle.x > 0) ? step : -step;
         positionActuelle.x += directionX;
+    } else {
+        positionActuelle.x = arrivee.x; // Correction pour s'arrêter exactement sur la position cible
     }
 
-    if (positionActuelle.y != arrivee.y) {
-        float directionY = (arrivee.y - positionActuelle.y > 0) ? 1.0 : -1.0;
+    if (std::abs(positionActuelle.y - arrivee.y) > step) {
+        float directionY = (arrivee.y - positionActuelle.y > 0) ? step : -step;
         positionActuelle.y += directionY;
+    } else {
+        positionActuelle.y = arrivee.y; // Correction pour s'arrêter exactement sur la position cible
     }
 }
 

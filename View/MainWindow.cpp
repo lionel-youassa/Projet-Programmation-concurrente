@@ -2,7 +2,7 @@
 #include <QTimer>
 #include <QPropertyAnimation>
 #include <QGraphicsOpacityEffect>
-#include "../Model/ClassDefinition/Personne.cpp"
+#include "../Model/ClassDeclaration/Personne.h"
 #include  "RestaurantDashboard.h"
 
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
@@ -409,7 +409,6 @@ void MainWindow::startCountdown(int duration) {
     // Démarrer le timer avec un intervalle de 1 seconde
     timer->start(1000);
 }
-
 
 
 

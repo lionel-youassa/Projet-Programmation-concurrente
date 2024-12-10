@@ -1,4 +1,4 @@
-#include "../ModelClass/ClassDeclaration/Chef_de_rang.h"
+#include "../ClassDeclaration/Chef_de_rang.h"
 
 void ChefDeRang::DistribuerCarte(Table& table) {
     // Implémentation à venir

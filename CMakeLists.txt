@@ -38,11 +38,20 @@ add_executable(RestaurantManagement main.cpp
         View/formulaire.cpp
         View/formulaire.h
         Model/classDeclaration/Chef_de_rang.h
+        Model/classDeclaration/Personne.h
         Model/ClassDefinition/Position.cpp
         Model/ClassDefinition/Personne.cpp
 
         View/RestaurantDashboard.cpp
         View/RestaurantDashboard.h
+        Model/ClassDefinition/Chef_de_rang.cpp
+        Model/ClassDefinition/Client.cpp
+        Model/ClassDefinition/Commande.cpp
+        Model/ClassDefinition/Commis_de_salle.cpp
+        Model/ClassDefinition/Maitre_d_hotel.cpp
+        Model/ClassDefinition/Plat.cpp
+        Model/ClassDefinition/Serveur.cpp
+        Model/ClassDefinition/Table.cpp
 )
 
 # Link libraries

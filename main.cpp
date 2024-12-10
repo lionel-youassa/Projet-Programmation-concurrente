@@ -16,13 +16,6 @@ int main(int argc, char *argv[]) {
 
     // Créer la fenêtre Qt
     Formulaire formulaire;
-    auto *restaurantDashboard= new RestaurantDashboard();
-    Factory factory;
-    factory.creaTable();
-    //for(size_t i =0; i<factory.get_table_().size(); i++)  {
-        restaurantDashboard->updateTableState(5,factory.get_table_()[5].statut.data());
-        std::cout<<5 << factory.get_table_()[5].statut.data() << std::endl;
-    //}
     formulaire.show();
 
 

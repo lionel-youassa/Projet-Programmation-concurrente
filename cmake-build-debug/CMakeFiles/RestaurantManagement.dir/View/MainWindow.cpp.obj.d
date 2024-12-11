@@ -582,6 +582,7 @@ CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj: \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qmap.h \
  D:/Projet-Programmation-concurrente/Controller/Factory.h \
  D:/Projet-Programmation-concurrente/Model/ClassDeclaration/Table.h \
+ D:/Projet-Programmation-concurrente/Model/ClassDeclaration/Personne.h \
  D:\Projet-Programmation-concurrente\View\MenuWindows.h \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h \

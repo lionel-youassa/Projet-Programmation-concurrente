@@ -340,7 +340,7 @@ MainWindow::MainWindow( int nbrClient, int nbrVague, int tempSimulation, QWidget
         QLabel *pointClient = new QLabel(mainWidget);
         p.afficher(pointClient, mainWidget, aw);
         const auto posA= Position(300,1600);
-        p.DeplacerTranquillement(pointClient,posA, mainWidget);
+        //p.DeplacerTranquillement(pointClient,posA, mainWidget);
 
 
         //Chef d'hotel
@@ -393,6 +393,8 @@ MainWindow::MainWindow( int nbrClient, int nbrVague, int tempSimulation, QWidget
         Personne commisSalle (8, "Joevinio", "CommisDeSalle", true, posCommisSalle,"orange");
         QLabel *pointCommisSalle= new QLabel(mainWidget);
         commisSalle.afficher(pointCommisSalle, mainWidget, aw);
+
+
 
         // --- Ajout dans un QScrollArea ---
         auto *scrollArea = new QScrollArea(this);

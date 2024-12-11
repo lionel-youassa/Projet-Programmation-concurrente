@@ -5,13 +5,13 @@
 #include "Factory.h"
 
 
-struct Position {
+struct Positions {
     int x;
     int y;
 };
 
 // Déclaration d'un tableau de 30 positions
-Position positions[30] = {
+Positions positions[30] = {
     {535, 599}, {643, 599}, {747, 599}, {855, 599}, {963, 599},
     {1071, 599}, {1181, 599}, {1287, 599}, {535, 775}, {643, 775},
     {747, 775}, {855, 775}, {963, 775}, {1071, 775}, {1181, 775},

@@ -23,7 +23,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="Réajustement classe et implémentation méthodes" />
+    <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="Réajustement classe et implémentation méthodes">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.make" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,7 +224,7 @@
       <workItem from="1733261684020" duration="32698000" />
       <workItem from="1733825506428" duration="2696000" />
       <workItem from="1733828251948" duration="10393000" />
-      <workItem from="1733841596282" duration="17266000" />
+      <workItem from="1733841596282" duration="17801000" />
     </task>
     <task id="LOCAL-00001" summary="Tef">
       <option name="closed" value="true" />
@@ -319,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733904171595</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Réajustement classe et implémentation méthodes">
+      <option name="closed" value="true" />
+      <created>1733904478585</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733904478585</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -11,6 +11,10 @@ public:
     float y;
 
     Position(float x = 0, float y = 0);
+
+    // Méthode pour déplacer la position
+    void deplacer(float dx, float dy);
+
 };
 
 #endif // POSITION_H

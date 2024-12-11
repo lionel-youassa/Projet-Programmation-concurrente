@@ -23,27 +23,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="Réajustement classe et implémentation méthodes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/ClassDeclaration/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDeclaration/Menu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/ClassDeclaration/Plat.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDeclaration/Plat.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Menu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Chef_de_rang.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Chef_de_rang.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Client.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Client.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Client.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Client.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commande.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commande.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commis_de_salle.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commis_de_salle.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Maitre_d_hotel.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Maitre_d_hotel.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Serveur.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Serveur.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/ParseCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.make" afterDir="false" />
-    </list>
+    <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="Réajustement classe et implémentation méthodes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,7 +221,7 @@
       <workItem from="1733261684020" duration="32698000" />
       <workItem from="1733825506428" duration="2696000" />
       <workItem from="1733828251948" duration="10393000" />
-      <workItem from="1733841596282" duration="16907000" />
+      <workItem from="1733841596282" duration="17266000" />
     </task>
     <task id="LOCAL-00001" summary="Tef">
       <option name="closed" value="true" />
@@ -331,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733903425685</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Réajustement classe et implémentation méthodes">
+      <option name="closed" value="true" />
+      <created>1733904171595</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733904171595</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

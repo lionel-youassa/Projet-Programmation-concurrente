@@ -1,4 +1,6 @@
 #include "MainWindow.h"
+
+#include <iostream>
 #include <QTimer>
 #include <QPropertyAnimation>
 #include <QGraphicsOpacityEffect>
@@ -6,8 +8,9 @@
 #include  "RestaurantDashboard.h"
 #include "../Controller/Factory.h"
 
-MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
-   // Layout principal pour la fenêtre
+MainWindow::MainWindow( int nbrClient, int nbrVague, int tempSimulation, QWidget *parent) : QWidget(parent) , nbrClient(nbrClient), nbrVague(nbrVague), tempSimulation(tempSimulation) {
+    //std::cout<<tempSimulation;
+    // Layout principal pour la fenêtre
         auto *mainLayout = new QVBoxLayout(this);
         mainLayout->setContentsMargins(0, 0, 0, 0);
 
@@ -304,23 +307,69 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
 
 
-
-
-
-
-
-
-
         mainWidgetLayout->addWidget(diningFrame);
 
+        //taille des points
+        float aw=20;
 
-        // Positionnement manuel pour les images
-        const Position pos = Position(1200,300);
-        Personne p(1, "Emma", true, true,pos, "../images/maitrehoteldown.png");
-        p.afficher(mainWidget, 60, 70);
+        //Client
+        const Position posAccueil = Position(80,1600);
+        Personne p(1, "Emma", "Client", true, posAccueil,"red","6");
+        QLabel *pointClient = new QLabel(mainWidget);
+        p.afficher(pointClient, mainWidget, aw);
+        const auto posA= Position(300,1600);
+        p.DeplacerTranquillement(pointClient,posA, mainWidget);
 
 
+        //Chef d'hotel
+        const Position posChefAccueil = Position(150,1600);
+        Personne chefDhotel (2, "lionel", "ChefDhotel", true, posChefAccueil,"white");
+        QLabel *pointChefDhotel = new QLabel(mainWidget);
+        chefDhotel.afficher(pointChefDhotel, mainWidget, aw);
+        chefDhotel.AllerRetour(pointChefDhotel,posA, mainWidget, 300);
 
+
+        //Chef de rang 1
+        const Position posChefRang = Position(400,600);
+        Personne chefRang (3, "Joevinio", "ChefDeRang", true, posChefRang,"black");
+        QLabel *pointChefRang = new QLabel(mainWidget);
+        chefRang.afficher(pointChefRang, mainWidget, aw);
+
+        //Chef de rang 2
+        const Position posChefRang2 = Position(400,1050);
+        Personne chefRang2 (4, "Joevinio", "ChefDeRang", true, posChefRang2,"black");
+        QLabel *pointChefRang2 = new QLabel(mainWidget);
+        chefRang2.afficher(pointChefRang2, mainWidget, aw);
+
+        //Serveur
+        const Position posServeur = Position(400,640);
+        Personne serveur (5, "Joevinio", "SerVeuR", true, posServeur,"blue");
+        QLabel *pointServeur = new QLabel(mainWidget);
+        serveur.afficher(pointServeur, mainWidget, aw);
+
+        //Serveur
+        const Position posServeur1 = Position(400,680);
+        Personne serveur1 (6, "Joevinio", "SerVeuR", true, posServeur1,"blue");
+        QLabel *pointServeur1 = new QLabel(mainWidget);
+        serveur1.afficher(pointServeur1, mainWidget, aw);
+
+        //Serveur
+        const Position posServeur3 = Position(400,1080);
+        Personne serveur3 (7, "Joevinio", "SerVeuR", true, posServeur3,"blue");
+        QLabel *pointServeur3= new QLabel(mainWidget);
+        serveur3.afficher(pointServeur3, mainWidget, aw);
+
+        //Serveur
+        const Position posServeur4 = Position(400,1140);
+        Personne serveur4 (8, "Joevinio", "SerVeuR", true, posServeur4,"blue");
+        QLabel *pointServeur4= new QLabel(mainWidget);
+        serveur4.afficher(pointServeur4, mainWidget, aw);
+
+        //Commis de salle
+        const Position posCommisSalle = Position(110,470);
+        Personne commisSalle (8, "Joevinio", "CommisDeSalle", true, posCommisSalle,"orange");
+        QLabel *pointCommisSalle= new QLabel(mainWidget);
+        commisSalle.afficher(pointCommisSalle, mainWidget, aw);
 
         // --- Ajout dans un QScrollArea ---
         auto *scrollArea = new QScrollArea(this);
@@ -385,8 +434,6 @@ QWidget* MainWindow::createRangeTable(int numChairs, int numTables) {
 
 
 
-
-
 void MainWindow::updateCountdown() {
     if (countdown > 0) {
         countdown--;
@@ -416,6 +463,18 @@ void MainWindow::startCountdown(int duration) {
     timer->start(1000);
 }
 
+void MainWindow::setnbrClient(int Client) {
+    nbrClient=Client;
+
+}
+
+void MainWindow::setnbrVague(int nVague) {
+    nbrVague=nVague;
+}
+
+void MainWindow::settempSimulation(int temps) {
+    tempSimulation=temps;
+}
 
 
 

@@ -178,6 +178,54 @@ Controller/ControleurService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.s
 .PHONY : Controller/ControleurService.cpp.s
 
+Controller/Factory.obj: Controller/Factory.cpp.obj
+.PHONY : Controller/Factory.obj
+
+# target to build an object file
+Controller/Factory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/Factory.cpp.obj
+.PHONY : Controller/Factory.cpp.obj
+
+Controller/Factory.i: Controller/Factory.cpp.i
+.PHONY : Controller/Factory.i
+
+# target to preprocess a source file
+Controller/Factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/Factory.cpp.i
+.PHONY : Controller/Factory.cpp.i
+
+Controller/Factory.s: Controller/Factory.cpp.s
+.PHONY : Controller/Factory.s
+
+# target to generate assembly for a file
+Controller/Factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/Factory.cpp.s
+.PHONY : Controller/Factory.cpp.s
+
+Controller/ThreadPool.obj: Controller/ThreadPool.cpp.obj
+.PHONY : Controller/ThreadPool.obj
+
+# target to build an object file
+Controller/ThreadPool.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/ThreadPool.cpp.obj
+.PHONY : Controller/ThreadPool.cpp.obj
+
+Controller/ThreadPool.i: Controller/ThreadPool.cpp.i
+.PHONY : Controller/ThreadPool.i
+
+# target to preprocess a source file
+Controller/ThreadPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/ThreadPool.cpp.i
+.PHONY : Controller/ThreadPool.cpp.i
+
+Controller/ThreadPool.s: Controller/ThreadPool.cpp.s
+.PHONY : Controller/ThreadPool.s
+
+# target to generate assembly for a file
+Controller/ThreadPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/ThreadPool.cpp.s
+.PHONY : Controller/ThreadPool.cpp.s
+
 Model/ClassDefinition/Position.obj: Model/ClassDefinition/Position.cpp.obj
 .PHONY : Model/ClassDefinition/Position.obj
 
@@ -201,6 +249,30 @@ Model/ClassDefinition/Position.s: Model/ClassDefinition/Position.cpp.s
 Model/ClassDefinition/Position.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.s
 .PHONY : Model/ClassDefinition/Position.cpp.s
+
+Model/ClassDefinition/Table.obj: Model/ClassDefinition/Table.cpp.obj
+.PHONY : Model/ClassDefinition/Table.obj
+
+# target to build an object file
+Model/ClassDefinition/Table.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj
+.PHONY : Model/ClassDefinition/Table.cpp.obj
+
+Model/ClassDefinition/Table.i: Model/ClassDefinition/Table.cpp.i
+.PHONY : Model/ClassDefinition/Table.i
+
+# target to preprocess a source file
+Model/ClassDefinition/Table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.i
+.PHONY : Model/ClassDefinition/Table.cpp.i
+
+Model/ClassDefinition/Table.s: Model/ClassDefinition/Table.cpp.s
+.PHONY : Model/ClassDefinition/Table.s
+
+# target to generate assembly for a file
+Model/ClassDefinition/Table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.s
+.PHONY : Model/ClassDefinition/Table.cpp.s
 
 Model/PostgreSQLConnection.obj: Model/PostgreSQLConnection.cpp.obj
 .PHONY : Model/PostgreSQLConnection.obj
@@ -298,6 +370,30 @@ View/MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.s
 .PHONY : View/MainWindow.cpp.s
 
+View/RestaurantDashboard.obj: View/RestaurantDashboard.cpp.obj
+.PHONY : View/RestaurantDashboard.obj
+
+# target to build an object file
+View/RestaurantDashboard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj
+.PHONY : View/RestaurantDashboard.cpp.obj
+
+View/RestaurantDashboard.i: View/RestaurantDashboard.cpp.i
+.PHONY : View/RestaurantDashboard.i
+
+# target to preprocess a source file
+View/RestaurantDashboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.i
+.PHONY : View/RestaurantDashboard.cpp.i
+
+View/RestaurantDashboard.s: View/RestaurantDashboard.cpp.s
+.PHONY : View/RestaurantDashboard.s
+
+# target to generate assembly for a file
+View/RestaurantDashboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.s
+.PHONY : View/RestaurantDashboard.cpp.s
+
 View/formulaire.obj: View/formulaire.cpp.obj
 .PHONY : View/formulaire.obj
 
@@ -360,9 +456,18 @@ help:
 	@echo ... Controller/ControleurService.obj
 	@echo ... Controller/ControleurService.i
 	@echo ... Controller/ControleurService.s
+	@echo ... Controller/Factory.obj
+	@echo ... Controller/Factory.i
+	@echo ... Controller/Factory.s
+	@echo ... Controller/ThreadPool.obj
+	@echo ... Controller/ThreadPool.i
+	@echo ... Controller/ThreadPool.s
 	@echo ... Model/ClassDefinition/Position.obj
 	@echo ... Model/ClassDefinition/Position.i
 	@echo ... Model/ClassDefinition/Position.s
+	@echo ... Model/ClassDefinition/Table.obj
+	@echo ... Model/ClassDefinition/Table.i
+	@echo ... Model/ClassDefinition/Table.s
 	@echo ... Model/PostgreSQLConnection.obj
 	@echo ... Model/PostgreSQLConnection.i
 	@echo ... Model/PostgreSQLConnection.s
@@ -375,6 +480,9 @@ help:
 	@echo ... View/MainWindow.obj
 	@echo ... View/MainWindow.i
 	@echo ... View/MainWindow.s
+	@echo ... View/RestaurantDashboard.obj
+	@echo ... View/RestaurantDashboard.i
+	@echo ... View/RestaurantDashboard.s
 	@echo ... View/formulaire.obj
 	@echo ... View/formulaire.i
 	@echo ... View/formulaire.s

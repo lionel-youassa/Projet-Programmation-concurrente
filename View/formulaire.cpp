@@ -63,9 +63,12 @@ void Formulaire::setupStartButton(QVBoxLayout *mainLayout) {
     startButton->setFixedHeight(50);
     mainLayout->addWidget(startButton, 0, Qt::AlignCenter);
 
-    // Connecter le bouton pour afficher MainWindow
+    // Connecter le bouton pour afficher MainWindow avec les paramètres
     connect(startButton, &QPushButton::clicked, this, [=]() {
-        auto *simulationWindow = new MainWindow();
+        int nbrePersonnes = getNombreClient();
+        int nbreVagues = getNombreDeVague();
+        int tmpSimulation =getTempsDeSimulation();
+        auto *simulationWindow = new MainWindow(nbrePersonnes, nbreVagues, tmpSimulation);
         simulationWindow->show();
     });
 }

@@ -23,10 +23,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="Réajustement classe et implémentation méthodes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-    </list>
+    <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="Réajustement classe et implémentation méthodes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +221,7 @@
       <workItem from="1733261684020" duration="32698000" />
       <workItem from="1733825506428" duration="2696000" />
       <workItem from="1733828251948" duration="10393000" />
-      <workItem from="1733841596282" duration="21767000" />
+      <workItem from="1733841596282" duration="22208000" />
     </task>
     <task id="LOCAL-00001" summary="Tef">
       <option name="closed" value="true" />
@@ -338,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733905612742</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Réajustement classe et implémentation méthodes">
+      <option name="closed" value="true" />
+      <created>1733932914539</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733932914539</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

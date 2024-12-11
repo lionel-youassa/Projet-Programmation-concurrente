@@ -265,6 +265,12 @@
 			null
 		],
 		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/View/MenuWindows.h",
+			"MU",
+			"WB4RFHLAU6/moc_MenuWindows.cpp",
+			null
+		],
+		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/View/RestaurantDashboard.h",
 			"MU",
 			"WB4RFHLAU6/moc_RestaurantDashboard.cpp",
@@ -382,6 +388,11 @@
 		],
 		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/View/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/View/MenuWindows.cpp",
 			"MU",
 			null
 		],

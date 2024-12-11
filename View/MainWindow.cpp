@@ -5,6 +5,7 @@
 #include "../Model/ClassDefinition/Personne.cpp"
 #include  "RestaurantDashboard.h"
 #include "../Controller/Factory.h"
+#include "MenuWindows.h"
 
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
    // Layout principal pour la fenêtre
@@ -75,6 +76,22 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
             });
             navbar->addWidget(superviserButton);
 
+            // Bouton "Menu"
+            QPushButton *MenuButton = new QPushButton("Menu", this);
+            connect(MenuButton, &QPushButton::clicked, this, [=]{
+                // Exemple de liste de plats
+     QList<Dish> dishes = {
+         {"Entrée: Salade verte", "../images/rb_salade.png"},
+         {"Plat: Poulet rôti", "../images/rb_Poulet.png"},
+         {"Dessert: Tarte aux pommes", "../images/rb_Pomme.png"}
+     };
+
+         auto *menuWindows = new MenuWindow();
+         menuWindows->displayMenu(dishes); // Afficher le menu sur l'interface
+         menuWindows->show();
+            });
+            navbar->addWidget(MenuButton);
+
             // Bouton "Pause"
             QPushButton *pauseButton = new QPushButton("Pause", this);
            // connect(pauseButton, &QPushButton::clicked, this, &MainWindow::close);
@@ -88,8 +105,13 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
             // Ajouter la barre de navigation au layout principal
             mainLayout->addWidget(navbar);
 
-
     }
+
+
+
+
+
+
 
 
         // --- Cuisine ---

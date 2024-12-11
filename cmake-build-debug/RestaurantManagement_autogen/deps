@@ -296,6 +296,8 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Users/lione/CLionProjects/RestaurantManagement/View/InterfaceAcceuil.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/View/MainWindow.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/View/MainWindow.h \
+	C:/Users/lione/CLionProjects/RestaurantManagement/View/MenuWindows.cpp \
+	C:/Users/lione/CLionProjects/RestaurantManagement/View/MenuWindows.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/View/RestaurantDashboard.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/View/RestaurantDashboard.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/View/formulaire.cpp \
@@ -306,7 +308,9 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \
 	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantManagement_autogen/moc_predefs.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/main.cpp \
+	F:/Qt/6.8.0/mingw_64/include/QtCore/QList \
 	F:/Qt/6.8.0/mingw_64/include/QtCore/QMap \
+	F:/Qt/6.8.0/mingw_64/include/QtCore/QString \
 	F:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
 	F:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
 	F:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
@@ -467,6 +471,7 @@ RestaurantManagement_autogen/timestamp: \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/QLayout \
+	F:/Qt/6.8.0/mingw_64/include/QtWidgets/QMainWindow \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/QPushButton \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/QScrollArea \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/QSpinBox \
@@ -483,10 +488,12 @@ RestaurantManagement_autogen/timestamp: \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayout.h \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayoutitem.h \
+	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qpushbutton.h \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qscrollarea.h \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qspinbox.h \
+	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qtoolbar.h \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
 	F:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \

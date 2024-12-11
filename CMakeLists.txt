@@ -44,6 +44,8 @@ add_executable(RestaurantManagement main.cpp
         Controller/Factory.cpp
         Controller/Factory.h
         Model/ClassDefinition/Table.cpp
+        View/MenuWindows.cpp
+        View/MenuWindows.h
 )
 
 # Link libraries

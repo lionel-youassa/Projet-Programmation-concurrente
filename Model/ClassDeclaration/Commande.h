@@ -1,18 +1,21 @@
 #ifndef COMMANDE_H
 #define COMMANDE_H
 
-#include <vector>
 #include <string>
+#include <vector>
 #include "Plat.h"
+#include "Table.h"
 
+class Table;
 class Commande {
 public:
     int id;
-    std::string statut; // en cours, prêt, servi
-    std::vector<Plat> plats;
+    Table* table;                // Pointeur vers une instance de Table
+    std::string statut;
+    std::vector<Plat> plats;     // Collection de plats dans la commande
 
-    Commande(int id, const std::string& statut = "en cours");
-
+public:
+    Commande(int id, Table* table);
     void AjouterPlat(const Plat& plat);
     void ChangerStatut(const std::string& nouveauStatut);
 };

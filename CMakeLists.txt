@@ -52,6 +52,14 @@ add_executable(RestaurantManagement main.cpp
         Model/ClassDefinition/Plat.cpp
         Model/ClassDefinition/Serveur.cpp
         Model/ClassDefinition/Table.cpp
+        Model/ClassDeclaration/Menu.h
+        Model/ClassDefinition/Menu.cpp
+        Model/ClassDeclaration/Rang.h
+        Model/ClassDeclaration/Carree.h
+        Model/ClassDefinition/Rang.cpp
+        Model/ClassDefinition/Carree.cpp
+        Model/ClassDeclaration/Ingredient.h
+        Model/ClassDefinition/Ingredient.cpp
 )
 
 # Link libraries

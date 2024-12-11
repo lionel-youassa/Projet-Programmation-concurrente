@@ -105,4 +105,21 @@ CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
- C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Commande.h \
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Plat.h \
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Ingredient.h \
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Table.h \
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Client.h \
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Menu.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
+ C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
+ C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Commande.h

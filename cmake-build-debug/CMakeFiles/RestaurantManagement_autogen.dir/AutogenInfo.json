@@ -235,15 +235,39 @@
 			null
 		],
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Carree.h",
+			"MU",
+			"OUOE4ZGIQE/moc_Carree.cpp",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Chef_de_rang.h",
 			"MU",
 			"OUOE4ZGIQE/moc_Chef_de_rang.cpp",
 			null
 		],
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Ingredient.h",
+			"MU",
+			"OUOE4ZGIQE/moc_Ingredient.cpp",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Menu.h",
+			"MU",
+			"OUOE4ZGIQE/moc_Menu.cpp",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Personne.h",
 			"MU",
 			"OUOE4ZGIQE/moc_Personne.cpp",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDeclaration/Rang.h",
+			"MU",
+			"OUOE4ZGIQE/moc_Rang.cpp",
 			null
 		],
 		[
@@ -357,6 +381,11 @@
 			null
 		],
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Carree.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Chef_de_rang.cpp",
 			"MU",
 			null
@@ -377,7 +406,17 @@
 			null
 		],
 		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Ingredient.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Maitre_d_hotel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Menu.cpp",
 			"MU",
 			null
 		],
@@ -393,6 +432,11 @@
 		],
 		[
 			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Position.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Rang.cpp",
 			"MU",
 			null
 		],

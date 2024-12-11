@@ -1,8 +1,17 @@
-#include "../classDeclaration/Plat.h"
+// Plat.cpp
+#include "../ClassDeclaration/Plat.h"
 
-Plat::Plat(int id, const std::string& nom, const std::string& categorie, double prix, int tempsPreparation, bool estDisponible)
-    : id(id), nom(nom), categorie(categorie), prix(prix), tempsPreparation(tempsPreparation), estDisponible(estDisponible) {}
+Plat::Plat(int id, const std::string& name, const std::string& cat, float price)
+    : id(id), nom(name), categorie(cat), prix(price), estDisponible(true) {}
 
-void Plat::verifierDisponible() {
-    // Implémentation à venir
+void Plat::ajouterIngredient(const Ingredient& ingredient) {
+    ingredients.push_back(ingredient);
+}
+
+bool Plat::verifierDisponibilite() const {
+    return estDisponible;
+}
+
+std::string Plat::getNom() const {
+    return nom;
 }

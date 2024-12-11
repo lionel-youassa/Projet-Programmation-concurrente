@@ -338,6 +338,66 @@ CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Table.cpp" -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Table.cpp.s
 
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj: CMakeFiles/RestaurantManagement.dir/flags.make
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj: CMakeFiles/RestaurantManagement.dir/includes_CXX.rsp
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj: C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Menu.cpp
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj: CMakeFiles/RestaurantManagement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj -MF CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Menu.cpp.obj.d -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Menu.cpp.obj -c "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Menu.cpp"
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Menu.cpp" > CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Menu.cpp.i
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Menu.cpp" -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Menu.cpp.s
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj: CMakeFiles/RestaurantManagement.dir/flags.make
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj: CMakeFiles/RestaurantManagement.dir/includes_CXX.rsp
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj: C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Rang.cpp
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj: CMakeFiles/RestaurantManagement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj -MF CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Rang.cpp.obj.d -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Rang.cpp.obj -c "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Rang.cpp"
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Rang.cpp" > CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Rang.cpp.i
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Rang.cpp" -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Rang.cpp.s
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj: CMakeFiles/RestaurantManagement.dir/flags.make
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj: CMakeFiles/RestaurantManagement.dir/includes_CXX.rsp
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj: C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Carree.cpp
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj: CMakeFiles/RestaurantManagement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj -MF CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Carree.cpp.obj.d -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Carree.cpp.obj -c "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Carree.cpp"
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Carree.cpp" > CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Carree.cpp.i
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Carree.cpp" -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Carree.cpp.s
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.obj: CMakeFiles/RestaurantManagement.dir/flags.make
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.obj: CMakeFiles/RestaurantManagement.dir/includes_CXX.rsp
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.obj: C:/Users/siefo/Desktop/X3/Module\ sherbrooke(Programmation\ Concurente)/Projet-Programmation-concurrente/Model/ClassDefinition/Ingredient.cpp
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.obj: CMakeFiles/RestaurantManagement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.obj -MF CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Ingredient.cpp.obj.d -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Ingredient.cpp.obj -c "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Ingredient.cpp"
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Ingredient.cpp" > CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Ingredient.cpp.i
+
+CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\Model\ClassDefinition\Ingredient.cpp" -o CMakeFiles\RestaurantManagement.dir\Model\ClassDefinition\Ingredient.cpp.s
+
 # Object files for target RestaurantManagement
 RestaurantManagement_OBJECTS = \
 "CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.obj" \
@@ -357,7 +417,11 @@ RestaurantManagement_OBJECTS = \
 "CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Maitre_d_hotel.cpp.obj" \
 "CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Plat.cpp.obj" \
 "CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Serveur.cpp.obj" \
-"CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj"
+"CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj" \
+"CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj" \
+"CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj" \
+"CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj" \
+"CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.obj"
 
 # External object files for target RestaurantManagement
 RestaurantManagement_EXTERNAL_OBJECTS =
@@ -380,6 +444,10 @@ RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Model/ClassDefinit
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Plat.cpp.obj
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Serveur.cpp.obj
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj
+RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj
+RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj
+RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj
+RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.obj
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/build.make
 RestaurantManagement.exe: C:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a
 RestaurantManagement.exe: C:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a
@@ -387,7 +455,7 @@ RestaurantManagement.exe: C:/Qt/6.8.0/mingw_64/lib/libQt6Core.a
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/linkLibs.rsp
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/objects1.rsp
 RestaurantManagement.exe: CMakeFiles/RestaurantManagement.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable RestaurantManagement.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable RestaurantManagement.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RestaurantManagement.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E make_directory "C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/cmake-build-debug/plugins/platforms/"
 	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:\Qt\6.8.0\mingw_64/plugins/platforms/qwindows.dll "C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente/cmake-build-debug/plugins/platforms/"

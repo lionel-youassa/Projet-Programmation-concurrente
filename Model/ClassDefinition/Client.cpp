@@ -1,8 +1,9 @@
 #include "../classDeclaration/Client.h"
+#include "../classDeclaration/Plat.h"
 
-Client::Client(int id, const std::string& type)
-    : id(id), type(type) {}
+Client::Client(int id, const std::string& type) :
+    id(id), type(type) {}
 
-void Client::Commander(Commande& commande, const Plat& plat) {
-    // Implémentation à venir
+void Client::Commander(Menu& menu) {
+    // Logique pour commander un menu
 }

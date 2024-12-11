@@ -5,8 +5,14 @@
 
 class CommisDeSalle {
 public:
+    CommisDeSalle(int id, const std::string& nom, bool estEnPoste);
     void ServirPlat(Table& table);
     void VerifierBesoinClient();
+
+private:
+    int id;
+    std::string nom;
+    bool estEnPoste;
 };
 
 #endif // COMMIS_DE_SALLE_H

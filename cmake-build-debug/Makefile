@@ -178,6 +178,30 @@ Controller/ControleurService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.s
 .PHONY : Controller/ControleurService.cpp.s
 
+Model/ClassDefinition/Carree.obj: Model/ClassDefinition/Carree.cpp.obj
+.PHONY : Model/ClassDefinition/Carree.obj
+
+# target to build an object file
+Model/ClassDefinition/Carree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.obj
+.PHONY : Model/ClassDefinition/Carree.cpp.obj
+
+Model/ClassDefinition/Carree.i: Model/ClassDefinition/Carree.cpp.i
+.PHONY : Model/ClassDefinition/Carree.i
+
+# target to preprocess a source file
+Model/ClassDefinition/Carree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.i
+.PHONY : Model/ClassDefinition/Carree.cpp.i
+
+Model/ClassDefinition/Carree.s: Model/ClassDefinition/Carree.cpp.s
+.PHONY : Model/ClassDefinition/Carree.s
+
+# target to generate assembly for a file
+Model/ClassDefinition/Carree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Carree.cpp.s
+.PHONY : Model/ClassDefinition/Carree.cpp.s
+
 Model/ClassDefinition/Chef_de_rang.obj: Model/ClassDefinition/Chef_de_rang.cpp.obj
 .PHONY : Model/ClassDefinition/Chef_de_rang.obj
 
@@ -274,6 +298,30 @@ Model/ClassDefinition/Commis_de_salle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commis_de_salle.cpp.s
 .PHONY : Model/ClassDefinition/Commis_de_salle.cpp.s
 
+Model/ClassDefinition/Ingredient.obj: Model/ClassDefinition/Ingredient.cpp.obj
+.PHONY : Model/ClassDefinition/Ingredient.obj
+
+# target to build an object file
+Model/ClassDefinition/Ingredient.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.obj
+.PHONY : Model/ClassDefinition/Ingredient.cpp.obj
+
+Model/ClassDefinition/Ingredient.i: Model/ClassDefinition/Ingredient.cpp.i
+.PHONY : Model/ClassDefinition/Ingredient.i
+
+# target to preprocess a source file
+Model/ClassDefinition/Ingredient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.i
+.PHONY : Model/ClassDefinition/Ingredient.cpp.i
+
+Model/ClassDefinition/Ingredient.s: Model/ClassDefinition/Ingredient.cpp.s
+.PHONY : Model/ClassDefinition/Ingredient.s
+
+# target to generate assembly for a file
+Model/ClassDefinition/Ingredient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Ingredient.cpp.s
+.PHONY : Model/ClassDefinition/Ingredient.cpp.s
+
 Model/ClassDefinition/Maitre_d_hotel.obj: Model/ClassDefinition/Maitre_d_hotel.cpp.obj
 .PHONY : Model/ClassDefinition/Maitre_d_hotel.obj
 
@@ -297,6 +345,30 @@ Model/ClassDefinition/Maitre_d_hotel.s: Model/ClassDefinition/Maitre_d_hotel.cpp
 Model/ClassDefinition/Maitre_d_hotel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Maitre_d_hotel.cpp.s
 .PHONY : Model/ClassDefinition/Maitre_d_hotel.cpp.s
+
+Model/ClassDefinition/Menu.obj: Model/ClassDefinition/Menu.cpp.obj
+.PHONY : Model/ClassDefinition/Menu.obj
+
+# target to build an object file
+Model/ClassDefinition/Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.obj
+.PHONY : Model/ClassDefinition/Menu.cpp.obj
+
+Model/ClassDefinition/Menu.i: Model/ClassDefinition/Menu.cpp.i
+.PHONY : Model/ClassDefinition/Menu.i
+
+# target to preprocess a source file
+Model/ClassDefinition/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.i
+.PHONY : Model/ClassDefinition/Menu.cpp.i
+
+Model/ClassDefinition/Menu.s: Model/ClassDefinition/Menu.cpp.s
+.PHONY : Model/ClassDefinition/Menu.s
+
+# target to generate assembly for a file
+Model/ClassDefinition/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Menu.cpp.s
+.PHONY : Model/ClassDefinition/Menu.cpp.s
 
 Model/ClassDefinition/Personne.obj: Model/ClassDefinition/Personne.cpp.obj
 .PHONY : Model/ClassDefinition/Personne.obj
@@ -369,6 +441,30 @@ Model/ClassDefinition/Position.s: Model/ClassDefinition/Position.cpp.s
 Model/ClassDefinition/Position.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.s
 .PHONY : Model/ClassDefinition/Position.cpp.s
+
+Model/ClassDefinition/Rang.obj: Model/ClassDefinition/Rang.cpp.obj
+.PHONY : Model/ClassDefinition/Rang.obj
+
+# target to build an object file
+Model/ClassDefinition/Rang.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.obj
+.PHONY : Model/ClassDefinition/Rang.cpp.obj
+
+Model/ClassDefinition/Rang.i: Model/ClassDefinition/Rang.cpp.i
+.PHONY : Model/ClassDefinition/Rang.i
+
+# target to preprocess a source file
+Model/ClassDefinition/Rang.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.i
+.PHONY : Model/ClassDefinition/Rang.cpp.i
+
+Model/ClassDefinition/Rang.s: Model/ClassDefinition/Rang.cpp.s
+.PHONY : Model/ClassDefinition/Rang.s
+
+# target to generate assembly for a file
+Model/ClassDefinition/Rang.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Rang.cpp.s
+.PHONY : Model/ClassDefinition/Rang.cpp.s
 
 Model/ClassDefinition/Serveur.obj: Model/ClassDefinition/Serveur.cpp.obj
 .PHONY : Model/ClassDefinition/Serveur.obj
@@ -600,6 +696,9 @@ help:
 	@echo ... Controller/ControleurService.obj
 	@echo ... Controller/ControleurService.i
 	@echo ... Controller/ControleurService.s
+	@echo ... Model/ClassDefinition/Carree.obj
+	@echo ... Model/ClassDefinition/Carree.i
+	@echo ... Model/ClassDefinition/Carree.s
 	@echo ... Model/ClassDefinition/Chef_de_rang.obj
 	@echo ... Model/ClassDefinition/Chef_de_rang.i
 	@echo ... Model/ClassDefinition/Chef_de_rang.s
@@ -612,9 +711,15 @@ help:
 	@echo ... Model/ClassDefinition/Commis_de_salle.obj
 	@echo ... Model/ClassDefinition/Commis_de_salle.i
 	@echo ... Model/ClassDefinition/Commis_de_salle.s
+	@echo ... Model/ClassDefinition/Ingredient.obj
+	@echo ... Model/ClassDefinition/Ingredient.i
+	@echo ... Model/ClassDefinition/Ingredient.s
 	@echo ... Model/ClassDefinition/Maitre_d_hotel.obj
 	@echo ... Model/ClassDefinition/Maitre_d_hotel.i
 	@echo ... Model/ClassDefinition/Maitre_d_hotel.s
+	@echo ... Model/ClassDefinition/Menu.obj
+	@echo ... Model/ClassDefinition/Menu.i
+	@echo ... Model/ClassDefinition/Menu.s
 	@echo ... Model/ClassDefinition/Personne.obj
 	@echo ... Model/ClassDefinition/Personne.i
 	@echo ... Model/ClassDefinition/Personne.s
@@ -624,6 +729,9 @@ help:
 	@echo ... Model/ClassDefinition/Position.obj
 	@echo ... Model/ClassDefinition/Position.i
 	@echo ... Model/ClassDefinition/Position.s
+	@echo ... Model/ClassDefinition/Rang.obj
+	@echo ... Model/ClassDefinition/Rang.i
+	@echo ... Model/ClassDefinition/Rang.s
 	@echo ... Model/ClassDefinition/Serveur.obj
 	@echo ... Model/ClassDefinition/Serveur.i
 	@echo ... Model/ClassDefinition/Serveur.s

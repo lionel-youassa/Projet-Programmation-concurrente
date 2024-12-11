@@ -24,27 +24,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a891fa51-d029-4ac8-81da-1e280d226762" name="Changes" comment="reliage avec vue et controlleur 2">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/ClassDefinition/Carree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/ClassDefinition/Menu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/ClassDefinition/Rang.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDeclaration/Chef_de_rang.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDeclaration/Chef_de_rang.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDeclaration/Client.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDeclaration/Client.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDeclaration/Commande.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDeclaration/Commande.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDeclaration/Commis_de_salle.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDeclaration/Commis_de_salle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDeclaration/Plat.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDeclaration/Plat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDeclaration/Table.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDeclaration/Table.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Chef_de_rang.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Chef_de_rang.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Personne.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Personne.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/MainWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/View/MainWindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Client.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Commande.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Commande.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Commis_de_salle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Commis_de_salle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Maitre_d_hotel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Maitre_d_hotel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Plat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Plat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Serveur.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Serveur.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ClassDefinition/Table.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/ClassDefinition/Table.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7c7c69d8f52d810202c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-12-10T11-55-07-0095.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-RestaurantManagement-Debug-6c2da1a1f1a0bc034447.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Chef_de_rang.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Chef_de_rang.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Chef_de_rang.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Chef_de_rang.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Client.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Client.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Client.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Client.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commande.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commande.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commande.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commande.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commis_de_salle.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commis_de_salle.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commis_de_salle.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Commis_de_salle.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Maitre_d_hotel.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Maitre_d_hotel.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Maitre_d_hotel.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Maitre_d_hotel.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Plat.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Plat.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Plat.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Plat.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Serveur.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Serveur.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Serveur.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Serveur.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/AutogenInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/ParseCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RestaurantManagement_autogen.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/RestaurantManagement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RestaurantManagement.exe" afterDir="false" />
@@ -81,6 +112,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Model/ClassDeclaration/Personne.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Model/PostgreSQLConnection.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/View/MainWindow.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -99,39 +132,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CMake Application.RestaurantManagement.executor": "Run",
-    "CMake Application.untitled7.executor": "Run",
-    "CMake Debug.untitled7.executor": "Debug",
-    "Makefile Target.debug-all.executor": "Run",
-    "Makefile Target.debug-uninstall.executor": "Run",
-    "Makefile Target.first.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master__Test",
-    "last_opened_file_path": "C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake Application.RestaurantManagement.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.untitled7.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Debug.untitled7.executor&quot;: &quot;Debug&quot;,
+    &quot;Makefile Target.debug-all.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.debug-uninstall.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.first.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master__Test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/siefo/Desktop/X3/Module sherbrooke(Programmation Concurente)/Projet-Programmation-concurrente&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ],
-    "DatabaseDriversLRU": [
-      "postgresql"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\siefo\Desktop\X3\Module sherbrooke(Programmation Concurente)\Projet-Programmation-concurrente" />
@@ -147,11 +180,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.RestaurantManagement">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="untitled7" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -162,6 +190,11 @@
       <method v="2" />
     </configuration>
     <configuration name="RestaurantManagement" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RestaurantManagement" TARGET_NAME="RestaurantManagement" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RestaurantManagement" RUN_TARGET_NAME="RestaurantManagement">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -245,7 +278,8 @@
       <updated>1733261682432</updated>
       <workItem from="1733261684020" duration="32698000" />
       <workItem from="1733825506428" duration="2696000" />
-      <workItem from="1733828251948" duration="10337000" />
+      <workItem from="1733828251948" duration="10393000" />
+      <workItem from="1733841596282" duration="11261000" />
     </task>
     <task id="LOCAL-00001" summary="Tef">
       <option name="closed" value="true" />
@@ -311,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733827547453</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="reliage avec vue et controlleur 2">
+      <option name="closed" value="true" />
+      <created>1733841550533</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733841550533</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +407,10 @@
           <url>file://$PROJECT_DIR$/Model/ClassDeclaration/Personne.h</url>
           <line>6</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Model/ClassDefinition/Table.cpp</url>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

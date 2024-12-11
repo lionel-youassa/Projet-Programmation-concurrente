@@ -2,17 +2,16 @@
 #define CLIENT_H
 
 #include <string>
-#include "Commande.h"
-#include "Plat.h"
+#include "Menu.h"
 
 class Client {
 public:
-    int id;
-    std::string type; // Individu, Groupe, etc.
-
     Client(int id, const std::string& type);
+    void Commander(Menu& menu);
 
-    void Commander(Commande& commande, const Plat& plat);
+private:
+    int id;
+    std::string type;
 };
 
 #endif // CLIENT_H

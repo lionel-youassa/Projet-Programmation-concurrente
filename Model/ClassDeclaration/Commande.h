@@ -16,6 +16,7 @@ public:
 
 public:
     Commande(int id, Table* table);
+    Commande(); // Constructeur par défaut ajouté
     void AjouterPlat(const Plat& plat);
     void ChangerStatut(const std::string& nouveauStatut);
 };

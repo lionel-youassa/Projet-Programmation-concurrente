@@ -25,5 +25,9 @@ void Table::AssocierCommande(const Commande& commande) {
 }
 
 int Table::getNumero() const {
-    return numero; // Renvoie le numéro de la table
+    return numero;
+}
+
+std::string Table::getStatut() const {
+    return statut;
 }

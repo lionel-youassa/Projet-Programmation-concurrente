@@ -5,15 +5,10 @@
 #include "Commande.h"
 #include "Client.h"
 
-using namespace std;
+class Commande; // Forward declaration to avoid circular dependency
 
-class Commande;
 class Table {
 public:
-    int numero;
-    int nbPlaces;
-    std::string statut; // libre, en nettoyage, occupée
-
     Table(int numero, int nbPlaces, const std::string& statut = "libre");
 
     void AjouterClient(const Client& client);
@@ -21,9 +16,15 @@ public:
     void ChangerStatut(const std::string& nouveauStatut);
     void AssocierCommande(const Commande& commande);
 
-    int getNumero() const; // Ajout de cette méthode
+    int getNumero() const;
+    int getNbPlaces() const { return nbPlaces; } // Ajout de la méthode pour accéder à nbPlaces
+    std::string getStatut() const; // Nouvelle méthode ajoutée pour obtenir le statut de la table
+    std::vector<Commande>& getCommandes() { return commandes; } // Méthode pour accéder à commandes
 
 private:
+    int numero;
+    int nbPlaces;
+    std::string statut; // libre, en nettoyage, occupée
     std::vector<Client> clients;
     std::vector<Commande> commandes;
 };

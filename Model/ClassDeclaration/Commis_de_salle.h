@@ -8,6 +8,7 @@ public:
     CommisDeSalle(int id, const std::string& nom, bool estEnPoste);
     void ServirPlat(Table& table);
     void VerifierBesoinClient();
+    int getId() const;
 
 private:
     int id;

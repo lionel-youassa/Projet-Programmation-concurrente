@@ -4,6 +4,7 @@
 #include "Table.h"
 #include "Commis_de_salle.h"
 #include <list>
+#include <string>
 
 class ChefDeRang {
 public:

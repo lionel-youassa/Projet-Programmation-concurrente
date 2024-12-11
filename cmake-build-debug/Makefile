@@ -370,6 +370,30 @@ View/MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.s
 .PHONY : View/MainWindow.cpp.s
 
+View/MenuWindows.obj: View/MenuWindows.cpp.obj
+.PHONY : View/MenuWindows.obj
+
+# target to build an object file
+View/MenuWindows.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MenuWindows.cpp.obj
+.PHONY : View/MenuWindows.cpp.obj
+
+View/MenuWindows.i: View/MenuWindows.cpp.i
+.PHONY : View/MenuWindows.i
+
+# target to preprocess a source file
+View/MenuWindows.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MenuWindows.cpp.i
+.PHONY : View/MenuWindows.cpp.i
+
+View/MenuWindows.s: View/MenuWindows.cpp.s
+.PHONY : View/MenuWindows.s
+
+# target to generate assembly for a file
+View/MenuWindows.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RestaurantManagement.dir\build.make CMakeFiles/RestaurantManagement.dir/View/MenuWindows.cpp.s
+.PHONY : View/MenuWindows.cpp.s
+
 View/RestaurantDashboard.obj: View/RestaurantDashboard.cpp.obj
 .PHONY : View/RestaurantDashboard.obj
 
@@ -480,6 +504,9 @@ help:
 	@echo ... View/MainWindow.obj
 	@echo ... View/MainWindow.i
 	@echo ... View/MainWindow.s
+	@echo ... View/MenuWindows.obj
+	@echo ... View/MenuWindows.i
+	@echo ... View/MenuWindows.s
 	@echo ... View/RestaurantDashboard.obj
 	@echo ... View/RestaurantDashboard.i
 	@echo ... View/RestaurantDashboard.s

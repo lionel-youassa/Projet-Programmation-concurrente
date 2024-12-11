@@ -282,7 +282,9 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/QList \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/QMap \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
@@ -443,6 +445,7 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLayout \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QMainWindow \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QPushButton \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QScrollArea \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QSpinBox \
@@ -459,10 +462,12 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayout.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayoutitem.h \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qpushbutton.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qscrollarea.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qspinbox.h \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtoolbar.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -622,6 +627,8 @@ RestaurantManagement_autogen/timestamp: \
 	D:/Projet-Programmation-concurrente/View/InterfaceAcceuil.h \
 	D:/Projet-Programmation-concurrente/View/MainWindow.cpp \
 	D:/Projet-Programmation-concurrente/View/MainWindow.h \
+	D:/Projet-Programmation-concurrente/View/MenuWindows.cpp \
+	D:/Projet-Programmation-concurrente/View/MenuWindows.h \
 	D:/Projet-Programmation-concurrente/View/RestaurantDashboard.cpp \
 	D:/Projet-Programmation-concurrente/View/RestaurantDashboard.h \
 	D:/Projet-Programmation-concurrente/View/formulaire.cpp \

@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.obj.d"
   "CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj"
   "CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj.d"
+  "CMakeFiles/RestaurantManagement.dir/View/MenuWindows.cpp.obj"
+  "CMakeFiles/RestaurantManagement.dir/View/MenuWindows.cpp.obj.d"
   "CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj"
   "CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj.d"
   "CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj"

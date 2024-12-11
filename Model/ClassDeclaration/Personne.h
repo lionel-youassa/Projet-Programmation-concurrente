@@ -38,7 +38,7 @@ public:
 
     void AllerRetour(QLabel *point, Position arrivee, QWidget *parentWidget, int tempsAttente);
 
-    void afficher(QGraphicsScene* scene);
+
 
     std::vector<Personne> genererClients(int nbrePersonne, int nbreVague);
 };

@@ -374,6 +374,7 @@ MainWindow::MainWindow( int nbrClient, int nbrVague, int tempSimulation, QWidget
         Personne serveur1 (6, "Joevinio", "SerVeuR", true, posServeur1,"blue");
         QLabel *pointServeur1 = new QLabel(mainWidget);
         serveur1.afficher(pointServeur1, mainWidget, aw);
+        //serveur1.DeplacerTranquillement(pointServeur1 ,posA, mainWidget);
 
         //Serveur
         const Position posServeur3 = Position(400,1080);

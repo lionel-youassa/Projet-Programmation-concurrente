@@ -37,6 +37,8 @@ add_executable(RestaurantManagement main.cpp
         View/MainWindow.h
         View/formulaire.cpp
         View/formulaire.h
+        View/MenuWindows.h
+        View/MenuWindows.cpp
         Model/classDeclaration/Chef_de_rang.h
         Model/ClassDefinition/Position.cpp
         View/RestaurantDashboard.cpp

@@ -14,11 +14,11 @@
 class MainWindow : public QWidget {
     Q_OBJECT
 public:
-    explicit MainWindow( int nbrClient, int nbrVague, int tempSimulation, QWidget *parent = nullptr);
+     MainWindow( int nbrClient, int nbrVague, int tempSimulation, QWidget *parent = nullptr);
 
 private:
     QToolBar* createNavbar(); // Méthode pour créer la barre de navigation
-    MainWindow(QWidget *parent, int nbrePersonne, int vague);
+    //MainWindow(QWidget *parent, int nbrePersonne, int vague);
 
     QWidget* createRangeTable(int numChairs, int numTables); // Existant
     QWidget* createImageWidget(const QString &imagePath, int width, int height); // Existant

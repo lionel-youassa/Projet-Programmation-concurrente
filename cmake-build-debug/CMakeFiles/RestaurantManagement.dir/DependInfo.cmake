@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Projet-Programmation-concurrente/cmake-build-debug/RestaurantManagement_autogen/mocs_compilation.cpp" "CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.obj.d"
   "D:/Projet-Programmation-concurrente/View/InterfaceAcceuil.cpp" "CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.obj" "gcc" "CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.obj.d"
   "D:/Projet-Programmation-concurrente/View/MainWindow.cpp" "CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj" "gcc" "CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj.d"
+  "D:/Projet-Programmation-concurrente/View/MenuWindows.cpp" "CMakeFiles/RestaurantManagement.dir/View/MenuWindows.cpp.obj" "gcc" "CMakeFiles/RestaurantManagement.dir/View/MenuWindows.cpp.obj.d"
   "D:/Projet-Programmation-concurrente/View/RestaurantDashboard.cpp" "CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj" "gcc" "CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj.d"
   "D:/Projet-Programmation-concurrente/View/formulaire.cpp" "CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj" "gcc" "CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj.d"
   "D:/Projet-Programmation-concurrente/main.cpp" "CMakeFiles/RestaurantManagement.dir/main.cpp.obj" "gcc" "CMakeFiles/RestaurantManagement.dir/main.cpp.obj.d"

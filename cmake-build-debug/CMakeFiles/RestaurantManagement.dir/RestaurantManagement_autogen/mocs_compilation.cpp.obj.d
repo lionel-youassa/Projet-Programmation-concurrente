@@ -442,10 +442,19 @@ CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilatio
  C:/Qt/6.8.0/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.8.0/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qtmochelpers.h \
- D:\Projet-Programmation-concurrente\cmake-build-debug\RestaurantManagement_autogen\WB4RFHLAU6/moc_RestaurantDashboard.cpp \
- D:/Projet-Programmation-concurrente/View/RestaurantDashboard.h \
+ D:\Projet-Programmation-concurrente\cmake-build-debug\RestaurantManagement_autogen\WB4RFHLAU6/moc_MenuWindows.cpp \
+ D:/Projet-Programmation-concurrente/View/MenuWindows.h \
+ C:/Qt/6.8.0/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h \
+ C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qstring.h \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/QList \
+ C:/Qt/6.8.0/mingw_64/include/QtCore/qlist.h \
+ D:\Projet-Programmation-concurrente\cmake-build-debug\RestaurantManagement_autogen\WB4RFHLAU6/moc_RestaurantDashboard.cpp \
+ D:/Projet-Programmation-concurrente/View/RestaurantDashboard.h \
  C:/Qt/6.8.0/mingw_64/include/QtCore/QMap \
  C:/Qt/6.8.0/mingw_64/include/QtCore/qmap.h \
  D:\Projet-Programmation-concurrente\cmake-build-debug\RestaurantManagement_autogen\WB4RFHLAU6/moc_formulaire.cpp \

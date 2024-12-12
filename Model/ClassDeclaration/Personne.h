@@ -34,13 +34,15 @@ public:
 
     void DeplacerTranquillement(QLabel *point, Position arrivee, QWidget *parentWidget);
 
+    void DeplacerJuskaTable(QLabel *point, Position arrivee, QWidget *parentWidget);
+
     void afficher(QLabel *point, QWidget *parent, int aw);
 
     void AllerRetour(QLabel *point, Position arrivee, QWidget *parentWidget, int tempsAttente);
 
 
 
-    std::vector<Personne> genererClients(int nbrePersonne, int nbreVague);
+
 };
 
 #endif // PERSONNE_H

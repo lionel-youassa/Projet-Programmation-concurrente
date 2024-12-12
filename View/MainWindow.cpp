@@ -7,11 +7,22 @@
 #include "../Model/ClassDefinition/Personne.cpp"
 #include  "RestaurantDashboard.h"
 #include "../Controller/Factory.h"
+#include "../Controller/ThreadPool.h"
+#include "../Controller/ControleurService.h"
 #include "MenuWindows.h"
 
+
 MainWindow::MainWindow( int nbrClient, int nbrVague, int tempSimulation, QWidget *parent) : QWidget(parent) , nbrClient(nbrClient), nbrVague(nbrVague), tempSimulation(tempSimulation) {
-    //std::cout<<tempSimulation;
+    //pool pour la gestion des threads
+        ThreadPool pool();
+        std::mutex mtx;
+        std::condition_variable cv;
+        bool deplacerPersonneTermine = false;
+        std::vector<Personne> mesPersonnes= ControleurService::genererClients(nbrClient,  nbrVague);
+
+
     // Layout principal pour la fenêtre
+
         auto *mainLayout = new QVBoxLayout(this);
         mainLayout->setContentsMargins(0, 0, 0, 0);
 
@@ -336,6 +347,24 @@ MainWindow::MainWindow( int nbrClient, int nbrVague, int tempSimulation, QWidget
 
         //Client
         const Position posAccueil = Position(80,1600);
+        //Chef d'hotel
+        const Position posChefAccueil = Position(150,1600);
+        //Chef de rang 1
+        const Position posChefRang = Position(400,600);
+        //Chef de rang 2
+        const Position posChefRang2 = Position(400,1050);
+        //Serveur
+        const Position posServeur = Position(400,640);
+        //Serveur1
+        const Position posServeur1 = Position(400,680);
+        //Serveur2
+        const Position posServeur3 = Position(400,1080);
+        //Serveur
+        const Position posServeur4 = Position(400,1140);
+        //Commis de salle
+        const Position posCommisSalle = Position(110,470);
+
+
         Personne p(1, "Emma", "Client", true, posAccueil,"red","6");
         QLabel *pointClient = new QLabel(mainWidget);
         p.afficher(pointClient, mainWidget, aw);
@@ -343,53 +372,45 @@ MainWindow::MainWindow( int nbrClient, int nbrVague, int tempSimulation, QWidget
         //p.DeplacerTranquillement(pointClient,posA, mainWidget);
 
 
-        //Chef d'hotel
-        const Position posChefAccueil = Position(150,1600);
+
         Personne chefDhotel (2, "lionel", "ChefDhotel", true, posChefAccueil,"white");
         QLabel *pointChefDhotel = new QLabel(mainWidget);
         chefDhotel.afficher(pointChefDhotel, mainWidget, aw);
         chefDhotel.AllerRetour(pointChefDhotel,posA, mainWidget, 300);
 
 
-        //Chef de rang 1
-        const Position posChefRang = Position(400,600);
+
         Personne chefRang (3, "Joevinio", "ChefDeRang", true, posChefRang,"black");
         QLabel *pointChefRang = new QLabel(mainWidget);
         chefRang.afficher(pointChefRang, mainWidget, aw);
 
-        //Chef de rang 2
-        const Position posChefRang2 = Position(400,1050);
+
         Personne chefRang2 (4, "Joevinio", "ChefDeRang", true, posChefRang2,"black");
         QLabel *pointChefRang2 = new QLabel(mainWidget);
         chefRang2.afficher(pointChefRang2, mainWidget, aw);
 
-        //Serveur
-        const Position posServeur = Position(400,640);
+
         Personne serveur (5, "Joevinio", "SerVeuR", true, posServeur,"blue");
         QLabel *pointServeur = new QLabel(mainWidget);
         serveur.afficher(pointServeur, mainWidget, aw);
 
-        //Serveur
-        const Position posServeur1 = Position(400,680);
+
         Personne serveur1 (6, "Joevinio", "SerVeuR", true, posServeur1,"blue");
         QLabel *pointServeur1 = new QLabel(mainWidget);
         serveur1.afficher(pointServeur1, mainWidget, aw);
         //serveur1.DeplacerTranquillement(pointServeur1 ,posA, mainWidget);
 
-        //Serveur
-        const Position posServeur3 = Position(400,1080);
+
         Personne serveur3 (7, "Joevinio", "SerVeuR", true, posServeur3,"blue");
         QLabel *pointServeur3= new QLabel(mainWidget);
         serveur3.afficher(pointServeur3, mainWidget, aw);
 
-        //Serveur
-        const Position posServeur4 = Position(400,1140);
+
         Personne serveur4 (8, "Joevinio", "SerVeuR", true, posServeur4,"blue");
         QLabel *pointServeur4= new QLabel(mainWidget);
         serveur4.afficher(pointServeur4, mainWidget, aw);
 
-        //Commis de salle
-        const Position posCommisSalle = Position(110,470);
+
         Personne commisSalle (8, "Joevinio", "CommisDeSalle", true, posCommisSalle,"orange");
         QLabel *pointCommisSalle= new QLabel(mainWidget);
         commisSalle.afficher(pointCommisSalle, mainWidget, aw);

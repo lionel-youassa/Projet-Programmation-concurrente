@@ -6,10 +6,14 @@
 #ifndef CONTROLEURSERVICE_H
 #define CONTROLEURSERVICE_H
 #include "../Model/ClassDeclaration/Personne.h"
+#include "../Model/ClassDeclaration/Table.h"
 
 
 class ControleurService {
-    void AssignerClient(int numeroTable, const Personne& client);
+public:
+    static void AssignerClient(std::vector<Table>& mesTables, const Personne& client);
+    static std::vector<Personne> genererClients(int nbrePersonne, int nbreVague);
+
 };
 
 

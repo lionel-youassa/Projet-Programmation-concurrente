@@ -5,8 +5,12 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QGridLayout>
+#include <QList>
+#include <QList>
 #include <QString>
 #include <QList>
+#include "../Model/ClassDeclaration/Plat.h"
+
 
 // Structure pour représenter un plat avec son image
 struct Dish {
@@ -21,7 +25,7 @@ public:
     explicit MenuWindow(QWidget *parent = nullptr);
 
     // Méthode pour afficher une liste de plats avec leurs images
-    void displayMenu(const QList<Dish> &dishes);
+    void displayMenu(const QList<Dish> & dishes);
 
 private:
     QLabel *menuTitleLabel;   // Titre de la fenêtre

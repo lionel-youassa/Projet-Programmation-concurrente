@@ -247,6 +247,24 @@
 			null
 		],
 		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Plat.h",
+			"MU",
+			"OUOE4ZGIQE/moc_Plat.cpp",
+			null
+		],
+		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Serveur.h",
+			"MU",
+			"OUOE4ZGIQE/moc_Serveur.cpp",
+			null
+		],
+		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Table.h",
+			"MU",
+			"OUOE4ZGIQE/moc_Table.cpp",
+			null
+		],
+		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/PostgreSQLConnection.h",
 			"MU",
 			"EXHL2H62WB/moc_PostgreSQLConnection.cpp",
@@ -363,6 +381,11 @@
 		],
 		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/Controller/Factory.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Plat.cpp",
 			"MU",
 			null
 		],

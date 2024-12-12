@@ -43,9 +43,14 @@ add_executable(RestaurantManagement main.cpp
         View/RestaurantDashboard.h
         Controller/Factory.cpp
         Controller/Factory.h
+        Model/ClassDeclaration/Table.h
         Model/ClassDefinition/Table.cpp
         View/MenuWindows.cpp
         View/MenuWindows.h
+        Model/ClassDeclaration/Plat.h
+        Model/ClassDefinition/Plat.cpp
+        Model/ClassDeclaration/Serveur.h
+
 )
 
 # Link libraries

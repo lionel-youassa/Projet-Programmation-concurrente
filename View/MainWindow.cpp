@@ -1,4 +1,6 @@
 #include "MainWindow.h"
+
+#include <iostream>
 #include <QTimer>
 #include <QPropertyAnimation>
 #include <QGraphicsOpacityEffect>
@@ -6,6 +8,8 @@
 #include  "RestaurantDashboard.h"
 #include "../Controller/Factory.h"
 #include "MenuWindows.h"
+#include "../Model/PostgreSQLConnection.h"
+#include "../Model/ClassDeclaration/Plat.h"
 
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
    // Layout principal pour la fenêtre
@@ -16,6 +20,8 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
         auto *mainWidget = new QWidget(); // Contiendra la cuisine et la salle
         auto *mainWidgetLayout = new QVBoxLayout(mainWidget);
         mainWidgetLayout->setContentsMargins(0, 0, 0, 0);
+
+
 
         //navBar
     // Barre de navigation insérée dans le layout principal
@@ -52,6 +58,9 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
                 "}"
             );
 
+            //Plat
+            QList<Dish> dishes;
+
             // Compteur de temps
             countdownLabel = new QLabel(QString("Temps restant: %1 (min) ").arg(countdown), this);
             navbar->addWidget(countdownLabel);
@@ -79,13 +88,18 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
             // Bouton "Menu"
             QPushButton *MenuButton = new QPushButton("Menu", this);
             connect(MenuButton, &QPushButton::clicked, this, [=]{
-                // Exemple de liste de plats
-     QList<Dish> dishes = {
-         {"Entrée: Salade verte", "../images/rb_salade.png"},
-         {"Plat: Poulet rôti", "../images/rb_Poulet.png"},
-         {"Dessert: Tarte aux pommes", "../images/rb_Pomme.png"}
-     };
+                // Créer un objet Plat et récupérer les plats depuis la base de données
 
+
+
+      QList<Dish> dishes = {
+        Dish("Salade César", "../images/rb_salade.png"),
+        Dish("Poulet Rôti", "../images/rb_Poulet.png"),
+        Dish("Tarte aux Pommes", "../images/rb_Pomme.png"),
+        Dish("Soupe de Légumes", "../images/rb_soupe.png"),
+        Dish("Steak Frites", "../images/rb_Steak_Frites.png"),
+        Dish("Mousse au Chocolat", "../images/rb_mousse_chocolat.png")
+    };
          auto *menuWindows = new MenuWindow();
          menuWindows->displayMenu(dishes); // Afficher le menu sur l'interface
          menuWindows->show();

@@ -1,8 +1,10 @@
 #include "MenuWindows.h"
 #include <QVBoxLayout>
 #include <QPixmap>
+#include "../Model/ClassDeclaration/Plat.h"
 
 MenuWindow::MenuWindow(QWidget *parent) : QMainWindow(parent) {
+
     // Configuration de la fenêtre principale
     setWindowTitle("Menu du Jour");
     resize(800, 600);
@@ -30,6 +32,8 @@ MenuWindow::MenuWindow(QWidget *parent) : QMainWindow(parent) {
     setCentralWidget(centralWidget);
 }
 
+
+
 void MenuWindow::displayMenu(const QList<Dish> &dishes) {
     // Nettoyer la disposition précédente
     QLayoutItem *child;
@@ -49,15 +53,15 @@ void MenuWindow::displayMenu(const QList<Dish> &dishes) {
         // Vérifier si l'image est valide
         if (pixmap.isNull()) {
             qDebug() << "Erreur lors du chargement de l'image :" << dish.imagePath;
-            pixmap.load("../images/Poulet_roti_avec_legumes.jpg"); // Charger une image par défaut
+            pixmap.load("../images/default.jpg"); // Charger une image par défaut
         }
         imageLabel->setPixmap(pixmap.scaled(120, 120, Qt::KeepAspectRatio));
-        menuLayout->addWidget(imageLabel, i / 2, (i % 2) * 2);
+        menuLayout->addWidget(imageLabel, i / 2, (i % 2));
 
         // Afficher le nom du plat
         QLabel *nameLabel = new QLabel(dish.name, this);
         nameLabel->setStyleSheet("font-size: 16px; color: #333;");
         nameLabel->setAlignment(Qt::AlignCenter);
-        menuLayout->addWidget(nameLabel, i / 2, (i % 2) * 2);
+        menuLayout->addWidget(nameLabel, i / 2, (i % 2));
     }
 }

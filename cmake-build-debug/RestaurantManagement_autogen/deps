@@ -282,12 +282,21 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+	C:/Program\ Files/PostgreSQL/16/include/libpq-fe.h \
+	C:/Program\ Files/PostgreSQL/16/include/pg_config_ext.h \
+	C:/Program\ Files/PostgreSQL/16/include/postgres_ext.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/CMakeLists.txt \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Controller/ControleurService.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Controller/ControleurService.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Controller/Factory.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Controller/Factory.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Chef_de_rang.h \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Personne.h \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Plat.h \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Position.h \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Serveur.h \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Table.h \
+	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Plat.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Position.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Table.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/Model/PostgreSQLConnection.cpp \

@@ -11,7 +11,7 @@ PostgreSQLConnection* PostgreSQLConnection::instance = nullptr;
 
 // Constructeur
 PostgreSQLConnection::PostgreSQLConnection()
-    : conninfo("host=localhost port=5432 dbname=ProgrammationConcurrente user=postgres password=020106") {
+    : conninfo("host=localhost port=5432 dbname=ProgrammationConcourrente user=postgres password=lionel") {
     connection = PQconnectdb(conninfo.c_str());
     if (PQstatus(connection) != CONNECTION_OK) {
         std::cerr << "Erreur de connexion à la base de données : " << PQerrorMessage(connection) << std::endl;

@@ -110,6 +110,7 @@ endforeach()
 
 # Discover and register tests (optional: discovery timeout extended)
 include(GoogleTest)
+gtest_discover_tests(tests DISCOVERY_TIMEOUT 300)  # Augmenter le délai d'attente pour les tests
 
 # Windows-specific actions
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)

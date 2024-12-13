@@ -5,23 +5,29 @@
 #include <QPropertyAnimation>
 #include <QGraphicsOpacityEffect>
 #include "../Model/ClassDefinition/Personne.cpp"
+#include "../Model/ClassDeclaration/Table.h"
+
 #include  "RestaurantDashboard.h"
 #include "../Controller/Factory.h"
-#include "MenuWindows.h"
-#include "../Model/PostgreSQLConnection.h"
-#include "../Model/ClassDeclaration/Plat.h"
 
-MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
-   // Layout principal pour la fenêtre
+#include "../Controller/ThreadPool.h"
+//#include "../Controller/TaskManager.cpp"
+#include "../Controller/ControleurService.h"
+#include "MenuWindows.h"
+#include <QObject>
+
+MainWindow::MainWindow(int nbrClient, int nbrVague, int tempSimulation, QWidget *parent
+                       ) : QWidget(parent), nbrClient(nbrClient), nbrVague(nbrVague),
+                                              tempSimulation(tempSimulation) {
+
+    // Layout principal pour la fenêtre
+
         auto *mainLayout = new QVBoxLayout(this);
         mainLayout->setContentsMargins(0, 0, 0, 0);
-
+        QWidget *mainWidget= new QWidget();
         // --- Widget principal contenant tout ---
-        auto *mainWidget = new QWidget(); // Contiendra la cuisine et la salle
         auto *mainWidgetLayout = new QVBoxLayout(mainWidget);
         mainWidgetLayout->setContentsMargins(0, 0, 0, 0);
-
-
 
         //navBar
     // Barre de navigation insérée dans le layout principal
@@ -58,9 +64,6 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
                 "}"
             );
 
-            //Plat
-            QList<Dish> dishes;
-
             // Compteur de temps
             countdownLabel = new QLabel(QString("Temps restant: %1 (min) ").arg(countdown), this);
             navbar->addWidget(countdownLabel);
@@ -88,18 +91,13 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
             // Bouton "Menu"
             QPushButton *MenuButton = new QPushButton("Menu", this);
             connect(MenuButton, &QPushButton::clicked, this, [=]{
-                // Créer un objet Plat et récupérer les plats depuis la base de données
+                // Exemple de liste de plats
+     QList<Dish> dishes = {
+         {"Entrée: Salade verte", "../images/rb_salade.png"},
+         {"Plat: Poulet rôti", "../images/rb_Poulet.png"},
+         {"Dessert: Tarte aux pommes", "../images/rb_Pomme.png"}
+     };
 
-
-
-      QList<Dish> dishes = {
-        Dish("Salade César", "../images/rb_salade.png"),
-        Dish("Poulet Rôti", "../images/rb_Poulet.png"),
-        Dish("Tarte aux Pommes", "../images/rb_Pomme.png"),
-        Dish("Soupe de Légumes", "../images/rb_soupe.png"),
-        Dish("Steak Frites", "../images/rb_Steak_Frites.png"),
-        Dish("Mousse au Chocolat", "../images/rb_mousse_chocolat.png")
-    };
          auto *menuWindows = new MenuWindow();
          menuWindows->displayMenu(dishes); // Afficher le menu sur l'interface
          menuWindows->show();
@@ -340,20 +338,145 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
 
 
-
-
-
-
-
-
-
         mainWidgetLayout->addWidget(diningFrame);
 
+        //taille des points
+        float aw=20;
 
-        // Positionnement manuel pour les images
-        const Position pos = Position(1200,300);
-        Personne p(1, "Emma", true, true,pos, "../images/maitrehoteldown.png");
-        p.afficher(mainWidget, 60, 70);
+        //Client
+        const Position posAccueil = Position(80,1600);
+        //Chef d'hotel
+        const Position posChefAccueil = Position(150,1600);
+        //Chef de rang 1
+        const Position posChefRang = Position(400,600);
+        //Chef de rang 2
+        const Position posChefRang2 = Position(400,1050);
+        //Serveur
+        const Position posServeur = Position(400,640);
+        //Serveur1
+        const Position posServeur1 = Position(400,680);
+        //Serveur2
+        const Position posServeur3 = Position(400,1080);
+        //Serveur
+        const Position posServeur4 = Position(400,1140);
+        //Commis de salle
+        const Position posCommisSalle = Position(110,470);
+
+        const Position posAttente= Position(300,1600);
+        const Position posCuisinier= Position(300,300);
+
+        //p.DeplacerTranquillement(pointClient,posA, mainWidget);
+
+
+
+        Personne chefDhotel (2, "lionel", "ChefDhotel", true, posChefAccueil,"white");
+        QLabel *pointChefDhotel = new QLabel(mainWidget);
+        chefDhotel.afficher(pointChefDhotel, mainWidget, aw);
+        //chefDhotel.AllerRetour(pointChefDhotel,posAttente, mainWidget, 300);
+
+
+
+        Personne chefRang (3, "Joevinio", "ChefDeRang", true, posChefRang,"black");
+        QLabel *pointChefRang = new QLabel(mainWidget);
+        chefRang.afficher(pointChefRang, mainWidget, aw);
+
+
+        Personne chefRang2 (4, "Joevinio", "ChefDeRang", true, posChefRang2,"black");
+        QLabel *pointChefRang2 = new QLabel(mainWidget);
+        chefRang2.afficher(pointChefRang2, mainWidget, aw);
+
+
+
+
+
+        Personne serveur1 (6, "Joevinio", "SerVeuR", true, posServeur1,"blue");
+        QLabel *pointServeur1 = new QLabel(mainWidget);
+        serveur1.afficher(pointServeur1, mainWidget, aw);
+        //serveur1.DeplacerTranquillement(pointServeur1 ,posA, mainWidget);
+
+
+        Personne serveur3 (7, "Joevinio", "SerVeuR", true, posServeur3,"blue");
+        QLabel *pointServeur3= new QLabel(mainWidget);
+        serveur3.afficher(pointServeur3, mainWidget, aw);
+
+
+        Personne serveur4 (8, "Joevinio", "SerVeuR", true, posServeur4,"blue");
+        QLabel *pointServeur4= new QLabel(mainWidget);
+        serveur4.afficher(pointServeur4, mainWidget, aw);
+
+        Personne commisSalle (8, "Joevinio", "CommisDeSalle", true, posCommisSalle,"orange");
+        QLabel *pointCommisSalle= new QLabel(mainWidget);
+        commisSalle.afficher(pointCommisSalle, mainWidget, aw);
+
+        Personne commisCuisine (8, "Joevinio", "CommisDeCuisine", true, posCuisinier,"orange");
+        QLabel *pointCommisCuisine= new QLabel(mainWidget);
+        commisCuisine.afficher(pointCommisCuisine, mainWidget, aw);
+
+    std::mutex mtx; // Mutex global pour protéger les ressources partagées
+
+    std::vector<Personne> mesPersonnes = ControleurService::genererClients(nbrClient, nbrVague);
+    std::vector<QLabel*> mesPoints = ControleurService::genererPoints(nbrVague, mainWidget);
+
+    Factory factory;
+    std::vector<Table> mesTables = factory.get_table_();
+
+    {
+            std::lock_guard<std::mutex> lock(mtx); // Protège l'accès à mesPersonnes
+            mesPersonnes[0].afficher(mesPoints[0], mainWidget, aw);
+    }
+
+    // Exemple pour déplacer tranquillement une personne
+    {
+            std::lock_guard<std::mutex> lock(mtx); // Protège les opérations sur mesPersonnes
+            //mesPersonnes[0].DeplacerTranquillement(mesPoints[0], posAttente, mainWidget, 40);
+    }
+
+    Table uneTableCommeCa;
+    {
+            std::lock_guard<std::mutex> lock(mtx); // Protège l'accès à mesTables
+            uneTableCommeCa = ControleurService::AssignerClient(mesTables, mesPersonnes[0]);
+    }
+
+    // Déplacement du chef de rang
+    {
+            std::lock_guard<std::mutex> lock(mtx); // Protège les ressources partagées, si nécessaire
+            Position posRetour = chefRang.positionActuelle;  // La position où l'objet doit revenir après l'animation
+            chefRang.DeplacementAvecAccelerationAllerRetour(pointChefRang, uneTableCommeCa.pos, posRetour, mainWidget, 1, 2000, 20, 2000);
+
+            //chefRang.AllerRetour(pointChefRang, uneTableCommeCa.pos, mainWidget, 2000, 20);
+    }
+
+    {
+            std::lock_guard<std::mutex> lock(mtx); // Protège les ressources partagées, si nécessaire
+            mesPersonnes[0].AllerRetour(mesPoints[0], uneTableCommeCa.pos, mainWidget, 70000, 250);
+    }
+
+    {
+            std::lock_guard<std::mutex> lock(mtx); // Protège les ressources partagées, si nécessaire
+            Position posRetour = commisSalle.positionActuelle;  // La position où l'objet doit revenir après l'animation
+            commisSalle.DeplacementAvecAccelerationAllerRetour(pointCommisSalle, uneTableCommeCa.pos, posRetour, mainWidget, 1, 3000, 20, 2000);
+
+            //commisSalle.AllerRetour(pointCommisSalle, uneTableCommeCa.pos, mainWidget, 2100,30);
+    }
+    //
+    Position posTableCuisine = Position(800,200);
+    {
+            std::lock_guard<std::mutex> lock(mtx); // Protège les ressources partagées, si nécessaire
+
+            Position posRetour = commisCuisine.positionActuelle;  // La position où l'objet doit revenir après l'animation
+            commisCuisine.DeplacementAvecAccelerationAllerRetour(pointCommisCuisine, posTableCuisine, posRetour, mainWidget, 1, 45000, 100, 2000);
+    }
+    // Position initiale pour le serveur
+    Position fantome = Position(1000, 200);
+
+    // Créer l'objet Personne
+    Personne serveur(5, "Joevinio", "SerVeuR", true, fantome, "blue");
+
+    // Créer un QLabel pour représenter le serveur
+    QLabel *pointServeur = new QLabel(mainWidget);
+    serveur.afficher(pointServeur,mainWidget,aw);
+    // Lancer l'animation de déplacement
+    serveur.DeplacementAvecAccelerationAllerRetour(pointServeur, uneTableCommeCa.pos, posServeur, mainWidget, 1, 50000, 100, 2000);
 
 
 
@@ -421,8 +544,6 @@ QWidget* MainWindow::createRangeTable(int numChairs, int numTables) {
 
 
 
-
-
 void MainWindow::updateCountdown() {
     if (countdown > 0) {
         countdown--;
@@ -450,6 +571,19 @@ void MainWindow::startCountdown(int duration) {
 
     // Démarrer le timer avec un intervalle de 1 seconde
     timer->start(1000);
+}
+
+void MainWindow::setnbrClient(int Client) {
+    nbrClient=Client;
+
+}
+
+void MainWindow::setnbrVague(int nVague) {
+    nbrVague=nVague;
+}
+
+void MainWindow::settempSimulation(int temps) {
+    tempSimulation=temps;
 }
 
 

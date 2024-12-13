@@ -1,14 +1,18 @@
 #include "../classDeclaration/Table.h"
+#include "../classDeclaration/Personne.h"
+
 
 Table::Table(int numero, int nbPlaces, const std::string& statut, int position_x , int position_y)
-    : numero(numero), nbPlaces(nbPlaces), statut(statut), position_x(position_x), position_y(position_y) {}
+    : numero(numero), nbPlaces(nbPlaces), statut(statut), pos(Position(position_x,position_y)) {}
 
-void Table::AjouterClient() {
-
+void Table::AjouterClient(Personne client) {
+    occupePar = client;
+    statut="occupee";
 }
 
 void Table::LibererTable() {
-
+    occupePar = Personne();
+    statut="Libre";
 }
 
 void Table::ChangerStatut(const std::string& nouveauStatut) {
@@ -26,21 +30,10 @@ const std::string& Table::getStatut() const {
     return statut;
 }
 
-int Table::getPositionX() const {
-    return position_x;
+Table::Table(): numero(0), nbPlaces(0), places(0) {
 }
 
-int Table::getPositionY() const {
-    return position_y;
-}
 
-void Table::setPositionX(int position_x) {
-    this->position_x = position_x;
-}
-
-void Table::setPositionY(int position_y) {
-    this->position_y = position_y;
-}
 void Table::setStatut(const std::string& nouveauStatut) {
     statut = nouveauStatut;
 }

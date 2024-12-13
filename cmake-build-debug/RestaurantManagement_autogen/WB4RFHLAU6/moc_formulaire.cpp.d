@@ -246,6 +246,82 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  C:/SFML-2.5.1/include/SFML/Config.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/CircleShape.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Color.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/ConvexShape.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Drawable.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Export.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Font.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Glsl.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Glsl.inl \
+  C:/SFML-2.5.1/include/SFML/Graphics/Glyph.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Image.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/PrimitiveType.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Rect.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Rect.inl \
+  C:/SFML-2.5.1/include/SFML/Graphics/RectangleShape.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/RenderStates.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/RenderTarget.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/RenderTexture.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/RenderWindow.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Shader.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Shape.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Text.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Texture.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Transform.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Transformable.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/Vertex.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/VertexArray.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
+  C:/SFML-2.5.1/include/SFML/Graphics/View.hpp \
+  C:/SFML-2.5.1/include/SFML/System.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Clock.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Err.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Export.hpp \
+  C:/SFML-2.5.1/include/SFML/System/FileInputStream.hpp \
+  C:/SFML-2.5.1/include/SFML/System/InputStream.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Lock.hpp \
+  C:/SFML-2.5.1/include/SFML/System/MemoryInputStream.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Mutex.hpp \
+  C:/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Sleep.hpp \
+  C:/SFML-2.5.1/include/SFML/System/String.hpp \
+  C:/SFML-2.5.1/include/SFML/System/String.inl \
+  C:/SFML-2.5.1/include/SFML/System/Thread.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Thread.inl \
+  C:/SFML-2.5.1/include/SFML/System/ThreadLocal.hpp \
+  C:/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.hpp \
+  C:/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.inl \
+  C:/SFML-2.5.1/include/SFML/System/Time.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Utf.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Utf.inl \
+  C:/SFML-2.5.1/include/SFML/System/Vector2.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Vector2.inl \
+  C:/SFML-2.5.1/include/SFML/System/Vector3.hpp \
+  C:/SFML-2.5.1/include/SFML/System/Vector3.inl \
+  C:/SFML-2.5.1/include/SFML/Window.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Clipboard.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Context.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/ContextSettings.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Cursor.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Event.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Export.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/GlResource.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Joystick.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Keyboard.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Mouse.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Sensor.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Touch.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/VideoMode.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/Window.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp \
+  C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp \
+  C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Personne.h \
+  C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Position.h \
   C:/Users/lione/CLionProjects/RestaurantManagement/View/mainwindow.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
   F:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
@@ -279,10 +355,16 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtCore/qcontainerinfo.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qcontainertools_impl.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qcontiguouscache.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qcoreapplication.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qcoreevent.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qdatastream.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qdeadlinetimer.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qdebug.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qelapsedtimer.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qendian.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qeventloop.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qexceptionhandling.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qflags.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qfloat16.h \
@@ -311,6 +393,7 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtCore/qmetatype.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qminmax.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qnamespace.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qnativeinterface.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qnumeric.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qobject.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qobject_impl.h \
@@ -382,11 +465,16 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtGui/qfont.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qfontinfo.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qfontmetrics.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qguiapplication.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qicon.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qimage.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qinputmethod.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qkeysequence.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qpainter.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qpalette.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qpen.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qpicture.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qpixelformat.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qpixmap.h \
@@ -395,6 +483,7 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtGui/qrgb.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qrgba64.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qtextdocument.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qtextoption.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qtgui-config.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qtguiexports.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qtguiglobal.h \
@@ -402,7 +491,9 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtGui/qvalidator.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  F:/Qt/6.8.0/mingw_64/include/QtWidgets/QApplication \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/QFormLayout \
+  F:/Qt/6.8.0/mingw_64/include/QtWidgets/QGraphicsView \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/QLayout \
@@ -415,9 +506,12 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  F:/Qt/6.8.0/mingw_64/include/QtWidgets/qapplication.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qformlayout.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qframe.h \
+  F:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
+  F:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicsview.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayout.h \

@@ -219,8 +219,7 @@
 		"F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestTargets.cmake",
 		"F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestTargets-relwithdebinfo.cmake",
 		"F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake",
-		"F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/GoogleTest.cmake"
+		"F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/lione/CLionProjects/RestaurantManagement",
 	"CROSS_CONFIG" : false,
@@ -241,21 +240,21 @@
 			null
 		],
 		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Controller/TaskManager.h",
+			"MU",
+			"TTE4PTQQBL/moc_TaskManager.cpp",
+			null
+		],
+		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Controller/ThreadPool.h",
+			"MU",
+			"TTE4PTQQBL/moc_ThreadPool.cpp",
+			null
+		],
+		[
 			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Chef_de_rang.h",
 			"MU",
 			"OUOE4ZGIQE/moc_Chef_de_rang.cpp",
-			null
-		],
-		[
-			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Plat.h",
-			"MU",
-			"OUOE4ZGIQE/moc_Plat.cpp",
-			null
-		],
-		[
-			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Serveur.h",
-			"MU",
-			"OUOE4ZGIQE/moc_Serveur.cpp",
 			null
 		],
 		[
@@ -326,7 +325,9 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/SFML-2.6.2/include",
+		"C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug",
+		"C:/Users/lione/CLionProjects/RestaurantManagement",
+		"C:/SFML-2.5.1/include",
 		"C:/Program Files/PostgreSQL/16/include",
 		"F:/Qt/6.8.0/mingw_64/include/QtCore",
 		"F:/Qt/6.8.0/mingw_64/include",
@@ -385,7 +386,12 @@
 			null
 		],
 		[
-			"C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDefinition/Plat.cpp",
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Controller/TaskManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/lione/CLionProjects/RestaurantManagement/Controller/ThreadPool.cpp",
 			"MU",
 			null
 		],

@@ -365,6 +365,9 @@ RestaurantManagement_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 RestaurantManagement_SOURCE_DIR:STATIC=C:/Users/lione/CLionProjects/RestaurantManagement
 
+//Path to a file.
+SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
+
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND
 

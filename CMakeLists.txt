@@ -8,11 +8,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 # SFML: Include directories and link libraries
-set(SFML_DIR "C:/SFML-2.6.2")
-include_directories(${SFML_DIR}/include)
-link_directories(${SFML_DIR}/lib)
+set(SFML_STATIC_LIBRARIES TRUE)
+set(SFML_DIR "C:/SFML-2.5.1/lib/cmake/SFML")
+include_directories("C:/SFML-2.5.1/include")
+link_directories("C:/SFML-2.5.1/lib")
 
 # PostgreSQL: Include directories and link libraries
 include_directories("C:/Program Files/PostgreSQL/16/include")
@@ -34,7 +36,8 @@ set(SOURCES
         Controller/Factory.cpp
         Model/ClassDefinition/Table.cpp
         View/MenuWindows.cpp
-        Model/ClassDefinition/Plat.cpp
+        Controller/ThreadPool.cpp
+        Controller/TaskManager.cpp
 )
 
 set(HEADERS
@@ -48,8 +51,8 @@ set(HEADERS
         Controller/Factory.h
         Model/ClassDeclaration/Table.h
         View/MenuWindows.h
-        Model/ClassDeclaration/Plat.h
-        Model/ClassDeclaration/Serveur.h
+        Controller/ThreadPool.h
+        Controller/TaskManager.h
 )
 
 # Add main executable
@@ -60,7 +63,7 @@ target_link_libraries(RestaurantManagement
         Qt6::Core
         Qt6::Gui
         Qt6::Widgets
-        pq # PostgreSQL
+        pq
         sfml-graphics
         sfml-window
         sfml-system
@@ -107,9 +110,6 @@ foreach(TEST_FILE ${TEST_SOURCES})
     get_filename_component(TEST_NAME ${TEST_FILE} NAME_WE)
     add_test(NAME ${TEST_NAME} COMMAND tests ${TEST_FILE})
 endforeach()
-
-# Discover and register tests (optional: discovery timeout extended)
-include(GoogleTest)
 
 # Windows-specific actions
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)

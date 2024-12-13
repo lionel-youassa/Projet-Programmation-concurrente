@@ -6,9 +6,14 @@
 #include <QWidget>
 #include <QGraphicsView>
 #include <qlabel.h>
+
 #include <SFML/Graphics.hpp>
 
 #include "Position.h"
+#include "Personne.h"
+#include "Table.h" // Include full definition here
+
+class Table;
 using namespace Qt;
 
 class Personne {
@@ -37,6 +42,9 @@ public:
     void DeplacerJuskaTable(QLabel *point, Position arrivee, QWidget *parentWidget);
 
     void afficher(QLabel *point, QWidget *parent, int aw) const;
+
+    void AllerRetour1(QLabel *point, Position arrivee, QWidget *parentWidget, int tempsAttente, int vitesse,
+                      Table *laTable);
 
     void AllerRetour(QLabel *point, Position arrivee, QWidget *parentWidget, int tempsAttente, int vitesse);
 

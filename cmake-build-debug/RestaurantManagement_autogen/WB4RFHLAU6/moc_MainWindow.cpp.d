@@ -322,6 +322,7 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp \
   C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Personne.h \
   C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Position.h \
+  C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Table.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
   F:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \

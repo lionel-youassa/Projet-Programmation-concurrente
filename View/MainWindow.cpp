@@ -76,16 +76,15 @@ MainWindow::MainWindow(int nbrClient, int nbrVague, int tempSimulation, QWidget 
                 auto *simulationDashboard = new RestaurantDashboard();
                 simulationDashboard->show();
                 // Exemple de mise à jour
-                   //Factory factory;
-                   //factory.creaTable();
-                   // for(size_t i =0; i<factory.get_table_().size(); i++)  {
-                   //     simulationDashboard->updateTableState(i,factory.get_table_()[i].statut.data());
-                   // }
+                   Factory factory;
+                   factory.creaTable();
+                   for(size_t i =0; i<factory.get_table_().size(); i++)  {
+                       simulationDashboard->updateTableState(i,factory.get_table_()[i].statut.data());
+                   }
                       simulationDashboard->updateTableState(0, "Occupee");
                       simulationDashboard->updateStaffState("Serveur 1", true);
                       simulationDashboard->updateMachineState("Lave-vaisselle", true);
                       simulationDashboard->updateStatistics(50, 10, 5);
-                simulationDashboard->show();
             });
             navbar->addWidget(superviserButton);
 

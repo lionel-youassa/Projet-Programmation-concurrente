@@ -3,7 +3,7 @@
 //
 
 #include "Factory.h"
-
+#include  "../Model/ClassDeclaration/Position.h"
 
 // Déclaration d'un tableau de 30 positions
 Position positions[30] = {

@@ -125,6 +125,64 @@ void Personne::afficher(QLabel *point, QWidget *parent, int aw) const {
 }
 
 
+void Personne::AllerRetour1(QLabel *point, Position arrivee, QWidget *parentWidget, int tempsAttente, int vitesse, Table *laTable) {
+    // Sauvegarder la position initiale
+    Position positionInitiale = positionActuelle;
+
+    // Calculer la distance entre la position initiale et la destination
+    double distanceAller = std::sqrt(
+        std::pow(arrivee.x - positionInitiale.x, 2) +
+        std::pow(arrivee.y - positionInitiale.y, 2)
+    );
+
+    // Calculer la durée de l'animation en fonction de la vitesse (durée = distance / vitesse)
+    int dureeAller = static_cast<int>((distanceAller / vitesse) * 1000); // Durée en millisecondes
+
+    // Animation pour aller à l'endroit
+    QPropertyAnimation *allerAnimation = new QPropertyAnimation(point, "geometry");
+    allerAnimation->setDuration(dureeAller);
+    allerAnimation->setStartValue(QRect(positionInitiale.x, positionInitiale.y, point->width(), point->height()));
+    allerAnimation->setEndValue(QRect(arrivee.x, arrivee.y, point->width(), point->height()));
+    allerAnimation->setEasingCurve(QEasingCurve::InOutQuad);
+
+    // Une fois l'animation d'aller terminée, attendre un certain temps avant de revenir
+    QObject::connect(allerAnimation, &QPropertyAnimation::finished, [=]() {
+        // Attente avant le retour
+        QTimer::singleShot(tempsAttente, [=]() {
+            // Calculer la distance pour le retour (identique à l'aller)
+            double distanceRetour = distanceAller;
+
+            // Calculer la durée de l'animation de retour
+            int dureeRetour = static_cast<int>((distanceRetour / vitesse) * 1000);
+
+            // Animation pour revenir à la position initiale
+            QPropertyAnimation *retourAnimation = new QPropertyAnimation(point, "geometry");
+            retourAnimation->setDuration(dureeRetour);
+            retourAnimation->setStartValue(QRect(arrivee.x, arrivee.y, point->width(), point->height()));
+            retourAnimation->setEndValue(QRect(positionInitiale.x, positionInitiale.y, point->width(), point->height()));
+            retourAnimation->setEasingCurve(QEasingCurve::InOutQuad);
+
+            // Mettre à jour la position actuelle après le retour
+            QObject::connect(retourAnimation, &QPropertyAnimation::finished, [=]() {
+                positionActuelle = positionInitiale;
+            // Changer le statut de la table en "libre"
+                if (laTable) {
+                    laTable->setStatut("libre"); // Assurez-vous que `Table` a une méthode `setStatut`.
+                }
+            });
+
+            // Démarrer l'animation de retour
+            retourAnimation->start(QAbstractAnimation::DeleteWhenStopped);
+        });
+    });
+
+    // Démarrer l'animation d'aller
+    allerAnimation->start(QAbstractAnimation::DeleteWhenStopped);
+
+    // Mettre à jour la position actuelle pour l'aller
+    positionActuelle = arrivee;
+}
+
 void Personne::AllerRetour(QLabel *point, Position arrivee, QWidget *parentWidget, int tempsAttente, int vitesse) {
     // Sauvegarder la position initiale
     Position positionInitiale = positionActuelle;

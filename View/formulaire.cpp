@@ -1,4 +1,5 @@
 #include "formulaire.h"
+#include "MainWindow.h"
 
 Formulaire::Formulaire(QWidget *parent) : QWidget(parent) {
     auto *mainLayout = new QVBoxLayout(this);
@@ -65,7 +66,8 @@ void Formulaire::setupStartButton(QVBoxLayout *mainLayout) {
 
     // Connecter le bouton pour afficher MainWindow
     connect(startButton, &QPushButton::clicked, this, [=]() {
-        auto *simulationWindow = new MainWindow();
+        MainWindow *simulationWindow;
+        simulationWindow = new MainWindow();
         simulationWindow->show();
     });
 }

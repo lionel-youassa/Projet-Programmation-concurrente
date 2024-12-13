@@ -16,10 +16,12 @@
 #include "MenuWindows.h"
 #include <QObject>
 
+
+MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {}
+
 MainWindow::MainWindow(int nbrClient, int nbrVague, int tempSimulation, QWidget *parent
                        ) : QWidget(parent), nbrClient(nbrClient), nbrVague(nbrVague),
                                               tempSimulation(tempSimulation) {
-
     // Layout principal pour la fenêtre
 
         auto *mainLayout = new QVBoxLayout(this);

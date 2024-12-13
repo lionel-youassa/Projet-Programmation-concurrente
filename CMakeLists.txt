@@ -10,9 +10,9 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
 # SFML: Include directories and link libraries
-set(SFML_DIR "C:/SFML-2.6.2")
-include_directories(${SFML_DIR}/include)
-link_directories(${SFML_DIR}/lib)
+#set(SFML_DIR "C:/SFML-2.6.2")
+#include_directories(${SFML_DIR}/include)
+#link_directories(${SFML_DIR}/lib)
 
 # PostgreSQL: Include directories and link libraries
 include_directories("C:/Program Files/PostgreSQL/16/include")
@@ -35,6 +35,8 @@ set(SOURCES
         Model/ClassDefinition/Table.cpp
         View/MenuWindows.cpp
         Model/ClassDefinition/Plat.cpp
+        Controller/TaskManager.h
+        Controller/ThreadPool.cpp
 )
 
 set(HEADERS
@@ -50,10 +52,14 @@ set(HEADERS
         View/MenuWindows.h
         Model/ClassDeclaration/Plat.h
         Model/ClassDeclaration/Serveur.h
+        Controller/TaskManager.h
+        Controller/ThreadPool.cpp
 )
 
 # Add main executable
-add_executable(RestaurantManagement ${SOURCES} ${HEADERS})
+add_executable(RestaurantManagement ${SOURCES} ${HEADERS}
+        Controller/TaskManager.h
+        Controller/ThreadPool.cpp)
 
 # Link libraries to the main executable
 target_link_libraries(RestaurantManagement
@@ -94,9 +100,7 @@ target_link_libraries(tests
         Qt6::Widgets
         Qt6::Test
         pq
-        sfml-graphics
-        sfml-window
-        sfml-system
+
 )
 
 # Include only necessary test sources (including main sources)

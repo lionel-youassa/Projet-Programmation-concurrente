@@ -6,7 +6,7 @@
 #include <QWidget>
 #include <QGraphicsView>
 #include <qlabel.h>
-#include <SFML/Graphics.hpp>
+//#include <SFML/Graphics.hpp>
 
 #include "Position.h"
 using namespace Qt;
@@ -21,7 +21,7 @@ public:
     Position positionActuelle;
     std::string imagePath;
     std::string couleur;
-    sf::CircleShape point;
+    //sf::CircleShape point;
     QString nbPersonne;
 
 

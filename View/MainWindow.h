@@ -15,6 +15,9 @@
 class MainWindow : public QWidget {
     Q_OBJECT
 public:
+    MainWindow(QWidget *parent);
+    MainWindow();
+
      MainWindow( int nbrClient, int nbrVague, int tempSimulation,QWidget *parent = nullptr);
 
 private:

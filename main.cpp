@@ -5,7 +5,7 @@
 
 #include <QApplication>
 #include "View/formulaire.h"
-#include <SFML/Graphics.hpp>
+//#include <SFML/Graphics.hpp>
 #include "View/RestaurantDashboard.h"
 #include "Controller/Factory.h"
 #include "Model/PostgreSQLConnection.h"

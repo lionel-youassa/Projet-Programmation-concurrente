@@ -34,7 +34,6 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/SFML-2.6.2/include",
 		"C:/Program Files/PostgreSQL/16/include",
 		"C:/Users/lione/CLionProjects/RestaurantManagement/googletest/googletest/include",
 		"C:/Users/lione/CLionProjects/RestaurantManagement/googletest/googletest",

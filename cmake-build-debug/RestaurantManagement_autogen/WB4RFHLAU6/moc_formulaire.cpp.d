@@ -246,6 +246,8 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Personne.h \
+  C:/Users/lione/CLionProjects/RestaurantManagement/Model/ClassDeclaration/Position.h \
   C:/Users/lione/CLionProjects/RestaurantManagement/View/mainwindow.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
   F:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
@@ -279,10 +281,16 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtCore/qcontainerinfo.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qcontainertools_impl.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qcontiguouscache.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qcoreapplication.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qcoreevent.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qdatastream.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qdeadlinetimer.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qdebug.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qelapsedtimer.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qendian.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qeventloop.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qexceptionhandling.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qflags.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qfloat16.h \
@@ -311,6 +319,7 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtCore/qmetatype.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qminmax.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qnamespace.h \
+  F:/Qt/6.8.0/mingw_64/include/QtCore/qnativeinterface.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qnumeric.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qobject.h \
   F:/Qt/6.8.0/mingw_64/include/QtCore/qobject_impl.h \
@@ -382,11 +391,16 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtGui/qfont.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qfontinfo.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qfontmetrics.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qguiapplication.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qicon.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qimage.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qinputmethod.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qkeysequence.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qpainter.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qpalette.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qpen.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qpicture.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qpixelformat.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qpixmap.h \
@@ -395,6 +409,7 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtGui/qrgb.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qrgba64.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qtextdocument.h \
+  F:/Qt/6.8.0/mingw_64/include/QtGui/qtextoption.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qtgui-config.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qtguiexports.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qtguiglobal.h \
@@ -402,7 +417,9 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtGui/qvalidator.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   F:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  F:/Qt/6.8.0/mingw_64/include/QtWidgets/QApplication \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/QFormLayout \
+  F:/Qt/6.8.0/mingw_64/include/QtWidgets/QGraphicsView \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/QLayout \
@@ -415,9 +432,12 @@ C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantMa
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  F:/Qt/6.8.0/mingw_64/include/QtWidgets/qapplication.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qformlayout.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qframe.h \
+  F:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
+  F:/Qt/6.8.0/mingw_64/include/QtWidgets/qgraphicsview.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
   F:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayout.h \

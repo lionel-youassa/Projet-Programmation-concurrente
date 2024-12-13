@@ -56,9 +56,7 @@ target_link_libraries(tests PRIVATE
         Qt6::Widgets
         Qt6::Test
         pq
-        sfml-graphics
-        sfml-window
-        sfml-system
+
 )
 
 # Configurer GoogleTest et augmenter le timeout

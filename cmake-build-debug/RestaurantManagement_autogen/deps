@@ -1,5 +1,4 @@
 RestaurantManagement_autogen/timestamp: \
-	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
@@ -10,13 +9,11 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
-	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake \
-	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake \
@@ -24,11 +21,10 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindVulkan.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/GoogleTest.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake \
-	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake \
-	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake \
 	C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake \
@@ -311,7 +307,6 @@ RestaurantManagement_autogen/timestamp: \
 	C:/Users/lione/CLionProjects/RestaurantManagement/View/RestaurantDashboard.h \
 	C:/Users/lione/CLionProjects/RestaurantManagement/View/formulaire.cpp \
 	C:/Users/lione/CLionProjects/RestaurantManagement/View/formulaire.h \
-	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake \
 	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
 	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake \
 	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \
@@ -618,6 +613,14 @@ RestaurantManagement_autogen/timestamp: \
 	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
 	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake \
+	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestConfig.cmake \
+	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestConfigVersion.cmake \
+	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake \
+	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestDependencies.cmake \
+	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestTargets-relwithdebinfo.cmake \
+	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestTargets.cmake \
+	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake \
 	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake \
 	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake \
 	F:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake \

@@ -1,0 +1,26 @@
+# ninja log v6
+34	1085	7556208889390057	RestaurantManagement_autogen/timestamp	6269851227707604
+34	1085	7556208889390057	RestaurantManagement_autogen/mocs_compilation.cpp	6269851227707604
+34	1085	7556208889390057	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantManagement_autogen/timestamp	6269851227707604
+803	5345	7554646345997024	CMakeFiles/RestaurantManagement.dir/Model/PostgreSQLConnection.cpp.obj	1ad741c6e51873ea
+115	2384	7555590107572783	CMakeFiles/RestaurantManagement.dir/main.cpp.obj	7e53133bec4135d
+1091	4747	7556208890117051	CMakeFiles/RestaurantManagement.dir/View/MainWindow.cpp.obj	6f64eea30cd4e5d0
+34	1085	7556208889390057	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantManagement_autogen/mocs_compilation.cpp	6269851227707604
+4747	5475	7556208926680785	RestaurantManagement.exe	39cf7ee7da7141f2
+1086	4729	7556208890077075	CMakeFiles/RestaurantManagement.dir/RestaurantManagement_autogen/mocs_compilation.cpp.obj	1ad025550e80a141
+20	1224	7556083460412552	build.ninja	826f68afc2efb2f
+199	3746	7555589498173288	CMakeFiles/RestaurantManagement.dir/View/formulaire.cpp.obj	9257421dd29fb78e
+140	215	7554728270954476	CMakeFiles/RestaurantManagement.dir/View/InterfaceAcceuil.cpp.obj	50c1e163378d1cd7
+808	883	7554646346037030	CMakeFiles/RestaurantManagement.dir/Controller/ControleurService.cpp.obj	68887f8d825ede9b
+823	902	7554646346197026	CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Position.cpp.obj	e900ede8fad78de7
+1047	6340	7554721584247558	CMakeFiles/RestaurantManagement.dir/View/RestaurantDashbord.cpp.obj	b353e3ea471d85e1
+126	3123	7554783419486600	CMakeFiles/RestaurantManagement.dir/View/RestaurantDashboard.cpp.obj	eef90d4886dacbba
+207	914	7555589498263303	CMakeFiles/RestaurantManagement.dir/Model/ClassDefinition/Table.cpp.obj	95b01e8ba35a81d3
+204	1003	7555589498223289	CMakeFiles/RestaurantManagement.dir/Controller/Factory.cpp.obj	b92c971c38b319e0
+1095	4575	7556208890167111	CMakeFiles/RestaurantManagement.dir/View/MenuWindows.cpp.obj	b8bf229d319c4644
+12	147	7556209342378749	RestaurantManagement_autogen/timestamp	6269851227707604
+12	147	7556209342378749	RestaurantManagement_autogen/mocs_compilation.cpp	6269851227707604
+12	147	7556209342378749	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantManagement_autogen/timestamp	6269851227707604
+12	147	7556209342378749	C:/Users/lione/CLionProjects/RestaurantManagement/cmake-build-debug/RestaurantManagement_autogen/mocs_compilation.cpp	6269851227707604
+148	2647	7556209343736484	CMakeFiles/RestaurantManagement.dir/View/MenuWindows.cpp.obj	b8bf229d319c4644
+2647	3248	7556209368734490	RestaurantManagement.exe	39cf7ee7da7141f2
